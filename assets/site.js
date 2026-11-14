@@ -44,7 +44,13 @@
     script.src='https://js.hsforms.net/forms/embed/v2.js';script.async=true;
     script.onload=()=>window.hbspt.forms.create({
       portalId:'50738398',formId,region:'na1',target:'#contact-form',
-      onFormReady:()=>track('form_view',{form_id:formId}),
+      onFormReady:(form)=>{
+        const el=form && (form.nodeType?form:form[0]); if(!el)return;
+        const values={lead_id:leadId,originpage:location.pathname};
+        if(consent.analytics){try{const attr=JSON.parse(safeRead(sessionStorage,'mood-attribution')||'{}');for(const key of ['utm_source','utm_medium','utm_campaign','utm_content','utm_term',...(consent.ads?['gclid']:[])])if(typeof attr[key]==='string')values[key]=attr[key];}catch{}}
+        for(const [key,value] of Object.entries(values)){const input=el.querySelector('[name="'+key+'"]');if(input){input.value=value;input.dispatchEvent(new Event('input',{bubbles:true}));input.dispatchEvent(new Event('change',{bubbles:true}));}}
+        track('form_view',{form_id:formId});
+      },
       onFormSubmitted:()=>{
         if(submitted)return;submitted=true;
         track('generate_lead',{lead_id:leadId,form_id:formId,currency:'MXN',value:0});

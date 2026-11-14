@@ -6,312 +6,312 @@
   "trailingSlash": true,
   "redirects": [
     {
-      "source": "/services",
+      "source": "/services/",
       "destination": "/servicios/",
       "statusCode": 301
     },
     {
-      "source": "/es/services",
+      "source": "/es/services/",
       "destination": "/servicios/",
       "statusCode": 301
     },
     {
-      "source": "/en/services",
+      "source": "/en/services/",
       "destination": "/servicios/",
       "statusCode": 301
     },
     {
-      "source": "/portfolio",
+      "source": "/portfolio/",
       "destination": "/casos/",
       "statusCode": 301
     },
     {
-      "source": "/es/portfolio",
+      "source": "/es/portfolio/",
       "destination": "/casos/",
       "statusCode": 301
     },
     {
-      "source": "/en/portfolio",
+      "source": "/en/portfolio/",
       "destination": "/casos/",
       "statusCode": 301
     },
     {
-      "source": "/contact",
+      "source": "/contact/",
       "destination": "/contacto/",
       "statusCode": 301
     },
     {
-      "source": "/es/contact",
+      "source": "/es/contact/",
       "destination": "/contacto/",
       "statusCode": 301
     },
     {
-      "source": "/en/contact",
+      "source": "/en/contact/",
       "destination": "/contacto/",
       "statusCode": 301
     },
     {
-      "source": "/about",
+      "source": "/about/",
       "destination": "/nosotros/",
       "statusCode": 301
     },
     {
-      "source": "/es/about",
+      "source": "/es/about/",
       "destination": "/nosotros/",
       "statusCode": 301
     },
     {
-      "source": "/en/about",
+      "source": "/en/about/",
       "destination": "/nosotros/",
       "statusCode": 301
     },
     {
-      "source": "/es",
+      "source": "/es/",
       "destination": "/",
       "statusCode": 301
     },
     {
-      "source": "/en",
+      "source": "/en/",
       "destination": "/",
       "statusCode": 301
     },
     {
-      "source": "/portfolio/runahr",
+      "source": "/portfolio/runahr/",
       "destination": "/casos/runahr/",
       "statusCode": 301
     },
     {
-      "source": "/es/portfolio/runahr",
+      "source": "/es/portfolio/runahr/",
       "destination": "/casos/runahr/",
       "statusCode": 301
     },
     {
-      "source": "/en/portfolio/runahr",
+      "source": "/en/portfolio/runahr/",
       "destination": "/casos/runahr/",
       "statusCode": 301
     },
     {
-      "source": "/portfolio/wide-angle",
+      "source": "/portfolio/wide-angle/",
       "destination": "/casos/wide-angle/",
       "statusCode": 301
     },
     {
-      "source": "/es/portfolio/wide-angle",
+      "source": "/es/portfolio/wide-angle/",
       "destination": "/casos/wide-angle/",
       "statusCode": 301
     },
     {
-      "source": "/en/portfolio/wide-angle",
+      "source": "/en/portfolio/wide-angle/",
       "destination": "/casos/wide-angle/",
       "statusCode": 301
     },
     {
-      "source": "/portfolio/cachalo-y-gana",
+      "source": "/portfolio/cachalo-y-gana/",
       "destination": "/casos/cachalo-y-gana/",
       "statusCode": 301
     },
     {
-      "source": "/es/portfolio/cachalo-y-gana",
+      "source": "/es/portfolio/cachalo-y-gana/",
       "destination": "/casos/cachalo-y-gana/",
       "statusCode": 301
     },
     {
-      "source": "/en/portfolio/cachalo-y-gana",
+      "source": "/en/portfolio/cachalo-y-gana/",
       "destination": "/casos/cachalo-y-gana/",
       "statusCode": 301
     },
     {
-      "source": "/portfolio/xcape",
+      "source": "/portfolio/xcape/",
       "destination": "/casos/xcape/",
       "statusCode": 301
     },
     {
-      "source": "/es/portfolio/xcape",
+      "source": "/es/portfolio/xcape/",
       "destination": "/casos/xcape/",
       "statusCode": 301
     },
     {
-      "source": "/en/portfolio/xcape",
+      "source": "/en/portfolio/xcape/",
       "destination": "/casos/xcape/",
       "statusCode": 301
     },
     {
-      "source": "/portfolio/mia-astral",
+      "source": "/portfolio/mia-astral/",
       "destination": "/casos/mia-astral/",
       "statusCode": 301
     },
     {
-      "source": "/es/portfolio/mia-astral",
+      "source": "/es/portfolio/mia-astral/",
       "destination": "/casos/mia-astral/",
       "statusCode": 301
     },
     {
-      "source": "/en/portfolio/mia-astral",
+      "source": "/en/portfolio/mia-astral/",
       "destination": "/casos/mia-astral/",
       "statusCode": 301
     },
     {
-      "source": "/portfolio/pfs-realty",
+      "source": "/portfolio/pfs-realty/",
       "destination": "/casos/pfs-realty/",
       "statusCode": 301
     },
     {
-      "source": "/es/portfolio/pfs-realty",
+      "source": "/es/portfolio/pfs-realty/",
       "destination": "/casos/pfs-realty/",
       "statusCode": 301
     },
     {
-      "source": "/en/portfolio/pfs-realty",
+      "source": "/en/portfolio/pfs-realty/",
       "destination": "/casos/pfs-realty/",
       "statusCode": 301
     },
     {
-      "source": "/portfolio/erika-de-la-vega",
+      "source": "/portfolio/erika-de-la-vega/",
       "destination": "/casos/erika-de-la-vega/",
       "statusCode": 301
     },
     {
-      "source": "/es/portfolio/erika-de-la-vega",
+      "source": "/es/portfolio/erika-de-la-vega/",
       "destination": "/casos/erika-de-la-vega/",
       "statusCode": 301
     },
     {
-      "source": "/en/portfolio/erika-de-la-vega",
+      "source": "/en/portfolio/erika-de-la-vega/",
       "destination": "/casos/erika-de-la-vega/",
       "statusCode": 301
     },
     {
-      "source": "/portfolio/ismael-cala",
+      "source": "/portfolio/ismael-cala/",
       "destination": "/casos/ismael-cala/",
       "statusCode": 301
     },
     {
-      "source": "/es/portfolio/ismael-cala",
+      "source": "/es/portfolio/ismael-cala/",
       "destination": "/casos/ismael-cala/",
       "statusCode": 301
     },
     {
-      "source": "/en/portfolio/ismael-cala",
+      "source": "/en/portfolio/ismael-cala/",
       "destination": "/casos/ismael-cala/",
       "statusCode": 301
     },
     {
-      "source": "/portfolio/foto-ahora",
+      "source": "/portfolio/foto-ahora/",
       "destination": "/casos/foto-ahora/",
       "statusCode": 301
     },
     {
-      "source": "/es/portfolio/foto-ahora",
+      "source": "/es/portfolio/foto-ahora/",
       "destination": "/casos/foto-ahora/",
       "statusCode": 301
     },
     {
-      "source": "/en/portfolio/foto-ahora",
+      "source": "/en/portfolio/foto-ahora/",
       "destination": "/casos/foto-ahora/",
       "statusCode": 301
     },
     {
-      "source": "/portfolio/nawis",
+      "source": "/portfolio/nawis/",
       "destination": "/casos/nawis/",
       "statusCode": 301
     },
     {
-      "source": "/es/portfolio/nawis",
+      "source": "/es/portfolio/nawis/",
       "destination": "/casos/nawis/",
       "statusCode": 301
     },
     {
-      "source": "/en/portfolio/nawis",
+      "source": "/en/portfolio/nawis/",
       "destination": "/casos/nawis/",
       "statusCode": 301
     },
     {
-      "source": "/portfolio/yogurt-boom",
+      "source": "/portfolio/yogurt-boom/",
       "destination": "/casos/yogurt-boom/",
       "statusCode": 301
     },
     {
-      "source": "/es/portfolio/yogurt-boom",
+      "source": "/es/portfolio/yogurt-boom/",
       "destination": "/casos/yogurt-boom/",
       "statusCode": 301
     },
     {
-      "source": "/en/portfolio/yogurt-boom",
+      "source": "/en/portfolio/yogurt-boom/",
       "destination": "/casos/yogurt-boom/",
       "statusCode": 301
     },
     {
-      "source": "/blog/seo-for-beginners",
+      "source": "/blog/seo-for-beginners/",
       "destination": "/blog/seo-tecnico-web-indexable/",
       "statusCode": 301
     },
     {
-      "source": "/es/blog/seo-for-beginners",
+      "source": "/es/blog/seo-for-beginners/",
       "destination": "/blog/seo-tecnico-web-indexable/",
       "statusCode": 301
     },
     {
-      "source": "/en/blog/seo-for-beginners",
+      "source": "/en/blog/seo-for-beginners/",
       "destination": "/blog/seo-tecnico-web-indexable/",
       "statusCode": 301
     },
     {
-      "source": "/blog/ai-transforming-marketing",
+      "source": "/blog/ai-transforming-marketing/",
       "destination": "/blog/ia-marketing-supervision-humana/",
       "statusCode": 301
     },
     {
-      "source": "/es/blog/ai-transforming-marketing",
+      "source": "/es/blog/ai-transforming-marketing/",
       "destination": "/blog/ia-marketing-supervision-humana/",
       "statusCode": 301
     },
     {
-      "source": "/en/blog/ai-transforming-marketing",
+      "source": "/en/blog/ai-transforming-marketing/",
       "destination": "/blog/ia-marketing-supervision-humana/",
       "statusCode": 301
     },
     {
-      "source": "/blog/content-marketing-strategies",
+      "source": "/blog/content-marketing-strategies/",
       "destination": "/blog/contenido-util-para-personas-y-buscadores/",
       "statusCode": 301
     },
     {
-      "source": "/es/blog/content-marketing-strategies",
+      "source": "/es/blog/content-marketing-strategies/",
       "destination": "/blog/contenido-util-para-personas-y-buscadores/",
       "statusCode": 301
     },
     {
-      "source": "/en/blog/content-marketing-strategies",
+      "source": "/en/blog/content-marketing-strategies/",
       "destination": "/blog/contenido-util-para-personas-y-buscadores/",
       "statusCode": 301
     },
     {
-      "source": "/blog/web-design-trends-2025",
+      "source": "/blog/web-design-trends-2025/",
       "destination": "/blog/web-que-convierte-sin-friccion/",
       "statusCode": 301
     },
     {
-      "source": "/es/blog/web-design-trends-2025",
+      "source": "/es/blog/web-design-trends-2025/",
       "destination": "/blog/web-que-convierte-sin-friccion/",
       "statusCode": 301
     },
     {
-      "source": "/en/blog/web-design-trends-2025",
+      "source": "/en/blog/web-design-trends-2025/",
       "destination": "/blog/web-que-convierte-sin-friccion/",
       "statusCode": 301
     },
     {
-      "source": "/blog/local-seo",
+      "source": "/blog/local-seo/",
       "destination": "/blog/seo-tecnico-web-indexable/",
       "statusCode": 301
     },
     {
-      "source": "/es/blog/local-seo",
+      "source": "/es/blog/local-seo/",
       "destination": "/blog/seo-tecnico-web-indexable/",
       "statusCode": 301
     },
     {
-      "source": "/en/blog/local-seo",
+      "source": "/en/blog/local-seo/",
       "destination": "/blog/seo-tecnico-web-indexable/",
       "statusCode": 301
     }

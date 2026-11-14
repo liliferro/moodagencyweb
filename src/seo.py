@@ -17,7 +17,7 @@ META = {
  '/casos/': ('Casos y proyectos de marketing y tecnología', 'Conoce 11 proyectos de Mood Agency: desarrollo web, ecommerce, plataformas digitales y marketing. Explora el contexto, los retos y las soluciones.'),
  '/nosotros/': ('Mood Agency y Liliana Ferro', 'Conoce a Mood Agency, agencia de marketing y tecnología dirigida por Liliana Ferro en Ciudad de México. Estrategia, experiencia digital y ejecución.'),
  '/contacto/': ('Contacto: hablemos de tu proyecto', 'Cuéntanos tu proyecto de marketing, web, automatización o IA. Contacta a Mood Agency en CDMX por formulario, WhatsApp o info@mood-agency.com.'),
- '/blog/': ('Guías de marketing, SEO e inteligencia artificial', 'Encuentra guías de Mood Agency sobre SEO, medición de leads, automatización, IA y conversión, con fuentes y criterios prácticos para tu negocio.'),
+ '/blog/': ('Blog de marketing, SEO e IA', 'Encuentra guías de Mood Agency sobre SEO, medición de leads, automatización, IA y conversión, con fuentes y criterios prácticos para tu negocio.'),
  '/blog/seo-tecnico-web-indexable/': ('SEO técnico: cómo revisar la indexabilidad', 'Revisa URLs, enlaces, contenido y respuestas del servidor para detectar barreras de rastreo e indexación. Guía práctica de SEO técnico de Mood Agency.'),
  '/blog/medir-leads-sin-confundir-clics-con-clientes/': ('Cómo medir leads y oportunidades comerciales', 'Distingue clics, contactos y oportunidades con un embudo medible. Aprende qué eventos comprobar y cómo conectar la medición con el seguimiento comercial.'),
  '/blog/automatizar-seguimiento-comercial/': ('Cómo automatizar el seguimiento comercial', 'Define el primer flujo entre formulario y CRM: responsables, reglas, excepciones y pruebas. Una guía para automatizar el seguimiento con control.'),

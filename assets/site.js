@@ -18,7 +18,7 @@
   function loadTags(){if(loaded||(!consent.analytics&&!consent.ads))return;loaded=true;window.gtag('js',new Date());window.dataLayer.push({'gtm.start':Date.now(),event:'gtm.js'});const s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtm.js?id='+GTM;document.head.append(s);if(document.body.dataset.case)track('case_view',{case_slug:document.body.dataset.case});}
   function track(event,params={}){if(!consent.analytics)return;window.gtag('event',event,{send_to:GA,...params});}
   function capture(){if(!consent.analytics)return;const q=new URLSearchParams(location.search), saved={};for(const k of ['utm_source','utm_medium','utm_campaign','utm_content','utm_term',...(consent.ads?['gclid','fbclid','msclkid']:[])]){const v=q.get(k);if(v && v.length<=200 && !/@|%40/i.test(v))saved[k]=v;}if(Object.keys(saved).length)safeWrite(sessionStorage,'mood-attribution',JSON.stringify(saved));}
-  function clearTracking(adsOnly=false){try{sessionStorage.removeItem('mood-attribution')}catch{};for(const part of document.cookie.split(';')){const name=part.split('=')[0].trim();if((adsOnly?/^(_gcl|_fbp|_fbc)/:/^(_ga|_gid|_gat|_gcl|_fbp|_fbc|_clck|_clsk)/).test(name)){for(const domain of ['',location.hostname,'.'+location.hostname,'.mood-agency.com'])document.cookie=name+'=;Max-Age=0;path=/'+(domain?';domain='+domain:'');}}}
+  function clearTracking(adsOnly=false){try{sessionStorage.removeItem('mood-attribution')}catch{};for(const part of document.cookie.split(';')){const name=part.split('=')[0].trim();if((adsOnly?/^(_gcl|_fbp|_fbc)/:/^(_ga|_gid|_gat|_gcl|_fbp|_fbc|_clck|_clsk|hubspotutk|__hstc|__hssc|__hssrc)/).test(name)){for(const domain of ['',location.hostname,'.'+location.hostname,'.mood-agency.com'])document.cookie=name+'=;Max-Age=0;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/'+(domain?';domain='+domain:'');}}}
   const banner=document.getElementById('consent-banner');
   function showConsent(){banner.hidden=false;document.getElementById('consent-analytics').checked=consent.analytics;document.getElementById('consent-ads').checked=consent.ads;document.getElementById('consent-title').focus();}
   function saveConsent(a,b){const had=loaded;consent={analytics:a,ads:b};safeWrite(localStorage,KEY,JSON.stringify({...consent,saved:Date.now()}));window.gtag('consent','update',status());clarityConsent();banner.hidden=true;if(!a)clearTracking();else if(!b)clearTracking(true);capture();loadTags();if(had)location.reload();}
@@ -36,14 +36,23 @@
   const industry=document.getElementById('filter-industry'),service=document.getElementById('filter-service');
   function filter(){let n=0;document.querySelectorAll('[data-case-card]').forEach(c=>{const show=(!industry.value||c.dataset.industry===industry.value)&&(!service.value||c.dataset.service===service.value);c.hidden=!show;if(show)n++;});document.getElementById('filter-count').textContent=n+' casos';}
   if(industry){industry.addEventListener('change',filter);service.addEventListener('change',filter);filter();}
-  const frame=document.getElementById('contact-form');
-  if(frame){const u=new URL(frame.src);if(consent.analytics){try{const attr=JSON.parse(safeRead(sessionStorage,'mood-attribution')||'{}');for(const[k,v]of Object.entries(attr))if(consent.ads||!['gclid','fbclid','msclkid'].includes(k))u.searchParams.set(k,v)}catch{}}const leadId=crypto.randomUUID();u.searchParams.set('lead_id',leadId);u.searchParams.set('originPage',location.pathname);frame.src=u.href;let submitted=false,viewed=false;
-    window.addEventListener('message',e=>{if(e.origin!=='https://tally.so'||e.source!==frame.contentWindow)return;let msg=e.data;if(typeof msg==='string'){try{msg=JSON.parse(msg)}catch{return}}if(!msg||typeof msg!=='object')return;const payload=msg.payload||msg.data||{};
-      if(msg.event==='Tally.FormLoaded'||msg.event==='Tally.FormHeight'){const h=Number(payload.height||msg.height);if(h>=200&&h<=3000)frame.style.height=h+'px';}
-      // A form page view is not evidence that a visitor started typing.
-      if(msg.event==='Tally.FormPageView'&&!viewed){viewed=true;track('form_view',{form_id:'Bzd6Le'});}
-      if(msg.event==='Tally.FormSubmitted'&&!submitted){submitted=true;track('generate_lead',{lead_id:leadId,form_id:'Bzd6Le',currency:'MXN',value:0});safeWrite(sessionStorage,'mood-form-submitted','1');setTimeout(()=>location.assign('/gracias/'),350);}
+  const formTarget=document.getElementById('contact-form');
+  if(formTarget){
+    const formId='91241afc-076e-44f7-b580-4447590d7e94',leadId=crypto.randomUUID();
+    let submitted=false;
+    const script=document.createElement('script');
+    script.src='https://js.hsforms.net/forms/embed/v2.js';script.async=true;
+    script.onload=()=>window.hbspt.forms.create({
+      portalId:'50738398',formId,region:'na1',target:'#contact-form',
+      onFormReady:()=>track('form_view',{form_id:formId}),
+      onFormSubmitted:()=>{
+        if(submitted)return;submitted=true;
+        track('generate_lead',{lead_id:leadId,form_id:formId,currency:'MXN',value:0});
+        safeWrite(sessionStorage,'mood-form-submitted','1');
+        setTimeout(()=>location.assign('/gracias/'),500);
+      }
     });
+    formTarget.append(script);
   }
   if(location.pathname==='/gracias/'&&safeRead(sessionStorage,'mood-form-submitted')!=='1'){document.getElementById('thanks-title').textContent='Gracias por visitar Mood';document.getElementById('thanks-copy').textContent='Si todavía no has enviado tu proyecto, puedes hacerlo desde nuestra página de contacto.';}
 })();

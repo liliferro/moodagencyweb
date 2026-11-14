@@ -4,3 +4,8 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}@media print{header,.footer,.consent,.mobile-cta{display:none}body{background:white;color:black}.muted,.prose p{color:black}}
 
 .whatsapp-btn{gap:10px;max-width:100%;text-align:center}.whatsapp-btn svg{flex:0 0 22px}.whatsapp-btn:hover{background:#4457ff}
+
+.contact-section{padding:44px 0 64px}.contact-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);grid-template-areas:"intro form" "direct form";gap:24px 48px;align-items:start}.contact-intro{grid-area:intro}.contact-intro h1{font-size:clamp(42px,4.5vw,66px);margin-bottom:20px}.contact-intro .eyebrow{margin-bottom:16px}.contact-layout .form-shell{grid-area:form;margin:0}.contact-layout .form-shell>p{font-size:14px;margin-bottom:16px}.contact-direct{grid-area:direct}.contact-direct h2{font-size:28px}.contact-direct h3{font-size:22px;margin-top:28px}.case-results{color:var(--link)}@media(max-width:800px){.contact-section{padding:28px 0 48px}.contact-layout{grid-template-columns:1fr;grid-template-areas:"intro" "form" "direct";gap:24px}.contact-intro h1{font-size:44px;margin-bottom:16px}.contact-intro .lede{font-size:18px;margin:0}.contact-layout .form-shell{padding:16px}.contact-layout .form-shell h2{font-size:22px!important}}
+
+/* HubSpot embedded form keeps readable contrast within the dark contact layout. */
+#contact-form{background:#fff;border-radius:12px;padding:24px;min-height:480px;color:#212d3a}#contact-form iframe{width:100%;border:0} @media(max-width:700px){#contact-form{padding:16px}}

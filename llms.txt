@@ -41,3 +41,18 @@ Dirección: Avenida Río San Joaquín 498, CDMX, México.
 
 ## Exactitud
 Los casos describen proyectos de Mood Agency; no garantizan resultados futuros. No se presentan métricas de clientes sin periodo y fuente verificables. No confundir con otras agencias de nombre similar.
+
+## Guías prácticas B2B publicadas el 14 de noviembre de 2026
+- [Cómo encontrar empresas que necesitan tu producto en México](https://mood-agency.com/blog/como-encontrar-empresas-que-necesitan-tu-producto/): Método en 4 pasos para armar una lista de clientes potenciales en México con el directorio DENUE del INEGI y la ayuda de la IA.
+- [Por qué tu sitio web no genera cotizaciones](https://mood-agency.com/blog/por-que-tu-sitio-web-no-genera-cotizaciones/): Las 5 razones por las que un sitio industrial no recibe solicitudes de cotización y qué cambiar en cada una, empezando hoy.
+- [20 prompts para prospectar clientes B2B con IA](https://mood-agency.com/blog/prompts-para-prospectar-clientes-b2b/): Prompts listos para copiar: definir a tu cliente ideal, investigar empresas, escribir el primer mensaje y preparar la llamada.
+- [Cómo aparecer cuando le preguntan a ChatGPT por tu producto](https://mood-agency.com/blog/como-aparecer-en-chatgpt/): Acciones para que la información de tu empresa sea accesible y verificable en ChatGPT Search, con controles de rastreo y medición sin garantías.
+- [Seguimiento de cotizaciones con IA: secuencia de 7 contactos](https://mood-agency.com/blog/automatizar-seguimiento-comercial/): Qué decir y cuándo después de enviar una cotización. Siete contactos con un motivo distinto cada uno, listos para adaptar.
+- [Cómo generar leads B2B con poco presupuesto](https://mood-agency.com/blog/leads-b2b-con-poco-presupuesto/): Cinco acciones para generar oportunidades B2B con recursos limitados: cotizaciones abiertas, referidos, prospección, sitio web y contenido.
+- [Cómo escribir correos en frío con IA que no parezcan de IA](https://mood-agency.com/blog/correos-en-frio-con-ia/): La estructura de cuatro líneas para un primer correo B2B, cómo pedírselo a la IA y los errores que delatan un mensaje automático.
+- [Cómo calificar leads B2B con IA](https://mood-agency.com/blog/como-calificar-leads-b2b/): Cuatro criterios para saber si un lead vale la pena, una tabla de puntos lista para usar y cómo la IA ayuda a aplicarla.
+- [IA para vendedores industriales: 10 usos que ahorran tiempo](https://mood-agency.com/blog/ia-para-vendedores-industriales/): Diez tareas en las que la IA puede ayudar a vendedores industriales: preparar reuniones, redactar borradores, resumir notas y organizar el seguimiento.
+- [Qué CRM le conviene a una empresa industrial](https://mood-agency.com/blog/crm-para-empresa-industrial/): Cómo elegir un CRM para ventas industriales, las cinco cosas que sí debe hacer y cómo lograr que los vendedores lo llenen.
+- [Landing que entrevista: de visita a conversación con IA](https://mood-agency.com/blog/landing-conversacional-con-ia/): Qué es una landing que entrevista al visitante, en qué se diferencia de un formulario y de un chatbot, y cómo saber si le sirve a tu empresa.
+- [Cómo demostrar el retorno de marketing a dirección](https://mood-agency.com/blog/como-demostrar-retorno-de-marketing/): Qué números llevarle a tu director, cómo conectarlos con ventas y un reporte de una página que puedes armar este mes.
+- [Cómo elegir una agencia de generación de leads B2B](https://mood-agency.com/blog/como-elegir-agencia-de-leads-b2b/): Diez preguntas para hacerle a una agencia antes de firmar, qué respuesta esperar en cada una y las señales de alerta.

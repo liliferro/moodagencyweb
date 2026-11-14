@@ -154,3 +154,7 @@ write('vercel.json',json.dumps(config,indent=2,ensure_ascii=False));write('src/p
 print(json.dumps({'indexable_pages':len(pages),'responsive_images':len(image_meta),'redirects':len(redirects),'home_bytes':(ROOT/'index.html').stat().st_size}))
 
 finish(pages)
+
+# Keep the approved B2B covers, dates and metadata when rebuilding the site.
+import subprocess
+subprocess.run(['node', str(ROOT / 'src/publish-b2b.mjs')], check=True)

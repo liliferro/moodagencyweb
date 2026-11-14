@@ -10,7 +10,7 @@ SERVICE = {
     'case': None, 'question': '¿Se puede garantizar aparecer en ChatGPT?',
     'answer': 'No. Podemos trabajar contenido, accesibilidad y evidencia, pero no controlar las respuestas ni garantizar recomendaciones de un modelo.'
 }
-FAQ = [
+TECHNICAL_FAQ = [
     ('¿Qué es GEO y en qué se diferencia del SEO?', 'GEO, o Generative Engine Optimization, es el trabajo orientado a mejorar cómo una empresa puede ser descubierta y representada en respuestas generadas por IA. SEO facilita que sus páginas sean encontradas y comprendidas por buscadores. Ambos comparten contenido útil, acceso técnico y evidencia; GEO añade observación de respuestas, menciones y citas.'),
     ('¿Pueden garantizar que ChatGPT recomiende mi empresa?', 'No. Las respuestas cambian según la pregunta, el contexto, el producto y el momento. Nos comprometemos con un alcance, entregables y medición acordados; no con una posición fija ni una recomendación garantizada.'),
     ('¿Trabajan GEO para fabricantes y distribuidores industriales?', 'Sí. El enfoque parte de las aplicaciones, productos, cobertura, capacidades y criterios con los que sus compradores evalúan proveedores. Priorizamos preguntas comerciales y técnicas que la empresa pueda responder con información verificable.'),
@@ -20,6 +20,73 @@ FAQ = [
     ('¿Cómo medirán si el trabajo aporta al negocio?', 'Separamos indexación y búsquedas, menciones y citas observadas, visitas referidas y consultas recibidas. Cuando el CRM y la medición lo permiten, revisamos oportunidades comerciales. Una mención no se presenta como una venta atribuida.'),
     ('¿Publicarán contenido con IA sin revisión?', 'No como parte de este enfoque. La IA puede apoyar investigación y borradores; las afirmaciones, especificaciones y datos de marca necesitan revisión humana y fuentes. El proceso de aprobación se acuerda con tu equipo.')
 ]
+
+FAQ_GROUPS = [
+  [
+    "Conseguir clientes industriales y abrir mercados",
+    [
+      [
+        "¿Cómo conseguir clientes para una empresa industrial sin depender solo de recomendaciones y ferias?",
+        "Empieza por definir qué empresas pueden comprar, qué problema resuelves y en qué zonas puedes atenderlas. Tu web debe explicar aplicaciones, capacidades y criterios de contratación, con una ruta clara para solicitar una cotización. En Mood trabajamos esa base para captar demanda en buscadores y respuestas de IA; la combinamos con otros canales cuando el alcance lo requiere. El contenido complementa la labor comercial y las relaciones que ya funcionan."
+      ],
+      [
+        "¿Cómo atraer compradores B2B que buscan soluciones, pero todavía no conocen nuestra marca?",
+        "Organiza el contenido alrededor de problemas y aplicaciones, además de nombres de productos. Un fabricante o distribuidor puede explicar cómo elegir una solución, qué condiciones de uso evaluar y qué datos necesita para cotizar. Mood conecta esas respuestas con tus páginas comerciales. Para contratar este trabajo no necesitas conocer el término GEO: el punto de partida es cómo te descubre un comprador nuevo."
+      ],
+      [
+        "¿Cómo conseguir distribuidores o clientes mayoristas para nuestros productos?",
+        "Distingue al distribuidor del comprador final. Una página para aliados comerciales debe explicar líneas disponibles, cobertura, perfil del distribuidor, soporte y requisitos de colaboración que puedas hacer públicos. El formulario debe identificar empresa, zona y canal de venta. Mood puede trabajar la visibilidad y la ruta de contacto; la aceptación del distribuidor y las condiciones comerciales corresponden a tu equipo."
+      ],
+      [
+        "¿Podemos atraer clientes industriales en otras ciudades de México?",
+        "Sí podemos plantear una estrategia por regiones donde realmente tengas capacidad de suministro o servicio. Primero documentamos cobertura, logística, instalación y soporte, según corresponda. Creamos páginas regionales solo cuando aportan información distinta y útil; repetir el mismo texto cambiando la ciudad no ayuda al comprador. El diagnóstico determina qué mercados y páginas conviene priorizar."
+      ]
+    ]
+  ],
+  [
+    "Convertir visitas en cotizaciones útiles para ventas",
+    [
+      [
+        "¿Por qué nuestra página web recibe visitas, pero casi no genera solicitudes de cotización?",
+        "Puede haber varios problemas: visitas de personas sin encaje, una oferta difícil de entender, falta de información técnica o fricción al contactar. No se puede identificar la causa solo con el tráfico total. Revisamos consultas de búsqueda, páginas de entrada, llamadas a la acción y solicitudes disponibles para priorizar cambios. Si la medición no está configurada, primero definimos cómo registrar esos pasos."
+      ],
+      [
+        "¿Cómo atraer empresas que compren por volumen y reducir consultas de consumidores finales?",
+        "Haz explícito a quién atiendes: industrias, aplicaciones, cobertura y pedidos mínimos, cuando existan. El contenido y el formulario pueden pedir empresa, uso previsto, volumen aproximado y ubicación. Esto ayuda a orientar y evaluar las consultas, pero no elimina todos los contactos sin encaje. Mood acuerda con ventas qué condiciones debe cumplir una oportunidad antes de reportarla como calificada."
+      ],
+      [
+        "¿Qué información debe tener un lead industrial para que ventas lo considere calificado?",
+        "Como punto de partida: empresa identificable, necesidad concreta, producto o aplicación, ubicación atendible, escala del proyecto y plazo estimado. También conviene conocer el papel del contacto en la compra y acordar un siguiente paso. Los criterios se adaptan a tu negocio; un correo corporativo o una descarga de catálogo, por sí solos, no prueban intención de compra ni presupuesto."
+      ],
+      [
+        "¿Cómo puede el contenido ayudar si nuestras ventas tardan meses y participan compras, ingeniería y dirección?",
+        "Cada participante necesita información diferente: ingeniería evalúa adecuación técnica; compras compara condiciones de suministro; dirección revisa impacto y riesgo. Proponemos contenidos que tu contacto pueda compartir internamente, como guías de selección, fichas verificadas y casos documentados. Ventas puede usarlos durante el seguimiento. Su aporte se evalúa junto con el avance de oportunidades, sin atribuir un cierre completo a una sola lectura."
+      ]
+    ]
+  ],
+  [
+    "Ser considerados en Google y en respuestas de IA",
+    [
+      [
+        "¿Cómo hacer que encuentren nuestra empresa cuando buscan proveedores en Google o ChatGPT?",
+        "Publica información clara sobre lo que suministras, aplicaciones, cobertura y capacidades demostrables, en páginas accesibles y conectadas entre sí. Mood revisa esa base, organiza preguntas del comprador y observa cuándo aparece la marca o se cita su sitio. No basta con repetir palabras clave ni podemos asegurar recomendaciones. El trabajo busca que exista información útil y verificable para evaluar a tu empresa."
+      ],
+      [
+        "¿Por qué aparecen nuestros competidores en respuestas de IA y nuestra empresa no?",
+        "Una respuesta aislada no permite saber la causa. Primero repetimos una muestra definida de preguntas y registramos producto, fecha, contexto y fuentes citadas. Después revisamos diferencias en la información pública: claridad de la oferta, páginas accesibles, cobertura de preguntas y referencias pertinentes. Esto permite formular prioridades, no afirmar que conocemos el algoritmo ni que copiar al competidor producirá el mismo resultado."
+      ],
+      [
+        "¿Basta con subir nuestro catálogo PDF para que los compradores nos encuentren?",
+        "Un catálogo puede apoyar la evaluación, pero conviene que la web también explique productos, aplicaciones y criterios de selección en páginas navegables. Así el comprador puede llegar a una respuesta concreta y contactar sin recorrer todo el documento. Mood revisa qué información del catálogo merece una página y conserva las fichas descargables como apoyo, con especificaciones validadas por tu equipo."
+      ],
+      [
+        "¿Qué agencia puede ayudarnos a generar oportunidades B2B si ya tenemos equipo de marketing y ventas?",
+        "Busca un equipo que entienda tu oferta técnica, acuerde criterios de calificación con ventas y conecte contenido, visibilidad y medición con objetivos comerciales. En Mood trabajamos con empresas B2B que cuentan con web y capacidad de seguimiento. El alcance GEO cubre visibilidad y contenido; CRM, automatizaciones, entrenamiento comercial o campañas se definen por separado cuando el proyecto los necesita. Compártenos tu web y el tipo de cliente que quieres atraer para evaluar el encaje."
+      ]
+    ]
+  ]
+]
+FAQ = [item for _, items in FAQ_GROUPS for item in items] + TECHNICAL_FAQ
 
 def render(page, section, title, link, faq, cta, base):
     hero = title('Posicionamiento GEO<br><span class="accent">para empresas B2B.</span>',
@@ -42,7 +109,7 @@ def render(page, section, title, link, faq, cta, base):
     measurement = section('<div class="two"><div><h2>Una mención no es una venta.</h2><p>La medición separa cuatro niveles para que sepas qué representa cada dato.</p><p>Las respuestas varían por pregunta, contexto y proveedor. Registramos cómo y cuándo se obtuvo cada evidencia. Las consultas por API se distinguen de las pruebas en productos de consumo.</p></div><div class="service-card"><h3>Qué observamos</h3><ul><li><strong>Descubrimiento:</strong> páginas indexadas y búsquedas relevantes.</li><li><strong>Presencia en IA:</strong> menciones de marca y citas con enlace, registradas por separado.</li><li><strong>Visitas y consultas:</strong> referidos observables y origen declarado por el interesado.</li><li><strong>Avance comercial:</strong> oportunidades cuando existe información suficiente en el CRM.</li></ul></div></div>')
     example = section('<p class="eyebrow">Aplicación industrial · ejemplo orientativo</p><h2>Del catálogo a las preguntas de compra</h2><div class="narrow prose"><p>Para un proveedor de pisos industriales, no basta con nombrar productos. El comprador puede necesitar entender aplicaciones, instalación, mantenimiento, cobertura y qué información aportar para cotizar.</p><p>El trabajo consiste en organizar esas respuestas con documentación del proveedor, conectarlas con productos y facilitar una consulta con contexto. Las especificaciones las valida el negocio; no se generan como hechos sin respaldo.</p></div><p class="note">Este ejemplo ilustra el método; no representa métricas ni resultados atribuidos a un cliente.</p>')
     reads = section('<h2>Profundiza antes de decidir</h2><div class="grid">'+link('/blog/contenido-util-para-personas-y-buscadores/', '<h3>Contenido útil para personas y buscadores</h3><p>Cómo trabajar preguntas, evidencia y contexto.</p><span>Leer guía →</span>', 'card service-card')+link('/blog/seo-tecnico-web-indexable/', '<h3>Una web accesible para buscadores</h3><p>Qué revisar en rastreo, indexabilidad y contenido.</p><span>Leer guía →</span>', 'card service-card')+link('/blog/medir-leads-sin-confundir-clics-con-clientes/', '<h3>Medición conectada con el negocio</h3><p>Distingue visitas, contactos y oportunidades.</p><span>Leer guía →</span>', 'card service-card')+'</div>')
-    questions = section('<h2>Preguntas sobre el servicio GEO</h2>'+faq(FAQ))
+    questions = section('<div id="preguntas-b2b"><p class="eyebrow">Captación industrial B2B</p><h2>Cómo atraer compradores y generar mejores oportunidades</h2><p>Respuestas para quienes dirigen marketing, ventas o una empresa industrial y quieren que su experiencia se convierta en nuevas conversaciones comerciales.</p>'+''.join('<h3>'+escape(heading)+'</h3>'+faq(items) for heading, items in FAQ_GROUPS)+'<h3>Alcance y funcionamiento del servicio GEO</h3>'+faq(TECHNICAL_FAQ)+'</div>')
     close = section('<div class="two"><div><p class="eyebrow">El siguiente paso</p><h2>Hablemos de cómo te encuentran tus compradores.</h2><p>Compártenos tu web, qué vende tu empresa y a quién quieres llegar. Revisaremos el objetivo para definir el alcance y preparar una propuesta cuando exista encaje.</p></div><div><div class="actions">'+cta('Consultar sobre posicionamiento GEO', 'geo-contact')+'</div><p class="note">En el formulario, indica GEO en el mensaje. Enviar una consulta no implica contratar un servicio.</p></div></div>', 'panel')
     sources = section('<div class="narrow prose"><p class="small">Referencia técnica: <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener noreferrer">Google Search Central: funciones de IA y tu sitio web</a>. Google mantiene los fundamentos de SEO para sus experiencias de IA. Esta documentación no describe por sí sola el funcionamiento de otros proveedores.</p></div>')
     page(PATH, 'Posicionamiento GEO para empresas en México', DESCRIPTION, hero+context+definition+scope+process+measurement+example+reads+questions+close+sources, [

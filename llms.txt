@@ -7,13 +7,14 @@ Dirección: Avenida Río San Joaquín 498, CDMX, México.
 
 ## Páginas
 - [Agencia de marketing e IA en CDMX](https://mood-agency.com/): Impulsa tu negocio con Mood Agency: estrategia de marketing, desarrollo web, ecommerce, automatización e IA aplicada desde Ciudad de México.
-- [Servicios de marketing, web e IA](https://mood-agency.com/servicios/): Explora los servicios de Mood Agency: estrategia, desarrollo web, generación de leads, ecommerce, automatización e inteligencia artificial aplicada.
+- [Servicios de marketing, web e IA](https://mood-agency.com/servicios/): Explora los servicios de Mood Agency: posicionamiento GEO, estrategia, desarrollo web, generación de leads, ecommerce, automatización e IA.
 - [Estrategia de marketing para empresas](https://mood-agency.com/servicios/marketing-estrategico/): Define audiencias, propuesta de valor, canales e indicadores con Mood Agency. Convertimos tus objetivos comerciales en un plan de marketing ejecutable.
 - [Diseño y desarrollo web para empresas](https://mood-agency.com/servicios/desarrollo-web/): Crea una web clara, adaptable y fácil de gestionar. Mood Agency integra diseño, desarrollo, SEO técnico y medición según las necesidades de tu negocio.
 - [Performance y generación de leads](https://mood-agency.com/servicios/performance-y-leads/): Conecta campañas, páginas de destino y medición con Mood Agency. Evalúa la calidad de tus leads y mejora el recorrido del clic a la oportunidad comercial.
 - [Ecommerce y plataformas de membresía](https://mood-agency.com/servicios/ecommerce/): Desarrolla tu tienda o plataforma de membresía con Mood Agency. Integramos experiencia de compra, pagos y medición según el alcance de tu proyecto.
 - [Automatización de marketing y procesos](https://mood-agency.com/servicios/automatizacion/): Automatiza captación, seguimiento y comunicación con Mood Agency. Diseñamos flujos e integraciones con reglas, pruebas y responsables definidos.
 - [Consultoría de IA aplicada al marketing](https://mood-agency.com/servicios/inteligencia-artificial/): Incorpora IA a tu equipo con Mood Agency: casos de uso, pilotos, capacitación y supervisión humana para procesos de marketing con criterios de calidad.
+- [Posicionamiento GEO para empresas en México](https://mood-agency.com/servicios/posicionamiento-geo/): Mejora la visibilidad de tu empresa en buscadores y respuestas de IA. Mood Agency conecta SEO, contenido B2B y medición GEO en México.
 - [Casos y proyectos de marketing y tecnología](https://mood-agency.com/casos/): Conoce 11 proyectos de Mood Agency: desarrollo web, ecommerce, plataformas digitales y marketing. Explora el contexto, los retos y las soluciones.
 - [Runa: desarrollo y optimización web](https://mood-agency.com/casos/runahr/): Conoce el proyecto de Mood Agency para Runa: renovación de su sitio WordPress, experiencia de navegación, localización y gestión de contenidos.
 - [Wide Angle: web de postproducción](https://mood-agency.com/casos/wide-angle/): Explora el proyecto web de Mood Agency para Wide Angle: presentación de servicios de postproducción, portafolio audiovisual y experiencia de navegación.

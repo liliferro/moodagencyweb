@@ -4,6 +4,7 @@ from html import escape
 import json, re
 from PIL import Image, ImageDraw, ImageFont
 from seo import enrich, finish
+from geo import SERVICE as GEO_SERVICE, render as render_geo
 
 ROOT=Path(__file__).resolve().parent.parent
 DATA=json.loads((ROOT/'src/content.json').read_text(encoding='utf-8'))
@@ -75,6 +76,7 @@ SERVICES=[
 ]
 GENERAL_FAQ=[('¿Con qué tipo de negocios trabajan?','Trabajamos en proyectos de marcas de servicios, comercio electrónico, tecnología y comunidades digitales. Los casos publicados muestran ejemplos concretos de nuestro trabajo.'),('¿Cuánto cuesta un proyecto?','La inversión depende del alcance, las integraciones, los contenidos y la dedicación necesaria. Preparamos una propuesta después de entender el objetivo; no hay un precio único válido para todos los proyectos.'),('¿Cuánto tiempo toma?','El calendario se define con los entregables y dependencias: disponibilidad de contenidos, accesos, revisiones e integraciones. Se acuerda por escrito antes de comenzar.'),('¿Qué pasa después de contactar?','Revisamos tu mensaje, te contactamos para aclarar objetivos y evaluamos el alcance. Si hay encaje, preparamos una propuesta con entregables, tiempos y próximos pasos.'),('¿Se garantizan ventas o posiciones en Google?','No. Definimos objetivos y medimos avances, pero los resultados dependen del mercado, la inversión, la oferta y otros factores fuera del control de la agencia.')]
 PROCESS='<div class="steps"><div><h3>Entendemos el negocio</h3><p>Objetivos, clientes, datos disponibles y restricciones.</p></div><div><h3>Definimos prioridades</h3><p>Alcance, entregables, indicadores y responsables.</p></div><div><h3>Implementamos y comprobamos</h3><p>Construcción, revisión y pruebas antes de publicar.</p></div><div><h3>Medimos y mejoramos</h3><p>Decisiones basadas en resultados y aprendizaje.</p></div></div>'
+SERVICES.append(GEO_SERVICE)
 def servicecard(s,i):return f'<a class="card service-card" href="/servicios/{s["slug"]}/"><p class="number">0{i+1}</p><h3>{e(s["title"])}</h3><p>{e(s["desc"].split(". ")[0])}.</p><span>Conoce el servicio →</span></a>'
 
 hero='<section class="hero"><div class="wrap"><p class="eyebrow">Marketing, automatización e IA · Ciudad de México</p><h1>Más oportunidades.<br><span class="accent">Menos fricción.</span></h1><div class="two"><p class="lede">Ayudamos a empresas de servicios, ecommerce y marcas digitales a atraer clientes y simplificar su operación con estrategia de marketing, tecnología y automatización.</p><div class="actions">'+cta()+link('/casos/','Ver casos de éxito','btn secondary')+'</div></div></div></section>'
@@ -83,6 +85,9 @@ home=hero+proof+section('<p class="eyebrow">Casos de éxito</p><h2>Proyectos <sp
 page('/','Marketing, automatización e IA en CDMX','Mood Agency: estrategia de marketing, desarrollo web, automatización e inteligencia artificial para empresas de servicios, ecommerce y marcas digitales.',home,[{'@type':'FAQPage','mainEntity':[{'@type':'Question','name':q,'acceptedAnswer':{'@type':'Answer','text':a}} for q,a in GENERAL_FAQ]}])
 page('/servicios/','Servicios de marketing, tecnología e IA','Conoce los servicios de Mood Agency: estrategia, desarrollo web, performance, ecommerce, automatización e inteligencia artificial.',title('Servicios<br><span class="muted">estratégicos.</span>','Conectamos objetivos de negocio con ejecución, tecnología y medición.')+section('<div class="grid">'+''.join(servicecard(s,i) for i,s in enumerate(SERVICES))+'</div>'))
 for s in SERVICES:
+    if s['slug']=='posicionamiento-geo':
+        render_geo(page, section, title, link, faq, cta, BASE)
+        continue
     path='/servicios/'+s['slug']+'/';faqs=[(s['question'],s['answer'])]+GENERAL_FAQ[1:]
     related=next((c for c in CASES if c['slug']==s['case']),None)
     body=title(e(s['title']),s['desc'],'Servicios',link('/servicios/','Servicios')+' / '+e(s['title']))+section('<div class="two"><div><h2>Qué podemos entregar</h2><ul>'+''.join('<li>'+e(x)+'</li>' for x in s['deliver'])+'</ul><p class="note">El alcance definitivo se acuerda en la propuesta de cada proyecto.</p></div><div><h2>El proceso</h2>'+PROCESS+'</div></div>','panel')
@@ -122,6 +127,8 @@ articles=json.loads((ROOT/'src/articles.json').read_text(encoding='utf-8'))
 def articlecard(a):return f'<a class="card service-card" href="/blog/{a["slug"]}/"><p class="eyebrow">{e(a["category"])}</p><h3>{e(a["title"])}</h3><p>{e(a["summary"])}</p><span>Leer guía →</span></a>'
 page('/blog/','Guías de marketing, automatización e IA','Guías prácticas de Mood Agency sobre medición, SEO, contenidos, automatización, inteligencia artificial y conversión.',title('Ideas para<br><span class="accent">hacer mejor.</span>','Guías prácticas para tomar decisiones de marketing y tecnología con criterios claros.')+section('<div class="grid">'+''.join(articlecard(a)for a in articles)+'</div>'))
 for a in articles:
+    if a['slug'] in ['contenido-util-para-personas-y-buscadores','seo-tecnico-web-indexable','ia-marketing-supervision-humana']:
+        a['body'] += '<aside class="service-card"><h2>Trabaja la visibilidad de tu empresa con Mood</h2><p>Conectamos SEO, contenido B2B y medición de presencia en respuestas de IA con un alcance definido para tu negocio.</p>'+link('/servicios/posicionamiento-geo/','Conoce el servicio de posicionamiento GEO','btn secondary','data-cta="article-geo"')+'</aside>'
     sources='<h2>Fuentes y lecturas</h2><ul class="sources">'+''.join(f'<li><a href="{e(s[1])}" rel="noopener noreferrer" target="_blank">{e(s[0])}</a></li>'for s in a['sources'])+'</ul><p class="note">Fuentes consultadas el 13 de noviembre de 2026. Los ejemplos son orientativos y no representan resultados de clientes.</p>'
     body=title(e(a['title']),a['summary'],a['category'],link('/blog/','Blog'))+section('<article class="narrow prose"><p class="muted">Por <a href="/nosotros/">Mood Agency</a> · <time datetime="2026-11-13">13 de noviembre de 2026</time></p>'+a['body']+sources+'</article>')+section('<h2>Llévalo a tu negocio</h2>'+cta('Conversemos sobre tu proyecto','article'))
     page('/blog/'+a['slug']+'/',a['title'],a['summary'],body,[{'@type':'Article','headline':a['title'],'description':a['summary'],'datePublished':DATE,'dateModified':DATE,'author':{'@id':BASE+'/#organization'},'publisher':{'@id':BASE+'/#organization'},'mainEntityOfPage':BASE+'/blog/'+a['slug']+'/','image':BASE+'/assets/social.jpg'}])

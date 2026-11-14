@@ -5,9 +5,11 @@ from pathlib import Path
 
 BASE = 'https://mood-agency.com'
 ROOT = Path(__file__).resolve().parent.parent
+UPDATED_PATHS = {'/', '/servicios/', '/servicios/posicionamiento-geo/', '/blog/contenido-util-para-personas-y-buscadores/', '/blog/seo-tecnico-web-indexable/', '/blog/ia-marketing-supervision-humana/'}
 META = {
+ '/servicios/posicionamiento-geo/': ('Posicionamiento GEO para empresas en México', 'Mejora la visibilidad de tu empresa en buscadores y respuestas de IA. Mood Agency conecta SEO, contenido B2B y medición GEO en México.'),
  '/': ('Agencia de marketing e IA en CDMX', 'Impulsa tu negocio con Mood Agency: estrategia de marketing, desarrollo web, ecommerce, automatización e IA aplicada desde Ciudad de México.'),
- '/servicios/': ('Servicios de marketing, web e IA', 'Explora los servicios de Mood Agency: estrategia, desarrollo web, generación de leads, ecommerce, automatización e inteligencia artificial aplicada.'),
+ '/servicios/': ('Servicios de marketing, web e IA', 'Explora los servicios de Mood Agency: posicionamiento GEO, estrategia, desarrollo web, generación de leads, ecommerce, automatización e IA.'),
  '/servicios/marketing-estrategico/': ('Estrategia de marketing para empresas', 'Define audiencias, propuesta de valor, canales e indicadores con Mood Agency. Convertimos tus objetivos comerciales en un plan de marketing ejecutable.'),
  '/servicios/desarrollo-web/': ('Diseño y desarrollo web para empresas', 'Crea una web clara, adaptable y fácil de gestionar. Mood Agency integra diseño, desarrollo, SEO técnico y medición según las necesidades de tu negocio.'),
  '/servicios/performance-y-leads/': ('Performance y generación de leads', 'Conecta campañas, páginas de destino y medición con Mood Agency. Evalúa la calidad de tus leads y mejora el recorrido del clic a la oportunidad comercial.'),
@@ -80,7 +82,9 @@ def enrich(html, path):
             crumbs.append({'@type':'ListItem','position':len(crumbs)+1,'name':title or webpage['name'],'item':url});node['itemListElement']=crumbs
         if node['@type']=='Article':
             node.update({'@id':url+'#article','inLanguage':'es-MX','image':{'@id':url+'#primaryimage'},'datePublished':'2026-11-13T22:00:00-06:00','dateModified':'2026-11-13T22:00:00-06:00'})
+            if path in UPDATED_PATHS: node['dateModified']='2026-11-14T01:00:00-06:00'
             html=html.replace('</head>','<meta property="article:published_time" content="2026-11-13T22:00:00-06:00"><meta property="article:modified_time" content="2026-11-13T22:00:00-06:00"><meta name="author" content="Mood Agency"></head>')
+    if path in UPDATED_PATHS: html=html.replace('property="article:modified_time" content="2026-11-13T22:00:00-06:00"', 'property="article:modified_time" content="2026-11-14T01:00:00-06:00"')
     html=html.replace(match[0],'<script type="application/ld+json">'+json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+'</script>')
     return html, title, desc
 
@@ -110,7 +114,7 @@ def finish(pages):
         for k in ['og:title','og:description','og:image','og:image:alt','twitter:title','twitter:description','twitter:image','twitter:image:alt']:
             assert a.meta.get(k), (p['path'],k)
         assert (ROOT/a.meta['og:image'].replace(BASE+'/','')).exists(), p['path']
-        u=SubElement(root,'{'+ns+'}url');SubElement(u,'{'+ns+'}loc').text=BASE+p['path'];SubElement(u,'{'+ns+'}lastmod').text='2026-11-13'
+        u=SubElement(root,'{'+ns+'}url');SubElement(u,'{'+ns+'}loc').text=BASE+p['path'];SubElement(u,'{'+ns+'}lastmod').text='2026-11-14' if p['path'] in UPDATED_PATHS else '2026-11-13'
         imgs=set()
         for im in a.images:
             assert 'alt' in im and im.get('width') and im.get('height'),p['path']

@@ -7,7 +7,7 @@
   {
     "path": "/servicios/",
     "title": "Servicios de marketing, web e IA",
-    "description": "Explora los servicios de Mood Agency: estrategia, desarrollo web, generación de leads, ecommerce, automatización e inteligencia artificial aplicada."
+    "description": "Explora los servicios de Mood Agency: posicionamiento GEO, estrategia, desarrollo web, generación de leads, ecommerce, automatización e IA."
   },
   {
     "path": "/servicios/marketing-estrategico/",
@@ -38,6 +38,11 @@
     "path": "/servicios/inteligencia-artificial/",
     "title": "Consultoría de IA aplicada al marketing",
     "description": "Incorpora IA a tu equipo con Mood Agency: casos de uso, pilotos, capacitación y supervisión humana para procesos de marketing con criterios de calidad."
+  },
+  {
+    "path": "/servicios/posicionamiento-geo/",
+    "title": "Posicionamiento GEO para empresas en México",
+    "description": "Mejora la visibilidad de tu empresa en buscadores y respuestas de IA. Mood Agency conecta SEO, contenido B2B y medición GEO en México."
   },
   {
     "path": "/casos/",

@@ -46,6 +46,30 @@
       portalId:'50738398',formId,region:'na1',target:'#contact-form',
       onFormReady:(form)=>{
         const el=form && (form.nodeType?form:form[0]); if(!el)return;
+        // HubSpot renders the legacy form in its own document; page CSS cannot reach it.
+        const formDoc=el.ownerDocument;
+        if(!formDoc.getElementById('mood-form-theme')){
+          const theme=formDoc.createElement('style');theme.id='mood-form-theme';
+          theme.textContent=`
+            ${formDoc!==document?'html,body{background:#000!important;color:#f2f0ea!important;color-scheme:dark}':''}
+            .hs-form{background:#000!important;color:#f2f0ea!important;color-scheme:dark}
+            .hs-form label,.hs-form legend,.hs-form .hs-field-desc,.hs-form .hs-richtext,.hs-form .legal-consent-container{color:#f2f0ea!important}
+            .hs-form .hs-input:not([type=checkbox]):not([type=radio]){background:#141414!important;color:#f2f0ea!important;border:1px solid #737373!important;box-shadow:none!important;font-size:16px!important}
+            .hs-form .hs-input::placeholder{color:#b9b9c6!important;opacity:1}
+            .hs-form select option{background:#141414;color:#f2f0ea}
+            .hs-form input:-webkit-autofill{-webkit-text-fill-color:#f2f0ea!important;-webkit-box-shadow:0 0 0 1000px #141414 inset!important;caret-color:#f2f0ea}
+            .hs-form .hs-input:focus-visible,.hs-form .hs-button:focus-visible{outline:3px solid #35e39b!important;outline-offset:3px}
+            .hs-form .hs-error-msg,.hs-form .hs-error-msgs label,.hs-form .hs-form-required{color:#ffb4b4!important}
+            .hs-form .hs-input.invalid,.hs-form .hs-input.error{border-color:#ffb4b4!important}
+            .hs-form a{color:#a6afff!important}
+            .hs-form .hs-button{background:#2f44ff!important;color:#fff!important;border-color:#2f44ff!important;text-shadow:none!important}
+            .hs-form .hs-button:hover{background:#4457ff!important}
+            .submitted-message{color:#f2f0ea!important;background:#000!important}
+            /* Keep HubSpot's independently hosted attribution legible. */
+            #hubspot-forms-viral-iframe{background:#fff;border-radius:8px}
+          `;
+          formDoc.head.append(theme);
+        }
         const values={lead_id:leadId,originpage:location.pathname,utm_source:'',utm_medium:'',utm_campaign:'',utm_content:'',utm_term:'',gclid:''};
         if(consent.analytics){try{const attr=JSON.parse(safeRead(sessionStorage,'mood-attribution')||'{}');for(const key of ['utm_source','utm_medium','utm_campaign','utm_content','utm_term',...(consent.ads?['gclid']:[])])if(typeof attr[key]==='string')values[key]=attr[key];}catch{}}
         for(const [key,value] of Object.entries(values)){const input=el.querySelector('[name="'+key+'"]');if(input){input.value=value;input.dispatchEvent(new Event('input',{bubbles:true}));input.dispatchEvent(new Event('change',{bubbles:true}));}}

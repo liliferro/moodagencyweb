@@ -1,0 +1,708 @@
+{
+  "CASES": [
+    {
+      "slug": "runahr",
+      "name": "Runa",
+      "category": "Digital Experience",
+      "cover": "/web/portfolio/runahr/cover.webp",
+      "image": "/web/portfolio/runahr/cover.webp",
+      "accent": "#8E9BFF",
+      "tagline": "Reinvención digital: Optimización, localización y escalabilidad global.",
+      "stats": [
+        {
+          "v": "98/100",
+          "l": "Page Speed Score"
+        },
+        {
+          "v": "100%",
+          "l": "SEO Score"
+        },
+        {
+          "v": "Multi",
+          "l": "Idiomas & Localización"
+        }
+      ],
+      "context": "Runa contaba con una instalación de WordPress rígida y difícil de administrar. La falta de optimización afectaba su posicionamiento en buscadores y la experiencia de usuario era lenta. Además, la expansión global requería una solución robusta de localización.",
+      "challenge": "El objetivo principal era modernizar la plataforma sin perder la esencia, permitiendo una gestión de contenido ágil a través de Elementor, y asegurando que el sitio pudiera escalar y responder rápidamente en múltiples regiones.",
+      "points": [
+        {
+          "t": "Gestión ágil",
+          "b": "Migración a una estructura flexible con Elementor para facilitar la edición."
+        },
+        {
+          "t": "Alcance global",
+          "b": "Implementación de traducción y localización completa para audiencia global."
+        },
+        {
+          "t": "Rendimiento",
+          "b": "Optimización de concurrencia y escalabilidad para lograr puntuaciones perfectas en Page Speed y SEO."
+        }
+      ],
+      "solution": [
+        {
+          "t": "WordPress desde cero",
+          "b": "Rehicimos la instalación de WordPress desde cero, integrando Elementor Pro para otorgar control total sobre el diseño y facilitar futuras actualizaciones sin código."
+        },
+        {
+          "t": "Localización",
+          "b": "Implementamos un sistema de traducción y localización robusto, adaptando no solo el idioma sino también el contenido culturalmente relevante para cada región."
+        },
+        {
+          "t": "Velocidad y SEO",
+          "b": "Optimizamos la carga de recursos, implementamos caché avanzado y aseguramos la concurrencia, logrando puntuaciones altas en herramientas de SEO y velocidad."
+        }
+      ],
+      "result": "Una plataforma rápida, escalable y global. Runa ahora compite en los primeros lugares de búsqueda con una experiencia de usuario fluida en cualquier idioma."
+    },
+    {
+      "slug": "wide-angle",
+      "name": "Wide Angle",
+      "category": "Website",
+      "cover": "/web/portfolio/wide-angle/cover.webp",
+      "image": "/web/portfolio/wide-angle/cover.webp",
+      "accent": "#FF3B5C",
+      "tagline": "Más que postproducción: aliados estratégicos en cada fase de la creación audiovisual.",
+      "stats": [
+        {
+          "v": "100%",
+          "l": "Disponibilidad Audiovisual"
+        },
+        {
+          "v": "Global",
+          "l": "Alcance de Proyectos"
+        },
+        {
+          "v": "Multi",
+          "l": "Plataformas de Entrega"
+        }
+      ],
+      "context": "Wide Angle buscaba consolidar su presencia digital para reflejar su posición como líderes en postproducción. Necesitaban una plataforma que no solo mostrara su portafolio, sino que comunicara su valor como aliados estratégicos en el proceso creativo.",
+      "challenge": "El reto era crear una experiencia digital que estuviera a la altura de la calidad cinematográfica de sus proyectos, permitiendo una navegación fluida y una gestión de contenidos eficiente para su equipo interno.",
+      "points": [
+        {
+          "t": "Interfaz",
+          "b": "Desarrollo de una interfaz minimalista que resalte el contenido visual."
+        },
+        {
+          "t": "Autonomía",
+          "b": "Implementación de WordPress y Elementor para autonomía total del equipo."
+        },
+        {
+          "t": "Escalabilidad",
+          "b": "Arquitectura preparada para el crecimiento y la integración de nuevos mercados."
+        }
+      ],
+      "solution": [
+        {
+          "t": "WordPress como núcleo",
+          "b": "Desarrollamos un sitio robusto utilizando WordPress como núcleo, permitiendo una administración sencilla y segura de todos los activos digitales."
+        },
+        {
+          "t": "Estética premium",
+          "b": "Utilizamos Elementor Pro para crear una experiencia visual única, adaptada a la estética premium que define a Wide Angle."
+        },
+        {
+          "t": "Cloudflare + Analytics",
+          "b": "Integramos Cloudflare y Google Analytics para asegurar velocidad, seguridad y un seguimiento detallado del comportamiento del usuario."
+        }
+      ],
+      "result": "Una vitrina digital que proyecta profesionalismo y excelencia. Wide Angle ahora cuenta con la infraestructura necesaria para atraer a los mejores talentos y clientes de la industria."
+    },
+    {
+      "slug": "cachalo-y-gana",
+      "name": "Cachalo y Gana",
+      "category": "Digital Platform",
+      "cover": "/web/portfolio/cachalo-y-gana/cover.webp",
+      "image": "/web/portfolio/cachalo-y-gana/cover.webp",
+      "accent": "#FFC53D",
+      "tagline": "Desafío en vivo: conectando con audiencias masivas a través de la velocidad y la gamificación.",
+      "stats": [
+        {
+          "v": "100%",
+          "l": "Estabilidad del Sitio"
+        },
+        {
+          "v": "CMS",
+          "l": "WordPress Optimizado"
+        },
+        {
+          "v": "Live",
+          "l": "Tracking de Audiencia"
+        }
+      ],
+      "context": "Cachalo y Gana fue un programa de concursos en vivo donde la audiencia participaba en tiempo real. El proyecto necesitaba un centro digital robusto que sirviera como puente entre el programa en vivo y los miles de usuarios que accedían simultáneamente para interactuar con la dinámica.",
+      "challenge": "Nuestro reto fue desarrollar una plataforma web en WordPress que fuera extremadamente fácil de administrar y capaz de soportar picos masivos de tráfico. El sitio debía integrar video y herramientas de rastreo sin comprometer la velocidad ni la experiencia del usuario.",
+      "points": [
+        {
+          "t": "Administración",
+          "b": "Implementación de un panel administrativo intuitivo para actualizaciones rápidas durante las transmisiones."
+        },
+        {
+          "t": "Concurrencia",
+          "b": "Preparación de la infraestructura para recibir a miles de usuarios al mismo tiempo durante los 15 segundos de votación."
+        },
+        {
+          "t": "Video",
+          "b": "Optimización del sitio para asegurar que el despliegue de video fuera fluido y estable para toda la audiencia."
+        }
+      ],
+      "solution": [
+        {
+          "t": "Diseño inspirado en TikTok",
+          "b": "Desarrollamos el sitio bajo WordPress con un diseño inspirado en TikTok, facilitando la navegación y logrando una conexión orgánica con la audiencia del juego."
+        },
+        {
+          "t": "Infraestructura Cloudflare",
+          "b": "Configuramos Cloudflare para garantizar la estabilidad absoluta del sitio y una entrega de contenido eficiente incluso en momentos de máxima concurrencia."
+        },
+        {
+          "t": "Analítica en vivo",
+          "b": "Integramos Google Analytics para obtener un seguimiento detallado del comportamiento de los usuarios en el sitio durante los eventos en vivo."
+        }
+      ],
+      "result": "Entregamos una plataforma web robusta y visualmente atractiva que permitió al programa Cachalo y Gana operar con total estabilidad y facilidad administrativa."
+    },
+    {
+      "slug": "xcape",
+      "name": "Xcape",
+      "category": "Digital Platform",
+      "cover": "/web/portfolio/xcape/cover.webp",
+      "image": "/web/portfolio/xcape/cover.webp",
+      "accent": "#35E39B",
+      "tagline": "Explora lo extraordinario: una puerta digital a aventuras inolvidables.",
+      "stats": [
+        {
+          "v": "+50",
+          "l": "Destinos Únicos"
+        },
+        {
+          "v": "95%",
+          "l": "Satisfacción del Cliente"
+        },
+        {
+          "v": "Fast",
+          "l": "Booking System"
+        }
+      ],
+      "context": "Xcape necesitaba una plataforma que capturara la emoción de sus viajes de aventura y facilitara el proceso de reserva para una audiencia joven y dinámica. El objetivo era simplificar la logística compleja detrás de cada destino.",
+      "challenge": "El reto principal consistió en integrar un sistema de reservas multi-destino con disponibilidad en tiempo real, manteniendo una estética visual impactante y centrada en el contenido multimedia.",
+      "points": [
+        {
+          "t": "Pagos",
+          "b": "Automatización de pagos y confirmaciones para múltiples destinos."
+        },
+        {
+          "t": "Multimedia",
+          "b": "Optimización de galerías y videos para una carga rápida sin perder calidad."
+        },
+        {
+          "t": "Crecimiento",
+          "b": "Estructura preparada para la adición constante de nuevos paquetes y ofertas."
+        }
+      ],
+      "solution": [
+        {
+          "t": "Motor de reservas",
+          "b": "Desarrollamos un motor de reservas a medida que gestiona cupos, fechas y servicios adicionales de forma automática."
+        },
+        {
+          "t": "Narrativa visual",
+          "b": "Diseñamos una interfaz que prioriza la narrativa visual, transportando al usuario al destino desde el primer clic."
+        },
+        {
+          "t": "Reserva móvil",
+          "b": "Aseguramos una experiencia de reserva fluida y rápida, optimizada específicamente para usuarios en movimiento."
+        }
+      ],
+      "result": "Xcape ahora cuenta con una plataforma que no solo vende viajes, sino que inspira aventuras. La eficiencia del sistema ha permitido un crecimiento exponencial en sus reservas directas."
+    },
+    {
+      "slug": "mia-astral",
+      "name": "Mia Astral",
+      "category": "Digital Ecosystem",
+      "kicker": "Caso de éxito · 2012 – actualidad",
+      "cover": "/web/portfolio/caso-de-exito-mia.png",
+      "image": "/web/portfolio/mia/header.jpg",
+      "accent": "#B98CFF",
+      "tagline": "Transformando un blog en un imperio digital de suscripción escalable.",
+      "stats": [
+        {
+          "v": "600%",
+          "l": "Crecimiento de Tráfico"
+        },
+        {
+          "v": "160%",
+          "l": "Aumento de Ingresos"
+        },
+        {
+          "v": "33k+",
+          "l": "Suscriptores de Pago"
+        }
+      ],
+      "context": "Mia Astral revolucionó la astrología moderna enfocándose en el crecimiento personal y el coaching. Sin embargo, su hogar digital era demasiado pequeño. Un simple blog no podía contener la visión: una plataforma integral para el empoderamiento, la educación y la comunidad.",
+      "challenge": "El éxito trae su propia gravedad. A medida que la popularidad de Mia explotaba, su infraestructura comenzó a fallar. Los eventos de alto tráfico colapsaban el sitio y la monetización manual creaba fricción.",
+      "points": [
+        {
+          "t": "Caídas en picos",
+          "b": "El sitio no podía manejar picos de más de 50k usuarios concurrentes durante eventos astrológicos importantes."
+        },
+        {
+          "t": "Fricción en el pago",
+          "b": "Procesos de pago complejos causaban tasas de abandono del carrito del 70%."
+        },
+        {
+          "t": "Datos fragmentados",
+          "b": "Sin una vista unificada del viaje del cliente o el valor de vida para optimizar el crecimiento."
+        }
+      ],
+      "solution": [
+        {
+          "t": "Infraestructura",
+          "b": "Diseñamos y optimizamos la infraestructura técnica para soportar picos de hasta 5,000 usuarios concurrentes sin interrupciones, garantizando una experiencia de compra fluida y segura en el ecommerce durante lanzamientos críticos."
+        },
+        {
+          "t": "Modelo de membresía",
+          "b": "Un modelo de suscripción que convirtió a lectores casuales en miembros comprometidos, creando un flujo de ingresos recurrente y predecible."
+        },
+        {
+          "t": "Ecosistema unificado",
+          "b": "Integramos webinars, venta de productos físicos y venta de entradas para eventos en un único panel unificado, proporcionando una experiencia de usuario sin fricciones en todos los puntos de contacto."
+        }
+      ],
+      "resultLabel": "Testimonio",
+      "result": "Mood Agency no solo construyó un sitio web. Construyeron el motor que impulsa todo mi modelo de negocio.",
+      "author": "Mia Astral"
+    },
+    {
+      "slug": "pfs-realty",
+      "name": "PFS Realty",
+      "category": "Real Estate Platform",
+      "cover": "/web/portfolio/pfsrealty/cover.webp",
+      "image": "/web/portfolio/pfsrealty/cover.webp",
+      "accent": "#5FB6FF",
+      "tagline": "Innovación inmobiliaria en Miami: 60,000+ propiedades con búsqueda instantánea y analítica avanzada.",
+      "stats": [
+        {
+          "v": "60k+",
+          "l": "Propiedades"
+        },
+        {
+          "v": "<50ms",
+          "l": "Latencia de Búsqueda"
+        },
+        {
+          "v": "MLS",
+          "l": "Integración Múltiple"
+        }
+      ],
+      "context": "Gestionar y presentar más de 60,000 propiedades del sur de la Florida, unificando datos de múltiples orígenes MLS, manteniendo una experiencia de usuario fluida y optimizada para SEO.",
+      "challenge": "Implementamos una arquitectura robusta utilizando Vue y Nuxt para el frontend, garantizando velocidad y SEO. La integración con WordPress permite una gestión de contenidos flexible para nuevos proyectos.",
+      "points": [
+        {
+          "t": "Typesense",
+          "b": "Búsquedas instantáneas con latencia de milisegundos para miles de propiedades."
+        },
+        {
+          "t": "Cube.js",
+          "b": "Analíticas detalladas y estadísticas sobre edificios y departamentos para el usuario final."
+        },
+        {
+          "t": "Datos MLS",
+          "b": "Proceso de enriquecimiento de datos provenientes de múltiples fuentes del MLS."
+        },
+        {
+          "t": "Vercel + Railway",
+          "b": "Frontend desplegado en Vercel para máxima velocidad y Railway para orquestar la preparación y procesamiento de datos."
+        }
+      ],
+      "solution": [
+        {
+          "t": "Sincronización",
+          "b": "Sincronización frecuente de propiedades para garantizar la disponibilidad y precisión de los datos mostrados al usuario final en tiempo real."
+        },
+        {
+          "t": "CRM",
+          "b": "Integración nativa con HubSpot y GoHighLevel, facilitando la gestión de leads, automatización y campañas para el equipo de marketing."
+        },
+        {
+          "t": "Multilenguaje",
+          "b": "Plataforma con soporte integral para localización y traducción, adaptándose a audiencias internacionales y mercados globales."
+        },
+        {
+          "t": "Autonomía",
+          "b": "Un entorno de trabajo optimizado que permite al equipo de marketing administrar proyectos y contenidos con total autonomía y facilidad."
+        }
+      ],
+      "resultLabel": "Ecosistema & Infraestructura",
+      "result": "Más de 60,000 propiedades del sur de la Florida con búsqueda instantánea, datos MLS enriquecidos y un equipo de marketing con total autonomía."
+    },
+    {
+      "slug": "erika-de-la-vega",
+      "name": "Erika De La Vega",
+      "category": "Podcast & Web",
+      "cover": "/web/portfolio/caso-de-exito-erika-1.png",
+      "image": "/web/portfolio/erika/header.png",
+      "accent": "#35E3D0",
+      "tagline": "Estrategia de contenido y marca personal: Digitalizando el carisma para una audiencia global.",
+      "stats": [
+        {
+          "v": "7.5M+",
+          "l": "Likes Recibidos"
+        },
+        {
+          "v": "415K",
+          "l": "Seguidores Instagram"
+        },
+        {
+          "v": "253K",
+          "l": "Seguidores Twitter"
+        }
+      ],
+      "context": "Erika De la Vega es una figura icónica en los medios latinoamericanos. Sin embargo, su innegable talento y carisma no se estaban traduciendo efectivamente al mundo digital. Necesitaba reflejar su marca personal en redes sociales para conectar auténticamente con una audiencia internacional.",
+      "challenge": "El reto era claro: trasladar el humor, la inteligencia y la personalidad única de Erika de la pantalla de TV a las pantallas de los móviles, sin perder su esencia.",
+      "points": [
+        {
+          "t": "Voz propia",
+          "b": "Definir una voz y tono en redes que se sintiera auténtico y cercano, no corporativo."
+        },
+        {
+          "t": "Comunidad",
+          "b": "Transformar seguidores pasivos en una comunidad activa que interactúa y comparte."
+        },
+        {
+          "t": "Alcance",
+          "b": "Crear contenido que trascendiera las fronteras de su audiencia tradicional."
+        }
+      ],
+      "solution": [
+        {
+          "t": "Personalidad y humor",
+          "b": "Desarrollamos una estrategia centrada en sus valores más fuertes: personalidad y humor. Logramos que los usuarios la reconocieran como una mujer divertida y familiar con la que podían identificarse día a día."
+        },
+        {
+          "t": "Contenido reactivo",
+          "b": "Reaccionando a hechos relevantes de la farándula y actualidad con montajes divertidos que encajaban con su personalidad sarcástica."
+        },
+        {
+          "t": "Insights cotidianos",
+          "b": "Conectamos con la audiencia femenina a través de insights de la vida cotidiana (el caos del lunes, la dieta, la maternidad), generando una identificación inmediata y alto engagement."
+        }
+      ],
+      "result": "Erika desarrolló una marca personal sólida que destaca por su carisma y autenticidad. Hoy se posiciona con fuerza en mercados clave como Estados Unidos, México, Canadá y Panamá."
+    },
+    {
+      "slug": "ismael-cala",
+      "name": "Ismael Cala",
+      "category": "E-commerce",
+      "cover": "/web/portfolio/caso-de-exito-cala3-1.png",
+      "image": "/web/portfolio/cala/banner-caso-cala.jpg",
+      "accent": "#35E39B",
+      "tagline": "Transformación digital integral: De la televisión a una plataforma global de bienestar.",
+      "stats": [
+        {
+          "v": "50+",
+          "l": "Viajes Vendidos"
+        },
+        {
+          "v": "1000+",
+          "l": "Casos Atendidos"
+        },
+        {
+          "v": "360°",
+          "l": "Ecosistema Digital"
+        }
+      ],
+      "context": "Tras su exitosa trayectoria en CNN en Español, Ismael Cala se consolidó como referente en emprendimiento social y mindfulness. Necesitaba una plataforma que estuviera a la altura de su marca personal para escalar su negocio de educación y experiencias.",
+      "challenge": "En 2015, Cala Enterprises nos planteó un doble reto: diseñar una plataforma ecommerce robusta y crear una estrategia de distribución para un portafolio diverso.",
+      "points": [
+        {
+          "t": "Portafolio diverso",
+          "b": "Unificar la venta de conferencias, libros, meditaciones y viajes exclusivos en una sola experiencia."
+        },
+        {
+          "t": "Tráfico masivo",
+          "b": "Soportar picos de tráfico generados por la audiencia masiva de televisión y redes sociales."
+        },
+        {
+          "t": "Soporte",
+          "b": "Gestionar eficientemente las consultas y soporte para productos de alto valor."
+        }
+      ],
+      "solution": [
+        {
+          "t": "E-commerce escalable",
+          "b": "Desarrollamos un ecommerce escalable con landing pages de alta conversión e infraestructura robusta para manejar el alto tráfico de sus lanzamientos."
+        },
+        {
+          "t": "Pauta y automatización",
+          "b": "Implementamos campañas de publicidad en Google y Facebook Ads, junto con estrategias de email marketing automatizado y remarketing."
+        },
+        {
+          "t": "CRM y soporte",
+          "b": "Integramos un CRM para gestión de leads, un equipo de soporte vía chat y sistemas automatizados de recuperación de carritos."
+        }
+      ],
+      "result": "La implementación de estas estrategias permitió a Cala Enterprises no solo vender productos, sino construir una comunidad digital leal y monetizar efectivamente su contenido."
+    },
+    {
+      "slug": "foto-ahora",
+      "name": "Foto Ahora",
+      "category": "Digital Service",
+      "cover": "/web/portfolio/tapa-fotoahora-2-1200x1200.jpg",
+      "image": "/web/portfolio/foto-ahora/header.jpg",
+      "accent": "#FFC53D",
+      "tagline": "Periodismo ciudadano verificado: Tecnología contra la desinformación en tiempos de crisis.",
+      "stats": [
+        {
+          "v": "+2,480",
+          "l": "Fotos Compartidas"
+        },
+        {
+          "v": "10k+",
+          "l": "Interacciones"
+        },
+        {
+          "v": "50+",
+          "l": "Medios Aliados"
+        }
+      ],
+      "context": "En un entorno de alta movilización social y polarización política, la ciudadanía venezolana asumió el rol de informar. Sin embargo, la democratización de la información trajo consigo el caos informativo y la viralización de noticias falsas.",
+      "challenge": "En la avalancha de información de las redes sociales, la veracidad se diluía. La falta de verificación permitía que imágenes falsas o descontextualizadas se viralizaran, creando confusión.",
+      "points": [
+        {
+          "t": "Verificación",
+          "b": "¿Cómo certificar que una foto es actual, real y tomada en el lugar que dice ser?"
+        },
+        {
+          "t": "Empoderamiento",
+          "b": "Empoderar al ciudadano común con herramientas periodísticas profesionales."
+        },
+        {
+          "t": "Difusión",
+          "b": "Facilitar la difusión de contenido veraz para combatir la desinformación en tiempo real."
+        }
+      ],
+      "solution": [
+        {
+          "t": "Metadatos visibles",
+          "b": "Desarrollamos una app móvil que incrusta metadatos visibles (fecha, hora, ubicación GPS) directamente en la fotografía al momento de la captura."
+        },
+        {
+          "t": "Procedencia garantizada",
+          "b": "Al garantizar la procedencia y temporalidad de la imagen, evitamos que fotos de otros contextos o fechas sean usadas para manipular la opinión pública."
+        },
+        {
+          "t": "Compartir al instante",
+          "b": "Publicación directa en Twitter y Facebook con un solo toque."
+        }
+      ],
+      "result": "Más de 50 medios y blogs influyentes, incluyendo CNN en Español y FayerWayer, recomendaron la herramienta como esencial para el periodismo ciudadano responsable."
+    },
+    {
+      "slug": "nawis",
+      "name": "Nawis App",
+      "category": "Mobile App",
+      "cover": "/web/portfolio/tapa.jpg",
+      "image": "/web/portfolio/nawis/header.png",
+      "accent": "#FF8FA3",
+      "tagline": "Desarrollo de aplicación móvil y branding: Conectando la creatividad física con el mundo digital.",
+      "stats": [
+        {
+          "v": "Go-to-Market",
+          "l": "Estrategia de Lanzamiento"
+        },
+        {
+          "v": "Phygital",
+          "l": "Fusión Físico-Digital"
+        },
+        {
+          "v": "Viral",
+          "l": "Crecimiento Orgánico"
+        }
+      ],
+      "context": "Nawis es la primera marca venezolana de Wood Toys diseñados para ser personalizados. Son lienzos en blanco tridimensionales listos para recibir color. Pequeños amigos intergalácticos que despiertan la creatividad de los terrícolas.",
+      "challenge": "El desafío del producto físico era la ansiedad del usuario: solo tienes una oportunidad para pintar tu Wood Toy. Si te equivocas, no hay vuelta atrás.",
+      "points": [
+        {
+          "t": "Miedo al error",
+          "b": "¿Cómo podíamos eliminar el miedo a equivocarse y potenciar la creatividad antes de tocar el juguete real?"
+        },
+        {
+          "t": "Puente digital",
+          "b": "Necesitábamos crear un puente entre el juguete físico y el entorno digital donde viven los usuarios."
+        },
+        {
+          "t": "Comunidad",
+          "b": "Fomentar que los usuarios compartieran sus creaciones e inspiraran a otros."
+        }
+      ],
+      "solution": [
+        {
+          "t": "App gamificada",
+          "b": "Diseñamos una aplicación móvil gamificada que permite a los usuarios colorear y personalizar sus Nawis digitalmente tantas veces como quieran antes de pintar el real."
+        },
+        {
+          "t": "Pruebas sin riesgo",
+          "b": "Herramientas intuitivas (brocha, gotero, borrador) para probar colores y diseños sin riesgos, eliminando la ansiedad del lienzo en blanco."
+        },
+        {
+          "t": "Galería social",
+          "b": "Integración nativa con redes sociales para compartir los diseños digitales, creando un efecto viral y una galería de inspiración comunitaria."
+        }
+      ],
+      "result": "La aplicación no solo resolvió el problema del miedo al error, sino que creó una comunidad global. Los Nawis pasaron de ser un juguete local a un fenómeno digital compartido en redes sociales."
+    },
+    {
+      "slug": "yogurt-boom",
+      "name": "Yogurt Boom",
+      "category": "Branding & Web",
+      "cover": "/web/portfolio/yogurt-boom/cover.png",
+      "image": "/web/portfolio/yogurt-boom/cover.png",
+      "accent": "#FF5FA2",
+      "tagline": "De heladería local a Lovemark Internacional: Una historia de expansión dulce y estratégica.",
+      "stats": [
+        {
+          "v": "+94K",
+          "l": "Seguidores"
+        },
+        {
+          "v": "13",
+          "l": "Sucursales (VEN & PAN)"
+        },
+        {
+          "v": "+870K",
+          "l": "Likes"
+        }
+      ],
+      "context": "Para cubrir de su dulce sabor a más territorios, Yogurt Boom necesitaba consolidarse como la primera alternativa para el público. Destacar ante los competidores que surgieron posteriormente y mantener la esencia de la marca mientras se cruzaban fronteras fue el desafío principal.",
+      "challenge": "Mantener la esencia de la marca mientras se cruzaban fronteras.",
+      "points": [
+        {
+          "t": "Diferenciación",
+          "b": "Destacar ante la competencia con una propuesta de valor única y reconocible."
+        },
+        {
+          "t": "Vínculos",
+          "b": "Crear vínculos reales con los Boomakers a través de contenido y activaciones."
+        },
+        {
+          "t": "Datos",
+          "b": "Entender el comportamiento de compra para optimizar la comunicación y ventas."
+        }
+      ],
+      "solution": [
+        {
+          "t": "Contenido segmentado",
+          "b": "Implementamos estrategias de contenido y promociones diseñadas específicamente para diferentes segmentos, creando vínculos emocionales y un alto engagement."
+        },
+        {
+          "t": "Activaciones",
+          "b": "Concursos y activaciones en punto de venta que integran la experiencia digital con la física, fortaleciendo la comunidad de Boomakers."
+        },
+        {
+          "t": "Data de compra",
+          "b": "Procesamos datos de compra (género, edad, ticket medio) para determinar los mejores momentos de consumo y dirigir la comunicación de forma certera."
+        }
+      ],
+      "result": "Yogurt Boom pasó de ser una marca precursora a convertirse en una verdadera lovemark en ascenso, con 11 sucursales en Venezuela y 2 en Panamá, respaldada por una comunidad digital vibrante."
+    }
+  ],
+  "POSTS": [
+    {
+      "slug": "wellness-remote-work",
+      "title": "Bienestar en el trabajo remoto: Ideas para equilibrar la vida laboral y personal, ejercicios de estiramiento o meditación",
+      "excerpt": "Descubre estrategias prácticas para mantener tu salud física y mental mientras trabajas desde casa. Aprende rutinas de estiramiento efectivas y técnicas de meditación.",
+      "image": "/web/blog/wellness-blog.jpg"
+    },
+    {
+      "slug": "ai-transforming-marketing",
+      "title": "Cómo la Inteligencia Artificial está transformando el Marketing Digital",
+      "excerpt": "Explora el impacto revolucionario de la IA en las estrategias de marketing, desde la personalización hasta la analítica predictiva y la creación de contenido automatizado.",
+      "image": "/web/blog/ai-marketing-blog.jpg"
+    },
+    {
+      "slug": "rebranding-mood",
+      "title": "DE AMARILLO A COOL: El rebranding de Mood",
+      "excerpt": "Una inmersión profunda en nuestro viaje de transformación de marca, explorando las decisiones estratégicas detrás de la evolución de nuestra identidad visual y lo que significa para nuestro futuro.",
+      "image": "/web/blog/rebranding-blog.jpg"
+    },
+    {
+      "slug": "seo-for-beginners",
+      "title": "Para no expertos: SEO para atraer tráfico web",
+      "excerpt": "Una guía para principiantes sobre la optimización en buscadores. Aprende los fundamentos del SEO y cómo mejorar la visibilidad de tu sitio web sin conocimientos técnicos.",
+      "image": "/web/blog/seo-blog.jpg"
+    },
+    {
+      "slug": "organizational-culture",
+      "title": "No es otro artículo sobre cultura organizacional",
+      "excerpt": "Rompiendo el molde de las discusiones tradicionales sobre cultura corporativa. Información real sobre la construcción de entornos de trabajo auténticos de los que la gente realmente quiera formar parte.",
+      "image": "/web/blog/org-culture-blog.jpg"
+    },
+    {
+      "slug": "web-design-trends-2025",
+      "title": "El futuro del diseño web: Tendencias a seguir en 2025",
+      "excerpt": "Mantente a la vanguardia con las tendencias emergentes en diseño web. Desde experiencias inmersivas hasta prácticas de diseño sostenibles, descubre qué está dando forma al panorama digital.",
+      "image": "/web/blog/web-design-blog.jpg"
+    },
+    {
+      "slug": "content-marketing-strategies",
+      "title": "Estrategias de Marketing de Contenidos que realmente funcionan",
+      "excerpt": "Atraviesa el ruido con tácticas de marketing de contenidos probadas. Aprende cómo crear contenido convincente que resuene con tu audiencia y genere resultados reales.",
+      "image": "/web/blog/content-marketing-blog.jpg"
+    },
+    {
+      "slug": "remote-teams",
+      "title": "Construyendo equipos remotos de alto rendimiento",
+      "excerpt": "Domina el arte de la gestión de equipos remotos. Consejos prácticos para fomentar la colaboración, mantener la productividad y construir una cultura de equipo sólida a pesar de las distancias.",
+      "image": "/web/blog/remote-teams-blog.jpg"
+    },
+    {
+      "slug": "local-seo",
+      "title": "SEO Local: Dominando tu mercado geográfico",
+      "excerpt": "Desbloquea el poder de la optimización de búsqueda local. Estrategias esenciales para empresas que buscan atraer clientes en su área geográfica inmediata.",
+      "image": "/web/blog/local-seo-blog.jpg"
+    }
+  ],
+  "SERVICES": [
+    {
+      "title": "Marketing Estratégico",
+      "desc": "Transformamos tu visión en resultados tangibles mediante análisis de datos, posicionamiento de marca y estrategias de crecimiento acelerado.",
+      "list": [
+        "Investigación de mercado",
+        "Branding & Identidad",
+        "Growth Hacking",
+        "Estrategia de contenidos"
+      ]
+    },
+    {
+      "title": "Innovación Digital",
+      "desc": "Diseñamos y desarrollamos productos digitales que rompen esquemas, utilizando tecnología de vanguardia para crear experiencias memorables.",
+      "list": [
+        "Diseño de productos UX/UI",
+        "Desarrollo de ecosistemas digitales",
+        "Transformación tecnológica",
+        "IA aplicada al marketing"
+      ]
+    },
+    {
+      "title": "Performance & Leads",
+      "desc": "Construimos infraestructuras de captación de alta eficiencia para convertir audiencias en clientes leales de forma escalable.",
+      "list": [
+        "Generación de leads B2B/B2C",
+        "Ads & Social Media",
+        "Optimización de conversiones (CRO)",
+        "Email marketing automatizado"
+      ]
+    },
+    {
+      "title": "E-commerce & Ventas",
+      "desc": "Optimizamos cada punto de contacto del proceso de compra para maximizar el retorno de inversión en canales digitales.",
+      "list": [
+        "Plataformas de venta online",
+        "Automatización de ventas",
+        "Analítica avanzada",
+        "Estrategias de retención"
+      ]
+    }
+  ]
+}

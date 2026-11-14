@@ -1,0 +1,2 @@
+/* Fragments never reach the server; migrate old SPA links in the browser. */
+(()=>{if(!location.hash.startsWith('#/'))return;const p=location.hash.slice(2).split('/').filter(Boolean);const map={home:'',services:'servicios',portfolio:'casos',contact:'contacto',blog:'blog'};if(!Object.hasOwn(map,p[0]||'home'))return;const path='/'+[map[p[0]||'home'],...p.slice(1).map(encodeURIComponent)].filter(Boolean).join('/');location.replace(path+(path==='/'?'':'/')+location.search)})();

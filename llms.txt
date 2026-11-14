@@ -1,0 +1,42 @@
+# Mood Agency
+
+> Agencia de marketing y tecnología en Ciudad de México. Operada por Iron Mussa Corp.
+
+Contacto: info@mood-agency.com | +52 55 2315 3249
+Dirección: Avenida Río San Joaquín 498, CDMX, México.
+
+## Páginas
+- [Agencia de marketing e IA en CDMX](https://mood-agency.com/): Impulsa tu negocio con Mood Agency: estrategia de marketing, desarrollo web, ecommerce, automatización e IA aplicada desde Ciudad de México.
+- [Servicios de marketing, web e IA](https://mood-agency.com/servicios/): Explora los servicios de Mood Agency: estrategia, desarrollo web, generación de leads, ecommerce, automatización e inteligencia artificial aplicada.
+- [Estrategia de marketing para empresas](https://mood-agency.com/servicios/marketing-estrategico/): Define audiencias, propuesta de valor, canales e indicadores con Mood Agency. Convertimos tus objetivos comerciales en un plan de marketing ejecutable.
+- [Diseño y desarrollo web para empresas](https://mood-agency.com/servicios/desarrollo-web/): Crea una web clara, adaptable y fácil de gestionar. Mood Agency integra diseño, desarrollo, SEO técnico y medición según las necesidades de tu negocio.
+- [Performance y generación de leads](https://mood-agency.com/servicios/performance-y-leads/): Conecta campañas, páginas de destino y medición con Mood Agency. Evalúa la calidad de tus leads y mejora el recorrido del clic a la oportunidad comercial.
+- [Ecommerce y plataformas de membresía](https://mood-agency.com/servicios/ecommerce/): Desarrolla tu tienda o plataforma de membresía con Mood Agency. Integramos experiencia de compra, pagos y medición según el alcance de tu proyecto.
+- [Automatización de marketing y procesos](https://mood-agency.com/servicios/automatizacion/): Automatiza captación, seguimiento y comunicación con Mood Agency. Diseñamos flujos e integraciones con reglas, pruebas y responsables definidos.
+- [Consultoría de IA aplicada al marketing](https://mood-agency.com/servicios/inteligencia-artificial/): Incorpora IA a tu equipo con Mood Agency: casos de uso, pilotos, capacitación y supervisión humana para procesos de marketing con criterios de calidad.
+- [Casos y proyectos de marketing y tecnología](https://mood-agency.com/casos/): Conoce 11 proyectos de Mood Agency: desarrollo web, ecommerce, plataformas digitales y marketing. Explora el contexto, los retos y las soluciones.
+- [Runa: desarrollo y optimización web](https://mood-agency.com/casos/runahr/): Conoce el proyecto de Mood Agency para Runa: renovación de su sitio WordPress, experiencia de navegación, localización y gestión de contenidos.
+- [Wide Angle: web de postproducción](https://mood-agency.com/casos/wide-angle/): Explora el proyecto web de Mood Agency para Wide Angle: presentación de servicios de postproducción, portafolio audiovisual y experiencia de navegación.
+- [Cachalo y Gana: plataforma digital](https://mood-agency.com/casos/cachalo-y-gana/): Conoce la plataforma digital de Cachalo y Gana desarrollada por Mood Agency para conectar un programa de concursos con la participación de su audiencia.
+- [Xcape: plataforma web de viajes](https://mood-agency.com/casos/xcape/): Descubre el proyecto de Mood Agency para Xcape: una plataforma digital para presentar viajes de aventura y facilitar el recorrido hacia la reserva.
+- [Mia Astral: ecommerce y membresías](https://mood-agency.com/casos/mia-astral/): Conoce el trabajo de Mood Agency en el ecosistema digital de Mia Astral: plataforma de membresía, contenidos, productos y experiencia de compra.
+- [PFS Realty: plataforma inmobiliaria](https://mood-agency.com/casos/pfs-realty/): Explora la plataforma inmobiliaria de PFS Realty: búsqueda de propiedades, integración de datos y experiencia web desarrolladas por Mood Agency.
+- [Erika de la Vega: contenido y web](https://mood-agency.com/casos/erika-de-la-vega/): Conoce el proyecto de Mood Agency para Erika de la Vega: presencia digital, contenidos, marca personal y una web conectada con su audiencia.
+- [Ismael Cala: plataforma y ecommerce](https://mood-agency.com/casos/ismael-cala/): Descubre el proyecto digital de Mood Agency para Ismael Cala: plataforma de contenidos, comercio electrónico y experiencia para su comunidad.
+- [Foto Ahora: plataforma de información](https://mood-agency.com/casos/foto-ahora/): Conoce el proyecto Foto Ahora de Mood Agency: una solución digital para organizar información ciudadana y abordar retos de verificación de contenidos.
+- [Nawis: aplicación móvil y branding](https://mood-agency.com/casos/nawis/): Explora el proyecto de Mood Agency para Nawis: desarrollo de aplicación móvil e identidad de marca para conectar sus personajes con el entorno digital.
+- [Yogurt Boom: marca y estrategia digital](https://mood-agency.com/casos/yogurt-boom/): Conoce el proyecto de Mood Agency para Yogurt Boom: identidad, posicionamiento y presencia digital para una marca de helados de yogur.
+- [Mood Agency y Liliana Ferro](https://mood-agency.com/nosotros/): Conoce a Mood Agency, agencia de marketing y tecnología dirigida por Liliana Ferro en Ciudad de México. Estrategia, experiencia digital y ejecución.
+- [Contacto: hablemos de tu proyecto](https://mood-agency.com/contacto/): Cuéntanos tu proyecto de marketing, web, automatización o IA. Contacta a Mood Agency en CDMX por formulario, WhatsApp o info@mood-agency.com.
+- [Aviso de privacidad](https://mood-agency.com/privacidad/): Responsable, finalidades, cookies y ejercicio de derechos sobre datos personales en Mood Agency e Iron Mussa Corp.
+- [Términos de uso](https://mood-agency.com/terminos/): Condiciones informativas de uso de mood-agency.com y contacto con Iron Mussa Corp.
+- [Guías de marketing, SEO e inteligencia artificial](https://mood-agency.com/blog/): Encuentra guías de Mood Agency sobre SEO, medición de leads, automatización, IA y conversión, con fuentes y criterios prácticos para tu negocio.
+- [SEO técnico: cómo revisar la indexabilidad](https://mood-agency.com/blog/seo-tecnico-web-indexable/): Revisa URLs, enlaces, contenido y respuestas del servidor para detectar barreras de rastreo e indexación. Guía práctica de SEO técnico de Mood Agency.
+- [Cómo medir leads y oportunidades comerciales](https://mood-agency.com/blog/medir-leads-sin-confundir-clics-con-clientes/): Distingue clics, contactos y oportunidades con un embudo medible. Aprende qué eventos comprobar y cómo conectar la medición con el seguimiento comercial.
+- [Cómo automatizar el seguimiento comercial](https://mood-agency.com/blog/automatizar-seguimiento-comercial/): Define el primer flujo entre formulario y CRM: responsables, reglas, excepciones y pruebas. Una guía para automatizar el seguimiento con control.
+- [IA en marketing con supervisión humana](https://mood-agency.com/blog/ia-marketing-supervision-humana/): Diseña un piloto de IA para marketing: elige una tarea, protege la información y evalúa sus resultados con criterios claros y supervisión humana.
+- [Contenido útil para SEO y respuestas con IA](https://mood-agency.com/blog/contenido-util-para-personas-y-buscadores/): Crea contenido que responda preguntas reales con evidencia, contexto y fuentes. Guía editorial para personas, buscadores y experiencias con IA.
+- [Cómo mejorar el contacto desde tu web](https://mood-agency.com/blog/web-que-convierte-sin-friccion/): Revisa propuesta de valor, navegación, pruebas y formularios para facilitar el contacto. Aprende a detectar fricciones antes de añadir más efectos.
+
+## Exactitud
+Los casos describen proyectos de Mood Agency; no garantizan resultados futuros. No se presentan métricas de clientes sin periodo y fuente verificables. No confundir con otras agencias de nombre similar.

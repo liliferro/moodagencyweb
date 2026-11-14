@@ -1,0 +1,157 @@
+[
+  {
+    "path": "/",
+    "title": "Agencia de marketing e IA en CDMX",
+    "description": "Impulsa tu negocio con Mood Agency: estrategia de marketing, desarrollo web, ecommerce, automatización e IA aplicada desde Ciudad de México."
+  },
+  {
+    "path": "/servicios/",
+    "title": "Servicios de marketing, web e IA",
+    "description": "Explora los servicios de Mood Agency: estrategia, desarrollo web, generación de leads, ecommerce, automatización e inteligencia artificial aplicada."
+  },
+  {
+    "path": "/servicios/marketing-estrategico/",
+    "title": "Estrategia de marketing para empresas",
+    "description": "Define audiencias, propuesta de valor, canales e indicadores con Mood Agency. Convertimos tus objetivos comerciales en un plan de marketing ejecutable."
+  },
+  {
+    "path": "/servicios/desarrollo-web/",
+    "title": "Diseño y desarrollo web para empresas",
+    "description": "Crea una web clara, adaptable y fácil de gestionar. Mood Agency integra diseño, desarrollo, SEO técnico y medición según las necesidades de tu negocio."
+  },
+  {
+    "path": "/servicios/performance-y-leads/",
+    "title": "Performance y generación de leads",
+    "description": "Conecta campañas, páginas de destino y medición con Mood Agency. Evalúa la calidad de tus leads y mejora el recorrido del clic a la oportunidad comercial."
+  },
+  {
+    "path": "/servicios/ecommerce/",
+    "title": "Ecommerce y plataformas de membresía",
+    "description": "Desarrolla tu tienda o plataforma de membresía con Mood Agency. Integramos experiencia de compra, pagos y medición según el alcance de tu proyecto."
+  },
+  {
+    "path": "/servicios/automatizacion/",
+    "title": "Automatización de marketing y procesos",
+    "description": "Automatiza captación, seguimiento y comunicación con Mood Agency. Diseñamos flujos e integraciones con reglas, pruebas y responsables definidos."
+  },
+  {
+    "path": "/servicios/inteligencia-artificial/",
+    "title": "Consultoría de IA aplicada al marketing",
+    "description": "Incorpora IA a tu equipo con Mood Agency: casos de uso, pilotos, capacitación y supervisión humana para procesos de marketing con criterios de calidad."
+  },
+  {
+    "path": "/casos/",
+    "title": "Casos y proyectos de marketing y tecnología",
+    "description": "Conoce 11 proyectos de Mood Agency: desarrollo web, ecommerce, plataformas digitales y marketing. Explora el contexto, los retos y las soluciones."
+  },
+  {
+    "path": "/casos/runahr/",
+    "title": "Runa: desarrollo y optimización web",
+    "description": "Conoce el proyecto de Mood Agency para Runa: renovación de su sitio WordPress, experiencia de navegación, localización y gestión de contenidos."
+  },
+  {
+    "path": "/casos/wide-angle/",
+    "title": "Wide Angle: web de postproducción",
+    "description": "Explora el proyecto web de Mood Agency para Wide Angle: presentación de servicios de postproducción, portafolio audiovisual y experiencia de navegación."
+  },
+  {
+    "path": "/casos/cachalo-y-gana/",
+    "title": "Cachalo y Gana: plataforma digital",
+    "description": "Conoce la plataforma digital de Cachalo y Gana desarrollada por Mood Agency para conectar un programa de concursos con la participación de su audiencia."
+  },
+  {
+    "path": "/casos/xcape/",
+    "title": "Xcape: plataforma web de viajes",
+    "description": "Descubre el proyecto de Mood Agency para Xcape: una plataforma digital para presentar viajes de aventura y facilitar el recorrido hacia la reserva."
+  },
+  {
+    "path": "/casos/mia-astral/",
+    "title": "Mia Astral: ecommerce y membresías",
+    "description": "Conoce el trabajo de Mood Agency en el ecosistema digital de Mia Astral: plataforma de membresía, contenidos, productos y experiencia de compra."
+  },
+  {
+    "path": "/casos/pfs-realty/",
+    "title": "PFS Realty: plataforma inmobiliaria",
+    "description": "Explora la plataforma inmobiliaria de PFS Realty: búsqueda de propiedades, integración de datos y experiencia web desarrolladas por Mood Agency."
+  },
+  {
+    "path": "/casos/erika-de-la-vega/",
+    "title": "Erika de la Vega: contenido y web",
+    "description": "Conoce el proyecto de Mood Agency para Erika de la Vega: presencia digital, contenidos, marca personal y una web conectada con su audiencia."
+  },
+  {
+    "path": "/casos/ismael-cala/",
+    "title": "Ismael Cala: plataforma y ecommerce",
+    "description": "Descubre el proyecto digital de Mood Agency para Ismael Cala: plataforma de contenidos, comercio electrónico y experiencia para su comunidad."
+  },
+  {
+    "path": "/casos/foto-ahora/",
+    "title": "Foto Ahora: plataforma de información",
+    "description": "Conoce el proyecto Foto Ahora de Mood Agency: una solución digital para organizar información ciudadana y abordar retos de verificación de contenidos."
+  },
+  {
+    "path": "/casos/nawis/",
+    "title": "Nawis: aplicación móvil y branding",
+    "description": "Explora el proyecto de Mood Agency para Nawis: desarrollo de aplicación móvil e identidad de marca para conectar sus personajes con el entorno digital."
+  },
+  {
+    "path": "/casos/yogurt-boom/",
+    "title": "Yogurt Boom: marca y estrategia digital",
+    "description": "Conoce el proyecto de Mood Agency para Yogurt Boom: identidad, posicionamiento y presencia digital para una marca de helados de yogur."
+  },
+  {
+    "path": "/nosotros/",
+    "title": "Mood Agency y Liliana Ferro",
+    "description": "Conoce a Mood Agency, agencia de marketing y tecnología dirigida por Liliana Ferro en Ciudad de México. Estrategia, experiencia digital y ejecución."
+  },
+  {
+    "path": "/contacto/",
+    "title": "Contacto: hablemos de tu proyecto",
+    "description": "Cuéntanos tu proyecto de marketing, web, automatización o IA. Contacta a Mood Agency en CDMX por formulario, WhatsApp o info@mood-agency.com."
+  },
+  {
+    "path": "/privacidad/",
+    "title": "Aviso de privacidad",
+    "description": "Responsable, finalidades, cookies y ejercicio de derechos sobre datos personales en Mood Agency e Iron Mussa Corp."
+  },
+  {
+    "path": "/terminos/",
+    "title": "Términos de uso",
+    "description": "Condiciones informativas de uso de mood-agency.com y contacto con Iron Mussa Corp."
+  },
+  {
+    "path": "/blog/",
+    "title": "Guías de marketing, SEO e inteligencia artificial",
+    "description": "Encuentra guías de Mood Agency sobre SEO, medición de leads, automatización, IA y conversión, con fuentes y criterios prácticos para tu negocio."
+  },
+  {
+    "path": "/blog/seo-tecnico-web-indexable/",
+    "title": "SEO técnico: cómo revisar la indexabilidad",
+    "description": "Revisa URLs, enlaces, contenido y respuestas del servidor para detectar barreras de rastreo e indexación. Guía práctica de SEO técnico de Mood Agency."
+  },
+  {
+    "path": "/blog/medir-leads-sin-confundir-clics-con-clientes/",
+    "title": "Cómo medir leads y oportunidades comerciales",
+    "description": "Distingue clics, contactos y oportunidades con un embudo medible. Aprende qué eventos comprobar y cómo conectar la medición con el seguimiento comercial."
+  },
+  {
+    "path": "/blog/automatizar-seguimiento-comercial/",
+    "title": "Cómo automatizar el seguimiento comercial",
+    "description": "Define el primer flujo entre formulario y CRM: responsables, reglas, excepciones y pruebas. Una guía para automatizar el seguimiento con control."
+  },
+  {
+    "path": "/blog/ia-marketing-supervision-humana/",
+    "title": "IA en marketing con supervisión humana",
+    "description": "Diseña un piloto de IA para marketing: elige una tarea, protege la información y evalúa sus resultados con criterios claros y supervisión humana."
+  },
+  {
+    "path": "/blog/contenido-util-para-personas-y-buscadores/",
+    "title": "Contenido útil para SEO y respuestas con IA",
+    "description": "Crea contenido que responda preguntas reales con evidencia, contexto y fuentes. Guía editorial para personas, buscadores y experiencias con IA."
+  },
+  {
+    "path": "/blog/web-que-convierte-sin-friccion/",
+    "title": "Cómo mejorar el contacto desde tu web",
+    "description": "Revisa propuesta de valor, navegación, pruebas y formularios para facilitar el contacto. Aprende a detectar fricciones antes de añadir más efectos."
+  }
+]

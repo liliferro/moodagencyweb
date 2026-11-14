@@ -3,36 +3,369 @@
   "framework": null,
   "buildCommand": null,
   "outputDirectory": ".",
-  "rewrites": [
+  "trailingSlash": true,
+  "redirects": [
     {
-      "source": "/sitemap.xml",
-      "destination": "/sitemap.xml"
+      "source": "/services",
+      "destination": "/servicios/",
+      "statusCode": 301
     },
     {
-      "source": "/robots.txt",
-      "destination": "/robots.txt"
+      "source": "/es/services",
+      "destination": "/servicios/",
+      "statusCode": 301
     },
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/en/services",
+      "destination": "/servicios/",
+      "statusCode": 301
+    },
+    {
+      "source": "/portfolio",
+      "destination": "/casos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/portfolio",
+      "destination": "/casos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/portfolio",
+      "destination": "/casos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/contact",
+      "destination": "/contacto/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/contact",
+      "destination": "/contacto/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/contact",
+      "destination": "/contacto/",
+      "statusCode": 301
+    },
+    {
+      "source": "/about",
+      "destination": "/nosotros/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/about",
+      "destination": "/nosotros/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/about",
+      "destination": "/nosotros/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/portfolio/runahr",
+      "destination": "/casos/runahr/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/portfolio/runahr",
+      "destination": "/casos/runahr/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/portfolio/runahr",
+      "destination": "/casos/runahr/",
+      "statusCode": 301
+    },
+    {
+      "source": "/portfolio/wide-angle",
+      "destination": "/casos/wide-angle/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/portfolio/wide-angle",
+      "destination": "/casos/wide-angle/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/portfolio/wide-angle",
+      "destination": "/casos/wide-angle/",
+      "statusCode": 301
+    },
+    {
+      "source": "/portfolio/cachalo-y-gana",
+      "destination": "/casos/cachalo-y-gana/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/portfolio/cachalo-y-gana",
+      "destination": "/casos/cachalo-y-gana/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/portfolio/cachalo-y-gana",
+      "destination": "/casos/cachalo-y-gana/",
+      "statusCode": 301
+    },
+    {
+      "source": "/portfolio/xcape",
+      "destination": "/casos/xcape/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/portfolio/xcape",
+      "destination": "/casos/xcape/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/portfolio/xcape",
+      "destination": "/casos/xcape/",
+      "statusCode": 301
+    },
+    {
+      "source": "/portfolio/mia-astral",
+      "destination": "/casos/mia-astral/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/portfolio/mia-astral",
+      "destination": "/casos/mia-astral/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/portfolio/mia-astral",
+      "destination": "/casos/mia-astral/",
+      "statusCode": 301
+    },
+    {
+      "source": "/portfolio/pfs-realty",
+      "destination": "/casos/pfs-realty/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/portfolio/pfs-realty",
+      "destination": "/casos/pfs-realty/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/portfolio/pfs-realty",
+      "destination": "/casos/pfs-realty/",
+      "statusCode": 301
+    },
+    {
+      "source": "/portfolio/erika-de-la-vega",
+      "destination": "/casos/erika-de-la-vega/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/portfolio/erika-de-la-vega",
+      "destination": "/casos/erika-de-la-vega/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/portfolio/erika-de-la-vega",
+      "destination": "/casos/erika-de-la-vega/",
+      "statusCode": 301
+    },
+    {
+      "source": "/portfolio/ismael-cala",
+      "destination": "/casos/ismael-cala/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/portfolio/ismael-cala",
+      "destination": "/casos/ismael-cala/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/portfolio/ismael-cala",
+      "destination": "/casos/ismael-cala/",
+      "statusCode": 301
+    },
+    {
+      "source": "/portfolio/foto-ahora",
+      "destination": "/casos/foto-ahora/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/portfolio/foto-ahora",
+      "destination": "/casos/foto-ahora/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/portfolio/foto-ahora",
+      "destination": "/casos/foto-ahora/",
+      "statusCode": 301
+    },
+    {
+      "source": "/portfolio/nawis",
+      "destination": "/casos/nawis/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/portfolio/nawis",
+      "destination": "/casos/nawis/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/portfolio/nawis",
+      "destination": "/casos/nawis/",
+      "statusCode": 301
+    },
+    {
+      "source": "/portfolio/yogurt-boom",
+      "destination": "/casos/yogurt-boom/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/portfolio/yogurt-boom",
+      "destination": "/casos/yogurt-boom/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/portfolio/yogurt-boom",
+      "destination": "/casos/yogurt-boom/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/seo-for-beginners",
+      "destination": "/blog/seo-tecnico-web-indexable/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/seo-for-beginners",
+      "destination": "/blog/seo-tecnico-web-indexable/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/seo-for-beginners",
+      "destination": "/blog/seo-tecnico-web-indexable/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ai-transforming-marketing",
+      "destination": "/blog/ia-marketing-supervision-humana/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/ai-transforming-marketing",
+      "destination": "/blog/ia-marketing-supervision-humana/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/ai-transforming-marketing",
+      "destination": "/blog/ia-marketing-supervision-humana/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/content-marketing-strategies",
+      "destination": "/blog/contenido-util-para-personas-y-buscadores/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/content-marketing-strategies",
+      "destination": "/blog/contenido-util-para-personas-y-buscadores/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/content-marketing-strategies",
+      "destination": "/blog/contenido-util-para-personas-y-buscadores/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/web-design-trends-2025",
+      "destination": "/blog/web-que-convierte-sin-friccion/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/web-design-trends-2025",
+      "destination": "/blog/web-que-convierte-sin-friccion/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/web-design-trends-2025",
+      "destination": "/blog/web-que-convierte-sin-friccion/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/local-seo",
+      "destination": "/blog/seo-tecnico-web-indexable/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/local-seo",
+      "destination": "/blog/seo-tecnico-web-indexable/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/local-seo",
+      "destination": "/blog/seo-tecnico-web-indexable/",
+      "statusCode": 301
     }
   ],
   "headers": [
     {
-      "source": "/sitemap.xml",
+      "source": "/(.*)",
       "headers": [
         {
-          "key": "Content-Type",
-          "value": "application/xml; charset=utf-8"
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://*.clarity.ms https://connect.facebook.net https://tally.so https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://*.clarity.ms https://c.bing.com https://www.facebook.com https://*.google-analytics.com https://*.googletagmanager.com https://www.google.com; font-src 'self'; connect-src 'self' https://*.clarity.ms https://www.facebook.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://www.google.com; frame-src https://tally.so https://www.googletagmanager.com; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'self' https://tally.so; upgrade-insecure-requests"
         }
       ]
     },
     {
-      "source": "/robots.txt",
+      "source": "/assets/(.*)",
       "headers": [
         {
-          "key": "Content-Type",
-          "value": "text/plain; charset=utf-8"
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/src/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/docs/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
         }
       ]
     }

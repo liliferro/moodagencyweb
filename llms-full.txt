@@ -1,0 +1,136 @@
+# Mood Agency
+
+> Agencia de marketing y tecnología en Ciudad de México. Operada por Iron Mussa Corp.
+
+Contacto: info@mood-agency.com | +52 55 2315 3249
+Dirección: Avenida Río San Joaquín 498, CDMX, México.
+
+## Páginas
+- [Agencia de marketing e IA en CDMX](https://mood-agency.com/): Impulsa tu negocio con Mood Agency: estrategia de marketing, desarrollo web, ecommerce, automatización e IA aplicada desde Ciudad de México.
+- [Servicios de marketing, web e IA](https://mood-agency.com/servicios/): Explora los servicios de Mood Agency: estrategia, desarrollo web, generación de leads, ecommerce, automatización e inteligencia artificial aplicada.
+- [Estrategia de marketing para empresas](https://mood-agency.com/servicios/marketing-estrategico/): Define audiencias, propuesta de valor, canales e indicadores con Mood Agency. Convertimos tus objetivos comerciales en un plan de marketing ejecutable.
+- [Diseño y desarrollo web para empresas](https://mood-agency.com/servicios/desarrollo-web/): Crea una web clara, adaptable y fácil de gestionar. Mood Agency integra diseño, desarrollo, SEO técnico y medición según las necesidades de tu negocio.
+- [Performance y generación de leads](https://mood-agency.com/servicios/performance-y-leads/): Conecta campañas, páginas de destino y medición con Mood Agency. Evalúa la calidad de tus leads y mejora el recorrido del clic a la oportunidad comercial.
+- [Ecommerce y plataformas de membresía](https://mood-agency.com/servicios/ecommerce/): Desarrolla tu tienda o plataforma de membresía con Mood Agency. Integramos experiencia de compra, pagos y medición según el alcance de tu proyecto.
+- [Automatización de marketing y procesos](https://mood-agency.com/servicios/automatizacion/): Automatiza captación, seguimiento y comunicación con Mood Agency. Diseñamos flujos e integraciones con reglas, pruebas y responsables definidos.
+- [Consultoría de IA aplicada al marketing](https://mood-agency.com/servicios/inteligencia-artificial/): Incorpora IA a tu equipo con Mood Agency: casos de uso, pilotos, capacitación y supervisión humana para procesos de marketing con criterios de calidad.
+- [Casos y proyectos de marketing y tecnología](https://mood-agency.com/casos/): Conoce 11 proyectos de Mood Agency: desarrollo web, ecommerce, plataformas digitales y marketing. Explora el contexto, los retos y las soluciones.
+- [Runa: desarrollo y optimización web](https://mood-agency.com/casos/runahr/): Conoce el proyecto de Mood Agency para Runa: renovación de su sitio WordPress, experiencia de navegación, localización y gestión de contenidos.
+- [Wide Angle: web de postproducción](https://mood-agency.com/casos/wide-angle/): Explora el proyecto web de Mood Agency para Wide Angle: presentación de servicios de postproducción, portafolio audiovisual y experiencia de navegación.
+- [Cachalo y Gana: plataforma digital](https://mood-agency.com/casos/cachalo-y-gana/): Conoce la plataforma digital de Cachalo y Gana desarrollada por Mood Agency para conectar un programa de concursos con la participación de su audiencia.
+- [Xcape: plataforma web de viajes](https://mood-agency.com/casos/xcape/): Descubre el proyecto de Mood Agency para Xcape: una plataforma digital para presentar viajes de aventura y facilitar el recorrido hacia la reserva.
+- [Mia Astral: ecommerce y membresías](https://mood-agency.com/casos/mia-astral/): Conoce el trabajo de Mood Agency en el ecosistema digital de Mia Astral: plataforma de membresía, contenidos, productos y experiencia de compra.
+- [PFS Realty: plataforma inmobiliaria](https://mood-agency.com/casos/pfs-realty/): Explora la plataforma inmobiliaria de PFS Realty: búsqueda de propiedades, integración de datos y experiencia web desarrolladas por Mood Agency.
+- [Erika de la Vega: contenido y web](https://mood-agency.com/casos/erika-de-la-vega/): Conoce el proyecto de Mood Agency para Erika de la Vega: presencia digital, contenidos, marca personal y una web conectada con su audiencia.
+- [Ismael Cala: plataforma y ecommerce](https://mood-agency.com/casos/ismael-cala/): Descubre el proyecto digital de Mood Agency para Ismael Cala: plataforma de contenidos, comercio electrónico y experiencia para su comunidad.
+- [Foto Ahora: plataforma de información](https://mood-agency.com/casos/foto-ahora/): Conoce el proyecto Foto Ahora de Mood Agency: una solución digital para organizar información ciudadana y abordar retos de verificación de contenidos.
+- [Nawis: aplicación móvil y branding](https://mood-agency.com/casos/nawis/): Explora el proyecto de Mood Agency para Nawis: desarrollo de aplicación móvil e identidad de marca para conectar sus personajes con el entorno digital.
+- [Yogurt Boom: marca y estrategia digital](https://mood-agency.com/casos/yogurt-boom/): Conoce el proyecto de Mood Agency para Yogurt Boom: identidad, posicionamiento y presencia digital para una marca de helados de yogur.
+- [Mood Agency y Liliana Ferro](https://mood-agency.com/nosotros/): Conoce a Mood Agency, agencia de marketing y tecnología dirigida por Liliana Ferro en Ciudad de México. Estrategia, experiencia digital y ejecución.
+- [Contacto: hablemos de tu proyecto](https://mood-agency.com/contacto/): Cuéntanos tu proyecto de marketing, web, automatización o IA. Contacta a Mood Agency en CDMX por formulario, WhatsApp o info@mood-agency.com.
+- [Aviso de privacidad](https://mood-agency.com/privacidad/): Responsable, finalidades, cookies y ejercicio de derechos sobre datos personales en Mood Agency e Iron Mussa Corp.
+- [Términos de uso](https://mood-agency.com/terminos/): Condiciones informativas de uso de mood-agency.com y contacto con Iron Mussa Corp.
+- [Guías de marketing, SEO e inteligencia artificial](https://mood-agency.com/blog/): Encuentra guías de Mood Agency sobre SEO, medición de leads, automatización, IA y conversión, con fuentes y criterios prácticos para tu negocio.
+- [SEO técnico: cómo revisar la indexabilidad](https://mood-agency.com/blog/seo-tecnico-web-indexable/): Revisa URLs, enlaces, contenido y respuestas del servidor para detectar barreras de rastreo e indexación. Guía práctica de SEO técnico de Mood Agency.
+- [Cómo medir leads y oportunidades comerciales](https://mood-agency.com/blog/medir-leads-sin-confundir-clics-con-clientes/): Distingue clics, contactos y oportunidades con un embudo medible. Aprende qué eventos comprobar y cómo conectar la medición con el seguimiento comercial.
+- [Cómo automatizar el seguimiento comercial](https://mood-agency.com/blog/automatizar-seguimiento-comercial/): Define el primer flujo entre formulario y CRM: responsables, reglas, excepciones y pruebas. Una guía para automatizar el seguimiento con control.
+- [IA en marketing con supervisión humana](https://mood-agency.com/blog/ia-marketing-supervision-humana/): Diseña un piloto de IA para marketing: elige una tarea, protege la información y evalúa sus resultados con criterios claros y supervisión humana.
+- [Contenido útil para SEO y respuestas con IA](https://mood-agency.com/blog/contenido-util-para-personas-y-buscadores/): Crea contenido que responda preguntas reales con evidencia, contexto y fuentes. Guía editorial para personas, buscadores y experiencias con IA.
+- [Cómo mejorar el contacto desde tu web](https://mood-agency.com/blog/web-que-convierte-sin-friccion/): Revisa propuesta de valor, navegación, pruebas y formularios para facilitar el contacto. Aprende a detectar fricciones antes de añadir más efectos.
+
+## Exactitud
+Los casos describen proyectos de Mood Agency; no garantizan resultados futuros. No se presentan métricas de clientes sin periodo y fuente verificables. No confundir con otras agencias de nombre similar.
+
+## Servicios
+
+### Marketing estratégico
+Para empresas que necesitan convertir sus objetivos comerciales en un plan de marketing ejecutable. Analizamos audiencia, oferta y recorrido de compra para priorizar canales, mensajes y métricas. El resultado es una hoja de ruta con responsables y criterios de evaluación, conectada con la capacidad real de tu equipo.
+Entregables: Diagnóstico de marca, canales y competencia; Definición de audiencias y propuesta de valor; Plan de contenidos y adquisición; Hoja de ruta con indicadores y responsables
+
+### Diseño y desarrollo web
+Para marcas que necesitan una web clara, rápida y útil para sus clientes. Diseñamos la arquitectura de contenido y la experiencia de navegación, desarrollamos las páginas y preparamos la medición. El alcance puede incluir un sitio institucional, un catálogo o una plataforma, según las necesidades y los sistemas existentes.
+Entregables: Arquitectura de contenidos y diseño adaptable; Desarrollo e integración de funcionalidades acordadas; SEO técnico y estructura de medición; Pruebas de navegación y guía de gestión
+
+### Performance y generación de leads
+Para empresas que necesitan atraer oportunidades comerciales y entender qué campañas las producen. Conectamos la propuesta de valor, las páginas de destino y la medición para evaluar el recorrido desde el clic hasta el contacto. La optimización se apoya en calidad del lead y resultados comerciales, no únicamente en volumen.
+Entregables: Diagnóstico del embudo y plan de campañas; Propuesta de páginas de destino y mensajes; Plan de eventos y conversiones; Análisis de oportunidades y pruebas de mejora
+
+### Ecommerce y ventas digitales
+Para negocios que quieren facilitar la compra y mejorar la relación con sus clientes. Revisamos catálogo, navegación, pago y seguimiento para identificar fricciones. Diseñamos e implementamos mejoras en la tienda o el modelo de suscripción, con una medición que permita evaluar ventas, recurrencia y experiencia de compra.
+Entregables: Diagnóstico del recorrido de compra; Implementación de tienda o membresía según alcance; Integración de pagos y herramientas compatibles; Plan de medición y mejora de conversión
+
+### Automatización de marketing
+Para equipos que repiten tareas de captación, seguimiento o comunicación y necesitan ordenar su operación. Mapeamos el proceso, definimos reglas e integramos las herramientas disponibles. Priorizamos flujos trazables, con manejo de errores y responsables claros, para reducir trabajo manual sin perder control sobre la experiencia del cliente.
+Entregables: Mapa de proceso y oportunidades de automatización; Diseño de reglas, segmentos y excepciones; Integraciones y pruebas del flujo acordado; Documentación, alertas y entrega al equipo
+
+### Inteligencia artificial aplicada
+Para equipos de marketing que necesitan incorporar IA a tareas concretas con criterios de calidad. Identificamos casos de uso, diseñamos un piloto y definimos cómo revisar sus resultados. El trabajo combina procesos, herramientas y capacitación, con supervisión humana y controles sobre la información que se utiliza.
+Entregables: Priorización de casos de uso y evaluación de riesgos; Diseño de piloto y criterios de aceptación; Guías de uso y revisión humana; Capacitación y documentación del proceso
+
+## Casos
+
+### Runa
+Runa contaba con una instalación de WordPress rígida y difícil de administrar. La falta de optimización afectaba su posicionamiento en buscadores y la experiencia de usuario era lenta. Además, la expansión global requería una solución robusta de localización.
+WordPress desde cero: Rehicimos la instalación de WordPress desde cero, integrando Elementor Pro para otorgar control total sobre el diseño y facilitar futuras actualizaciones sin código.
+Localización: Implementamos un sistema de traducción y localización robusto, adaptando no solo el idioma sino también el contenido culturalmente relevante para cada región.
+Velocidad y SEO: Optimizamos la carga de recursos, implementamos caché avanzado y aseguramos la concurrencia, logrando puntuaciones altas en herramientas de SEO y velocidad.
+
+### Wide Angle
+Wide Angle buscaba consolidar su presencia digital para reflejar su posición como líderes en postproducción. Necesitaban una plataforma que no solo mostrara su portafolio, sino que comunicara su valor como aliados estratégicos en el proceso creativo.
+WordPress como núcleo: Desarrollamos un sitio robusto utilizando WordPress como núcleo, permitiendo una administración sencilla y segura de todos los activos digitales.
+Estética premium: Utilizamos Elementor Pro para crear una experiencia visual única, adaptada a la estética premium que define a Wide Angle.
+Cloudflare + Analytics: Integramos Cloudflare y Google Analytics para asegurar velocidad, seguridad y un seguimiento detallado del comportamiento del usuario.
+
+### Cachalo y Gana
+Cachalo y Gana fue un programa de concursos en vivo donde la audiencia participaba en tiempo real. El proyecto necesitaba un centro digital robusto que sirviera como puente entre el programa en vivo y los miles de usuarios que accedían simultáneamente para interactuar con la dinámica.
+Diseño inspirado en TikTok: Desarrollamos el sitio bajo WordPress con un diseño inspirado en TikTok, facilitando la navegación y logrando una conexión orgánica con la audiencia del juego.
+Infraestructura Cloudflare: Configuramos Cloudflare para garantizar la estabilidad absoluta del sitio y una entrega de contenido eficiente incluso en momentos de máxima concurrencia.
+Analítica en vivo: Integramos Google Analytics para obtener un seguimiento detallado del comportamiento de los usuarios en el sitio durante los eventos en vivo.
+
+### Xcape
+Xcape necesitaba una plataforma que capturara la emoción de sus viajes de aventura y facilitara el proceso de reserva para una audiencia joven y dinámica. El objetivo era simplificar la logística compleja detrás de cada destino.
+Motor de reservas: Desarrollamos un motor de reservas a medida que gestiona cupos, fechas y servicios adicionales de forma automática.
+Narrativa visual: Diseñamos una interfaz que prioriza la narrativa visual, transportando al usuario al destino desde el primer clic.
+Reserva móvil: Aseguramos una experiencia de reserva fluida y rápida, optimizada específicamente para usuarios en movimiento.
+
+### Mia Astral
+Mia Astral revolucionó la astrología moderna enfocándose en el crecimiento personal y el coaching. Sin embargo, su hogar digital era demasiado pequeño. Un simple blog no podía contener la visión: una plataforma integral para el empoderamiento, la educación y la comunidad.
+Modelo de membresía: Un modelo de suscripción que convirtió a lectores casuales en miembros comprometidos, creando un flujo de ingresos recurrente y predecible.
+Ecosistema unificado: Integramos webinars, venta de productos físicos y venta de entradas para eventos en un único panel unificado, proporcionando una experiencia de usuario sin fricciones en todos los puntos de contacto.
+
+### PFS Realty
+Gestionar y presentar más de 60,000 propiedades del sur de la Florida, unificando datos de múltiples orígenes MLS, manteniendo una experiencia de usuario fluida y optimizada para SEO.
+Sincronización: Sincronización frecuente de propiedades para garantizar la disponibilidad y precisión de los datos mostrados al usuario final en tiempo real.
+CRM: Integración nativa con HubSpot y GoHighLevel, facilitando la gestión de leads, automatización y campañas para el equipo de marketing.
+Multilenguaje: Plataforma con soporte integral para localización y traducción, adaptándose a audiencias internacionales y mercados globales.
+Autonomía: Un entorno de trabajo optimizado que permite al equipo de marketing administrar proyectos y contenidos con total autonomía y facilidad.
+
+### Erika De La Vega
+Erika De la Vega es una figura icónica en los medios latinoamericanos. Sin embargo, su innegable talento y carisma no se estaban traduciendo efectivamente al mundo digital. Necesitaba reflejar su marca personal en redes sociales para conectar auténticamente con una audiencia internacional.
+Personalidad y humor: Desarrollamos una estrategia centrada en sus valores más fuertes: personalidad y humor. Logramos que los usuarios la reconocieran como una mujer divertida y familiar con la que podían identificarse día a día.
+Contenido reactivo: Reaccionando a hechos relevantes de la farándula y actualidad con montajes divertidos que encajaban con su personalidad sarcástica.
+Insights cotidianos: Conectamos con la audiencia femenina a través de insights de la vida cotidiana (el caos del lunes, la dieta, la maternidad), generando una identificación inmediata y alto engagement.
+
+### Ismael Cala
+Tras su exitosa trayectoria en CNN en Español, Ismael Cala se consolidó como referente en emprendimiento social y mindfulness. Necesitaba una plataforma que estuviera a la altura de su marca personal para escalar su negocio de educación y experiencias.
+E-commerce escalable: Desarrollamos un ecommerce escalable con landing pages de alta conversión e infraestructura robusta para manejar el alto tráfico de sus lanzamientos.
+Pauta y automatización: Implementamos campañas de publicidad en Google y Facebook Ads, junto con estrategias de email marketing automatizado y remarketing.
+CRM y soporte: Integramos un CRM para gestión de leads, un equipo de soporte vía chat y sistemas automatizados de recuperación de carritos.
+
+### Foto Ahora
+En un entorno de alta movilización social y polarización política, la ciudadanía venezolana asumió el rol de informar. Sin embargo, la democratización de la información trajo consigo el caos informativo y la viralización de noticias falsas.
+Metadatos visibles: Desarrollamos una app móvil que incrusta metadatos visibles (fecha, hora, ubicación GPS) directamente en la fotografía al momento de la captura.
+Procedencia garantizada: Al garantizar la procedencia y temporalidad de la imagen, evitamos que fotos de otros contextos o fechas sean usadas para manipular la opinión pública.
+Compartir al instante: Publicación directa en Twitter y Facebook con un solo toque.
+
+### Nawis App
+Nawis es la primera marca venezolana de Wood Toys diseñados para ser personalizados. Son lienzos en blanco tridimensionales listos para recibir color. Pequeños amigos intergalácticos que despiertan la creatividad de los terrícolas.
+App gamificada: Diseñamos una aplicación móvil gamificada que permite a los usuarios colorear y personalizar sus Nawis digitalmente tantas veces como quieran antes de pintar el real.
+Pruebas sin riesgo: Herramientas intuitivas (brocha, gotero, borrador) para probar colores y diseños sin riesgos, eliminando la ansiedad del lienzo en blanco.
+Galería social: Integración nativa con redes sociales para compartir los diseños digitales, creando un efecto viral y una galería de inspiración comunitaria.
+
+### Yogurt Boom
+Para cubrir de su dulce sabor a más territorios, Yogurt Boom necesitaba consolidarse como la primera alternativa para el público. Destacar ante los competidores que surgieron posteriormente y mantener la esencia de la marca mientras se cruzaban fronteras fue el desafío principal.
+Contenido segmentado: Implementamos estrategias de contenido y promociones diseñadas específicamente para diferentes segmentos, creando vínculos emocionales y un alto engagement.
+Activaciones: Concursos y activaciones en punto de venta que integran la experiencia digital con la física, fortaleciendo la comunidad de Boomakers.
+Data de compra: Procesamos datos de compra (género, edad, ticket medio) para determinar los mejores momentos de consumo y dirigir la comunicación de forma certera.

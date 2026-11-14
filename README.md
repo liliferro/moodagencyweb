@@ -1,7 +1,7 @@
-# Mood Agency
+# Mood Agency — nueva web
 
-Versión estática recuperada de https://mood-agency.com para su publicación en Vercel.
+Versión basada en webmoodagencyultima2026.zip. Publicación estática en Vercel.
 
-Incluye HTML, JavaScript y CSS compilados e imágenes referenciadas. No contiene los archivos fuente originales de React. El formulario conserva la integración existente con Tally.
+Contacto conserva el formulario Tally Bzd6Le. Newsletter pendiente de integración, sin captura simulada. Las rutas anteriores /es y /en se interpretan en la nueva navegación; esta versión contiene textos en español.
 
-Vercel: preset Other, sin comando de compilación, directorio de salida `.`. Las rutas de la aplicación se resuelven mediante `vercel.json`.
+Respaldo anterior: commit 16fd2aa6b225cf52ad7735bb86217eb34993ddb0.

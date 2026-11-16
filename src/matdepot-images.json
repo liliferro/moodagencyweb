@@ -409,26 +409,16 @@
   ],
   "logo-antes": [
     {
-      "file": "logo-antes-640.webp",
-      "w": 220,
-      "h": 130
-    },
-    {
-      "file": "logo-antes-1400.webp",
-      "w": 220,
-      "h": 130
+      "file": "logo-antes-hd.png",
+      "w": 1632,
+      "h": 964
     }
   ],
   "logo-despues": [
     {
-      "file": "logo-despues-640.webp",
-      "w": 640,
-      "h": 292
-    },
-    {
-      "file": "logo-despues-1400.webp",
-      "w": 790,
-      "h": 360
+      "file": "logo-despues-hd.png",
+      "w": 1859,
+      "h": 846
     }
   ]
 }

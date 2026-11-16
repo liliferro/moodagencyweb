@@ -49,14 +49,14 @@
   ],
   "despues-catalogo": [
     {
-      "file": "despues-catalogo-640.webp",
+      "file": "catalogo-audit-640.webp",
       "w": 640,
-      "h": 380
+      "h": 360
     },
     {
-      "file": "despues-catalogo-1400.webp",
-      "w": 909,
-      "h": 540
+      "file": "catalogo-audit-1265.webp",
+      "w": 1265,
+      "h": 712
     }
   ],
   "despues-ficha": [

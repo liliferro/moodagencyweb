@@ -170,5 +170,5 @@ Data de compra: Procesamos datos de compra (género, edad, ticket medio) para de
 - [Cómo elegir una agencia de generación de leads B2B](https://mood-agency.com/blog/como-elegir-agencia-de-leads-b2b/): Diez preguntas para hacerle a una agencia antes de firmar, qué respuesta esperar en cada una y las señales de alerta.
 
 
-## Caso MatDepot
-[MatDepot: rebranding, web, SEO y GEO](https://mood-agency.com/casos/matdepot/): Rebranding Factory Mono, brandbook de 30 secciones, web B2B, 35 fichas, contenido, SEO/GEO y CRM. Corte: noviembre de 2026. Las métricas son señales iniciales de visibilidad, no ventas confirmadas.
+## Caso Mat Depot
+[Mat Depot: rebranding, web, SEO y GEO](https://mood-agency.com/casos/matdepot/): Rebranding Factory Mono, brandbook de 30 secciones, web B2B, 35 fichas, contenido, SEO/GEO y CRM. Corte: noviembre de 2026. Las métricas son señales iniciales de visibilidad, no ventas confirmadas.

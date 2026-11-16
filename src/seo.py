@@ -27,6 +27,11 @@ META = {
  '/blog/contenido-util-para-personas-y-buscadores/': ('Contenido útil para SEO y respuestas con IA', 'Crea contenido que responda preguntas reales con evidencia, contexto y fuentes. Guía editorial para personas, buscadores y experiencias con IA.'),
  '/blog/web-que-convierte-sin-friccion/': ('Cómo mejorar el contacto desde tu web', 'Revisa propuesta de valor, navegación, pruebas y formularios para facilitar el contacto. Aprende a detectar fricciones antes de añadir más efectos.'),
 }
+# Keep service metadata aligned with the IA offer.
+AI_SERVICES=json.loads((ROOT/'src/service-ai.json').read_text(encoding='utf-8'))
+META.update({'/servicios/'+s['slug']+'/':(s['metaTitle'],s['metaDesc']) for s in AI_SERVICES})
+META.update({"/":["Agencia de marketing, IA y tecnología en CDMX","IA y tecnología integradas en todos los servicios de Mood Agency: estrategia, web, campañas, ecommerce, automatización y SEO/GEO."],"/servicios/":["Servicios de marketing con IA y tecnología","Descubre los servicios de Mood Agency: estrategia, web, leads, ecommerce, automatización y SEO/GEO con IA, tecnología y criterio profesional."],"/nosotros/":["Mood Agency: marketing, IA y tecnología","Conoce Mood Agency, dirigida por Liliana Ferro en CDMX. Integramos IA, tecnología y criterio profesional en todos nuestros servicios de marketing."]})
+
 CASES = {
  'runahr': ('Runa: desarrollo y optimización web', 'Conoce el proyecto de Mood Agency para Runa: renovación de su sitio WordPress, experiencia de navegación, localización y gestión de contenidos.'),
  'wide-angle': ('Wide Angle: web de postproducción', 'Explora el proyecto web de Mood Agency para Wide Angle: presentación de servicios de postproducción, portafolio audiovisual y experiencia de navegación.'),

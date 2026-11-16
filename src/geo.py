@@ -1,5 +1,7 @@
 """Commercial GEO service page; all claims are intentionally bounded."""
 from html import escape
+from pathlib import Path
+import json
 
 PATH = '/servicios/posicionamiento-geo/'
 DESCRIPTION = 'Mejora la visibilidad de tu empresa en buscadores y respuestas de IA. Mood Agency conecta SEO, contenido B2B y medición GEO en México.'
@@ -10,6 +12,9 @@ SERVICE = {
     'case': None, 'question': '¿Se puede garantizar aparecer en ChatGPT?',
     'answer': 'No. Podemos trabajar contenido, accesibilidad y evidencia, pero no controlar las respuestas ni garantizar recomendaciones de un modelo.'
 }
+AI_SERVICE=next(s for s in json.loads((Path(__file__).parent/'service-ai.json').read_text(encoding='utf-8')) if s['slug']=='posicionamiento-geo')
+SERVICE.update(AI_SERVICE)
+DESCRIPTION=AI_SERVICE['metaDesc']
 TECHNICAL_FAQ = [
     ('¿Qué es GEO y en qué se diferencia del SEO?', 'GEO, o Generative Engine Optimization, es el trabajo orientado a mejorar cómo una empresa puede ser descubierta y representada en respuestas generadas por IA. SEO facilita que sus páginas sean encontradas y comprendidas por buscadores. Ambos comparten contenido útil, acceso técnico y evidencia; GEO añade observación de respuestas, menciones y citas.'),
     ('¿Pueden garantizar que ChatGPT recomiende mi empresa?', 'No. Las respuestas cambian según la pregunta, el contexto, el producto y el momento. Nos comprometemos con un alcance, entregables y medición acordados; no con una posición fija ni una recomendación garantizada.'),
@@ -90,8 +95,10 @@ FAQ = [item for _, items in FAQ_GROUPS for item in items] + TECHNICAL_FAQ
 
 def render(page, section, title, link, faq, cta, base):
     hero = title('Posicionamiento GEO<br><span class="accent">para empresas B2B.</span>',
-        'Ayuda a tus compradores a encontrar y entender tu empresa en Google y en respuestas de IA. En Mood conectamos SEO, contenido experto y medición para trabajar tu visibilidad con objetivos comerciales.',
+        SERVICE['desc'],
         'Visibilidad en Google e IA · México', link('/servicios/', 'Servicios')+' / GEO')
+    ai = section('<p class="eyebrow">El enfoque Mood</p><h2>Cómo integramos IA y tecnología</h2><ul>'+''.join('<li>'+escape(x)+'</li>' for x in SERVICE['applications'])+'</ul><h3>Cómo evaluamos su aporte</h3><p>'+escape(SERVICE['measurement'])+'</p>')
+    hero += ai
     hero = hero.replace('<h1>', '<h1 style="font-size:clamp(36px,7.5vw,112px);overflow-wrap:anywhere">')
     hero += section('<div class="actions">'+cta('Hablemos de tu visibilidad GEO', 'geo-hero')+link('#alcance', 'Qué incluye el servicio', 'btn secondary')+'</div><p class="note">Definimos oportunidades y alcance contigo. Ningún proveedor puede garantizar una recomendación de un modelo de IA.</p>')
     context = section('<div class="two"><div><p class="eyebrow">El reto</p><h2>Tu experiencia debe ser fácil de encontrar y comprobar.</h2><p>Un comprador necesita entender qué vendes, para qué aplicaciones, dónde operas y por qué considerarte. Si esa información está dispersa, es ambigua o carece de evidencia, evaluar tu empresa resulta más difícil.</p><p>Trabajamos la información y las páginas que ayudan a responder esas preguntas, desde la búsqueda inicial hasta la evaluación de proveedores.</p></div><div class="service-card"><p class="eyebrow">Para quién</p><h3>Fabricantes, distribuidores y empresas de servicios B2B</h3><ul><li>Con trayectoria y una oferta que necesita explicarse bien.</li><li>Con web activa y equipo comercial.</li><li>Que buscan visibilidad en nuevos procesos de investigación.</li><li>Dispuestas a aportar conocimiento y validar contenidos.</li></ul></div></div>')
@@ -113,6 +120,6 @@ def render(page, section, title, link, faq, cta, base):
     close = section('<div class="two"><div><p class="eyebrow">El siguiente paso</p><h2>Hablemos de cómo te encuentran tus compradores.</h2><p>Compártenos tu web, qué vende tu empresa y a quién quieres llegar. Revisaremos el objetivo para definir el alcance y preparar una propuesta cuando exista encaje.</p></div><div><div class="actions">'+cta('Consultar sobre posicionamiento GEO', 'geo-contact')+'</div><p class="note">En el formulario, indica GEO en el mensaje. Enviar una consulta no implica contratar un servicio.</p></div></div>', 'panel')
     sources = section('<div class="narrow prose"><p class="small">Referencia técnica: <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener noreferrer">Google Search Central: funciones de IA y tu sitio web</a>. Google mantiene los fundamentos de SEO para sus experiencias de IA. Esta documentación no describe por sí sola el funcionamiento de otros proveedores.</p></div>')
     page(PATH, 'Posicionamiento GEO para empresas en México', DESCRIPTION, hero+context+definition+scope+process+measurement+example+reads+questions+close+sources, [
-        {'@type':'Service', '@id':base+PATH+'#service', 'name':'Posicionamiento GEO para empresas', 'serviceType':'Posicionamiento GEO y visibilidad en respuestas de IA', 'description':DESCRIPTION, 'url':base+PATH, 'provider':{'@id':base+'/#organization'}, 'areaServed':{'@type':'Country','name':'México'}},
+        {'@type':'Service', '@id':base+PATH+'#service', 'name':SERVICE['title'], 'serviceType':SERVICE['title'], 'description':SERVICE['desc'], 'url':base+PATH, 'provider':{'@id':base+'/#organization'}, 'areaServed':{'@type':'Country','name':'México'}},
         {'@type':'FAQPage','mainEntity':[{'@type':'Question','name':q,'acceptedAnswer':{'@type':'Answer','text':a}} for q,a in FAQ]}
     ])

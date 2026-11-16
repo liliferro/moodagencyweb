@@ -158,3 +158,8 @@ finish(pages)
 # Keep the approved B2B covers, dates and metadata when rebuilding the site.
 import subprocess
 subprocess.run(['node', str(ROOT / 'src/publish-b2b.mjs')], check=True)
+
+# Preserve the MatDepot case and its listing when rebuilding.
+from matdepot_case import publish as publish_matdepot
+publish_matdepot(ROOT)
+

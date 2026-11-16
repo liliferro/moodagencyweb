@@ -56,3 +56,7 @@ Los casos describen proyectos de Mood Agency; no garantizan resultados futuros. 
 - [Landing que entrevista: de visita a conversación con IA](https://mood-agency.com/blog/landing-conversacional-con-ia/): Qué es una landing que entrevista al visitante, en qué se diferencia de un formulario y de un chatbot, y cómo saber si le sirve a tu empresa.
 - [Cómo demostrar el retorno de marketing a dirección](https://mood-agency.com/blog/como-demostrar-retorno-de-marketing/): Qué números llevarle a tu director, cómo conectarlos con ventas y un reporte de una página que puedes armar este mes.
 - [Cómo elegir una agencia de generación de leads B2B](https://mood-agency.com/blog/como-elegir-agencia-de-leads-b2b/): Diez preguntas para hacerle a una agencia antes de firmar, qué respuesta esperar en cada una y las señales de alerta.
+
+
+## Caso MatDepot
+[MatDepot: rebranding, web, SEO y GEO](https://mood-agency.com/casos/matdepot/): Rebranding Factory Mono, brandbook de 30 secciones, web B2B, 35 fichas, contenido, SEO/GEO y CRM. Corte: noviembre de 2026. Las métricas son señales iniciales de visibilidad, no ventas confirmadas.

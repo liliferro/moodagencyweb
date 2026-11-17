@@ -38,6 +38,7 @@
   if(industry){industry.addEventListener('change',filter);service.addEventListener('change',filter);filter();}
   const formTarget=document.getElementById('contact-form');
   if(formTarget){
+    const MOOD_FORM_CSS='html,body{background:#08080a!important;color:#f2f0ea!important}.hs-form,.hs-form fieldset{color:#f2f0ea!important;max-width:none!important}.hs-form label,.hs-form legend,.hs-form .hs-richtext,.hs-form .hs-richtext p,.hs-form .hs-form-field>label span{color:#f2f0ea!important}.hs-form .hs-field-desc,.hs-form legend.hs-field-desc{color:rgba(242,240,234,.76)!important}.hs-form .hs-input:not([type=checkbox]):not([type=radio]):not([type=submit]){background:#16161f!important;color:#f2f0ea!important;border:1px solid rgba(242,240,234,.38)!important;border-radius:8px!important;box-shadow:none!important}.hs-form .hs-input::placeholder{color:rgba(242,240,234,.62)!important;opacity:1!important}.hs-form .hs-input:focus{border-color:#2f44ff!important;outline:2px solid rgba(47,68,255,.55)!important;outline-offset:1px}.hs-form select.hs-input option{background:#16161f;color:#f2f0ea}.hs-form .hs-form-required,.hs-form label span.hs-form-required{color:#ff6b81!important}.hs-form .hs-error-msgs label,.hs-form .hs-error-msg,.hs-form .hs_error_rollup label{color:#ff8a9b!important}.hs-form .hs-input.invalid.error{border-color:#ff6b81!important}.hs-form input[type=checkbox],.hs-form input[type=radio]{accent-color:#2f44ff}.hs-form a{color:#9aa6ff!important}.submitted-message,.submitted-message p{color:#f2f0ea!important}.hubspot-link__container,.hubspot-link__container *{color:rgba(242,240,234,.6)!important}.hubspot-link__container svg path,.hubspot-link__container svg{fill:rgba(242,240,234,.6)!important}iframe[src*="embedded-viral-link"]{filter:invert(1) hue-rotate(180deg)}';
     const formId='91241afc-076e-44f7-b580-4447590d7e94',leadId=crypto.randomUUID();
     let submitted=false;
     const script=document.createElement('script');
@@ -46,6 +47,7 @@
       portalId:'50738398',formId,region:'na1',target:'#contact-form',
       onFormReady:(form)=>{
         const el=form && (form.nodeType?form:form[0]); if(!el)return;
+        const doc=el.ownerDocument;if(doc&&doc!==document&&!doc.getElementById('mood-dark-form')){const st=doc.createElement('style');st.id='mood-dark-form';st.textContent=MOOD_FORM_CSS;(doc.head||doc.documentElement).append(st);}
         const values={lead_id:leadId,originpage:location.pathname,utm_source:'',utm_medium:'',utm_campaign:'',utm_content:'',utm_term:'',gclid:''};
         if(consent.analytics){try{const attr=JSON.parse(safeRead(sessionStorage,'mood-attribution')||'{}');for(const key of ['utm_source','utm_medium','utm_campaign','utm_content','utm_term',...(consent.ads?['gclid']:[])])if(typeof attr[key]==='string')values[key]=attr[key];}catch{}}
         for(const [key,value] of Object.entries(values)){const input=el.querySelector('[name="'+key+'"]');if(input){input.value=value;input.dispatchEvent(new Event('input',{bubbles:true}));input.dispatchEvent(new Event('change',{bubbles:true}));}}

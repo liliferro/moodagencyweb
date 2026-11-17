@@ -60,5 +60,42 @@
     });
     formTarget.append(script);
   }
+
+  // Keep the floating contact action out of the opening screen and away from other CTAs.
+  const mobileCta=document.querySelector('.mobile-cta');
+  const opening=document.querySelector('main > .hero, main > section');
+  if(mobileCta){
+    const mobileViewport=window.matchMedia('(max-width:800px)');
+    const contactActions=[...document.querySelectorAll('main a.btn[href="/contacto/"], .footer a.btn[href="/contacto/"]')];
+    const header=document.querySelector('header');
+    const updateMobileCta=()=>{
+      const headerBottom=header?header.getBoundingClientRect().bottom:0;
+      const visibleAction=contactActions.some(action=>{
+        const rect=action.getBoundingClientRect();
+        return rect.width>0 && rect.height>0 && rect.bottom>headerBottom && rect.top<window.innerHeight;
+      });
+      const openingPassed=opening ? opening.getBoundingClientRect().bottom<=0 : window.scrollY>window.innerHeight;
+      const blocked=(banner && !banner.hidden) || (nav && nav.classList.contains('open')) || document.querySelector('dialog[open]');
+      mobileCta.hidden=!mobileViewport.matches || !openingPassed || visibleAction || !!blocked || !!formTarget;
+    };
+    updateMobileCta();
+    mobileCta.classList.add('cta-managed');
+    if('IntersectionObserver' in window){
+      const observer=new IntersectionObserver(updateMobileCta,{threshold:[0,1]});
+      if(opening)observer.observe(opening);
+      contactActions.forEach(action=>observer.observe(action));
+    }
+    let ctaFrame=0;
+    const scheduleCta=()=>{if(!ctaFrame)ctaFrame=requestAnimationFrame(()=>{ctaFrame=0;updateMobileCta()})};
+    window.addEventListener('scroll',scheduleCta,{passive:true});
+    window.addEventListener('resize',scheduleCta,{passive:true});
+    window.addEventListener('pageshow',scheduleCta);
+    if(window.visualViewport)window.visualViewport.addEventListener('resize',scheduleCta,{passive:true});
+    const stateObserver=new MutationObserver(scheduleCta);
+    if(banner)stateObserver.observe(banner,{attributes:true,attributeFilter:['hidden','class']});
+    if(nav)stateObserver.observe(nav,{attributes:true,attributeFilter:['class']});
+    document.querySelectorAll('dialog').forEach(dialog=>stateObserver.observe(dialog,{attributes:true,attributeFilter:['open']}));
+  }
+
   if(location.pathname==='/gracias/'&&safeRead(sessionStorage,'mood-form-submitted')!=='1'){document.getElementById('thanks-title').textContent='Gracias por visitar Mood';document.getElementById('thanks-copy').textContent='Si todavía no has enviado tu proyecto, puedes hacerlo desde nuestra página de contacto.';}
 })();

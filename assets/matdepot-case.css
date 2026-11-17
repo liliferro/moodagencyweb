@@ -127,3 +127,6 @@ body[data-case="matdepot"] #consent-banner.md-consent-compact #consent-save{min-
 .md-case .md-result strong{color:var(--green)}
 .md-case p{max-width:70ch}
 .md-paper .md-label.after,.md-paper a{color:var(--blue)}
+
+/* Keep FAQ questions legible on light sections without changing dark panels. */
+.md-paper .md-method summary{color:var(--ink)}

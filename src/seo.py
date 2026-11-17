@@ -37,7 +37,7 @@ CASES = {
  'wide-angle': ('Wide Angle: web de postproducción', 'Explora el proyecto web de Mood Agency para Wide Angle: presentación de servicios de postproducción, portafolio audiovisual y experiencia de navegación.'),
  'cachalo-y-gana': ('Cachalo y Gana: plataforma digital', 'Conoce la plataforma digital de Cachalo y Gana desarrollada por Mood Agency para conectar un programa de concursos con la participación de su audiencia.'),
  'xcape': ('Xcape: plataforma web de viajes', 'Descubre el proyecto de Mood Agency para Xcape: una plataforma digital para presentar viajes de aventura y facilitar el recorrido hacia la reserva.'),
- 'mia-astral': ('Mia Astral: ecommerce y membresías', 'Conoce el trabajo de Mood Agency en el ecosistema digital de Mia Astral: plataforma de membresía, contenidos, productos y experiencia de compra.'),
+ 'mia-astral': ('Mia Astral: 13 años de evolución digital', '13 años de Mood Agency junto a Mia Astral: comunidad, web, membresía, agenda, automatización e IA. Conoce la evolución y sus resultados.'),
  'pfs-realty': ('PFS Realty: plataforma inmobiliaria', 'Explora la plataforma inmobiliaria de PFS Realty: búsqueda de propiedades, integración de datos y experiencia web desarrolladas por Mood Agency.'),
  'erika-de-la-vega': ('Erika de la Vega: contenido y web', 'Conoce el proyecto de Mood Agency para Erika de la Vega: presencia digital, contenidos, marca personal y una web conectada con su audiencia.'),
  'ismael-cala': ('Ismael Cala: plataforma y ecommerce', 'Descubre el proyecto digital de Mood Agency para Ismael Cala: plataforma de contenidos, comercio electrónico y experiencia para su comunidad.'),

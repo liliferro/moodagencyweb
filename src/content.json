@@ -220,58 +220,55 @@
       "slug": "mia-astral",
       "name": "Mia Astral",
       "category": "Digital Ecosystem",
-      "kicker": "Caso de éxito · 2012 – actualidad",
+      "kicker": "Caso de éxito · 2013–2026",
       "cover": "/web/portfolio/caso-de-exito-mia.png",
       "image": "/web/portfolio/mia/header.jpg",
       "accent": "#B98CFF",
-      "tagline": "Transformando un blog en un imperio digital de suscripción escalable.",
+      "tagline": "13 años conectando contenido, comunidad y tecnología para hacer crecer un ecosistema digital.",
       "stats": [
         {
-          "v": "600%",
-          "l": "Crecimiento de Tráfico"
+          "v": "≈ +3.389%",
+          "l": "Instagram · dic. 2014–nov. 2026"
         },
         {
-          "v": "160%",
-          "l": "Aumento de Ingresos"
+          "v": "+89,8%",
+          "l": "Ventas netas WooCommerce · 2025 vs. 2021"
         },
         {
-          "v": "33k+",
-          "l": "Suscriptores de Pago"
+          "v": "+44,7%",
+          "l": "Conversión de membresía reportada · 2023 vs. 2022"
         }
       ],
-      "context": "Mia Astral revolucionó la astrología moderna enfocándose en el crecimiento personal y el coaching. Sin embargo, su hogar digital era demasiado pequeño. Un simple blog no podía contener la visión: una plataforma integral para el empoderamiento, la educación y la comunidad.",
-      "challenge": "El éxito trae su propia gravedad. A medida que la popularidad de Mia explotaba, su infraestructura comenzó a fallar. Los eventos de alto tráfico colapsaban el sitio y la monetización manual creaba fricción.",
+      "context": "Desde 2013, Mood Agency acompaña a Mia Astral en la evolución de su marca, comunidad y negocio digital, junto con el equipo interno y los especialistas de cada etapa.",
+      "challenge": "Conectar el crecimiento de la comunidad con una oferta organizada, mejores recorridos de compra y una operación capaz de evolucionar.",
       "points": [
         {
-          "t": "Caídas en picos",
-          "b": "El sitio no podía manejar picos de más de 50k usuarios concurrentes durante eventos astrológicos importantes."
+          "t": "Comunidad y relación",
+          "b": "Conectar descubrimiento, contenidos y productos."
         },
         {
-          "t": "Fricción en el pago",
-          "b": "Procesos de pago complejos causaban tasas de abandono del carrito del 70%."
+          "t": "Experiencia digital",
+          "b": "Facilitar los recorridos de acceso y compra."
         },
         {
-          "t": "Datos fragmentados",
-          "b": "Sin una vista unificada del viaje del cliente o el valor de vida para optimizar el crecimiento."
+          "t": "Operación y datos",
+          "b": "Coordinar campañas, equipos y aprendizaje."
         }
       ],
       "solution": [
         {
-          "t": "Infraestructura",
-          "b": "Diseñamos y optimizamos la infraestructura técnica para soportar picos de hasta 5,000 usuarios concurrentes sin interrupciones, garantizando una experiencia de compra fluida y segura en el ecommerce durante lanzamientos críticos."
+          "t": "Estrategia y ejecución",
+          "b": "Acompañamiento al marketing y la operación del ecosistema."
         },
         {
-          "t": "Modelo de membresía",
-          "b": "Un modelo de suscripción que convirtió a lectores casuales en miembros comprometidos, creando un flujo de ingresos recurrente y predecible."
+          "t": "Web y membresía",
+          "b": "Mejoras y coordinación de la experiencia digital."
         },
         {
-          "t": "Ecosistema unificado",
-          "b": "Integramos webinars, venta de productos físicos y venta de entradas para eventos en un único panel unificado, proporcionando una experiencia de usuario sin fricciones en todos los puntos de contacto."
+          "t": "Automatización e IA",
+          "b": "Formación aplicada y recursos reutilizables para el equipo."
         }
-      ],
-      "resultLabel": "Testimonio",
-      "result": "Mood Agency no solo construyó un sitio web. Construyeron el motor que impulsa todo mi modelo de negocio.",
-      "author": "Mia Astral"
+      ]
     },
     {
       "slug": "pfs-realty",

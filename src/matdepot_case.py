@@ -10,6 +10,22 @@ TITLE='Mat Depot: rebranding, web, SEO y GEO'
 DESC='De catálogo genérico a marca técnica: el caso Mat Depot de Mood Agency. Rebranding, brandbook, web B2B, SEO, GEO, contenido y CRM, con antes y después.'
 DATE='2026-11-16'
 
+
+CASE_CARD_PATTERN=r'(?:<!-- MATDEPOT CARD -->)?<a\b[^>]*\bdata-case-card\b[^>]*>.*?</a>(?:<!-- /MATDEPOT CARD -->)?'
+def prioritize_case_cards(html, featured=None):
+ cards=re.findall(CASE_CARD_PATTERN,html,flags=re.S)
+ if featured is None:
+  priority=('mia-astral','matdepot','runahr')
+  by_slug={re.search(r'href="/casos/([^/]+)/',card)[1]:card for card in cards}
+  featured=[by_slug[slug] for slug in priority]
+  ordered=featured+[card for card in cards if card not in featured]
+ else:
+  ordered=featured
+ if len(cards)!=len(ordered):
+  raise ValueError('Unexpected case card count while applying the featured order')
+ replacements=iter(ordered)
+ return re.sub(CASE_CARD_PATTERN,lambda match:next(replacements),html,flags=re.S),featured
+
 def publish(root):
  root=Path(root)
  images=json.loads((root/'src/matdepot-images.json').read_text(encoding='utf-8'))
@@ -45,10 +61,13 @@ def publish(root):
   def add(m):return m[0] if '<option>'+option+'</option>' in m[0] else m[0].replace('</select>','<option>'+option+'</option></select>')
   text=re.sub(r'<select id="'+ident+'">.*?</select>',add,text)
  text=text.replace('11 casos','12 casos').replace('11 proyectos','12 proyectos')
+ text,featured=prioritize_case_cards(text)
  listing.write_text(text,encoding='utf-8')
  home=root/'index.html'
  if home.exists():
-  h=home.read_text(encoding='utf-8').replace('<strong>11</strong><span>casos publicados','<strong>12</strong><span>casos publicados').replace('Explorar los 11 casos','Explorar los 12 casos');home.write_text(h,encoding='utf-8')
+  h=home.read_text(encoding='utf-8').replace('<strong>11</strong><span>casos publicados','<strong>12</strong><span>casos publicados').replace('Explorar los 11 casos','Explorar los 12 casos')
+  h,_=prioritize_case_cards(h,featured)
+  home.write_text(h,encoding='utf-8')
  manifest=root/'src/page-manifest.json';rows=json.loads(manifest.read_text(encoding='utf-8'));rows=[r for r in rows if r['path']!=PATH];rows.append({'path':PATH,'title':TITLE,'description':DESC});manifest.write_text(json.dumps(rows,ensure_ascii=False,indent=2),encoding='utf-8')
  sitemap=root/'sitemap.xml';xml=sitemap.read_text(encoding='utf-8');xml=re.sub(r'<url><loc>'+re.escape(BASE+PATH)+r'</loc>.*?</url>','',xml,flags=re.S);xml=xml.replace('</urlset>',f'<url><loc>{BASE+PATH}</loc><lastmod>{DATE}</lastmod></url></urlset>');sitemap.write_text(xml,encoding='utf-8')
  for name in ['llms.txt','llms-full.txt']:

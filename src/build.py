@@ -169,3 +169,7 @@ subprocess.run(['node', str(ROOT / 'src/publish-b2b.mjs')], check=True)
 from matdepot_case import publish as publish_matdepot
 publish_matdepot(ROOT)
 
+
+# Publish reviewed English counterparts after every Spanish page is generated.
+import sys
+subprocess.run([sys.executable, str(ROOT / "src/build-bilingual.py")], check=True)

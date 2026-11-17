@@ -25,3 +25,27 @@ body[data-brand="technology"]{--accent:var(--text)}
 
 /* No floating CTA before visibility rules have initialized. Normal page links remain available. */
 .mobile-cta:not(.cta-managed){display:none!important}
+
+/* Lightweight motion: no layout animation, looping effects or content hidden before JS. */
+html{scroll-padding-top:110px}
+@media(prefers-reduced-motion:no-preference){
+  html{scroll-behavior:smooth}
+  .btn,.menu-toggle{transition:transform 160ms ease,background-color 160ms ease}
+  .btn:active,.menu-toggle:active{transform:scale(.98)}
+  .nav a{transition:background-color 160ms ease}
+  .mobile-cta.cta-managed:not([hidden]){animation:mood-cta-in 200ms cubic-bezier(.22,1,.36,1)}
+  details[open] > :not(summary){animation:mood-detail-in 180ms ease-out}
+  @media(max-width:800px){.nav.open{animation:mood-menu-in 180ms ease-out}}
+  @media(hover:hover) and (pointer:fine){
+    .card{transition:transform 200ms cubic-bezier(.22,1,.36,1)}
+    .card:hover{transform:translateY(-3px)}
+    .btn:hover{transform:translateY(-2px)}
+  }
+}
+@keyframes mood-cta-in{from{opacity:.75;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes mood-menu-in{from{opacity:.75;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
+@keyframes mood-detail-in{from{opacity:.7}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+@media print{*,*::before,*::after{animation:none!important;transition:none!important}}

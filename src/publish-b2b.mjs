@@ -33,7 +33,7 @@ for(const a of articles){
 }
 let blog=inputs["blog/index.html"];
 for(const a of articles)blog=blog.replace(new RegExp('<a class="card service-card" href="/blog/'+a.slug+'/">[\\s\\S]*?</a>','g'),"");
-const cards=articles.map(a=>`<a class="card service-card" href="/blog/${a.slug}/"><img src="${a.image}" alt="${esc(a.image_alt)}" width="${a.image_width}" height="${a.image_height}" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:12px;margin-bottom:18px"><p class="eyebrow">${esc(a.category)}</p><h3>${esc(a.title)}</h3><p>${esc(a.summary)}</p><span>Leer guía →</span></a>`).join("");
+const cards=articles.map(a=>`<a class="card service-card" href="/blog/${a.slug}/"><img src="${a.image}" alt="${esc(a.image_alt)}" width="${a.image_width}" height="${a.image_height}" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:20px;margin-bottom:18px"><p class="eyebrow">${esc(a.category)}</p><h3>${esc(a.title)}</h3><p>${esc(a.summary)}</p><span>Leer guía →</span></a>`).join("");
 blog=blog.replace('<div class="grid">','<div class="grid">'+cards);
 outputs["blog/index.html"]=blog;
 let sitemap=inputs["sitemap.xml"];

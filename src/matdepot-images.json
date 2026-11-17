@@ -71,18 +71,6 @@
       "h": 1377
     }
   ],
-  "ficha-dielectrico": [
-    {
-      "file": "ficha-dielectrico-640.webp",
-      "w": 640,
-      "h": 380
-    },
-    {
-      "file": "ficha-dielectrico-1400.webp",
-      "w": 909,
-      "h": 540
-    }
-  ],
   "comparador": [
     {
       "file": "comparador-640.webp",

@@ -30,18 +30,23 @@ body[data-brand="technology"]{--accent:var(--text)}
 html{scroll-padding-top:110px}
 @media(prefers-reduced-motion:no-preference){
   html{scroll-behavior:smooth}
+  /* The first screen moves without hiding text or delaying its appearance. */
+  main > section:first-child h1{animation:mood-title-in 700ms cubic-bezier(.22,1,.36,1)}
+  main > section:first-child .lede{animation:mood-copy-in 800ms cubic-bezier(.22,1,.36,1)}
   .btn,.menu-toggle{transition:transform 160ms ease,background-color 160ms ease}
   .btn:active,.menu-toggle:active{transform:scale(.98)}
   .nav a{transition:background-color 160ms ease}
   .mobile-cta.cta-managed:not([hidden]){animation:mood-cta-in 200ms cubic-bezier(.22,1,.36,1)}
   details[open] > :not(summary){animation:mood-detail-in 180ms ease-out}
-  @media(max-width:800px){.nav.open{animation:mood-menu-in 180ms ease-out}}
+  @media(max-width:800px){.nav.open{animation:mood-menu-in 260ms ease-out}}
   @media(hover:hover) and (pointer:fine){
     .card{transition:transform 200ms cubic-bezier(.22,1,.36,1)}
     .card:hover{transform:translateY(-3px)}
     .btn:hover{transform:translateY(-2px)}
   }
 }
+@keyframes mood-title-in{from{transform:translateY(22px)}to{transform:translateY(0)}}
+@keyframes mood-copy-in{from{transform:translateY(16px)}to{transform:translateY(0)}}
 @keyframes mood-cta-in{from{opacity:.75;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 @keyframes mood-menu-in{from{opacity:.75;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
 @keyframes mood-detail-in{from{opacity:.7}to{opacity:1}}

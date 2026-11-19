@@ -6,6 +6,14 @@ const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 function publishB2B(inputs,articles){
 const B="https://mood-agency.com";
 const esc=s=>String(s).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;");
+const BLOG_SIZES='(max-width:800px) calc(100vw - 40px), 840px';
+const BLOG_WIDTHS=[480,960,1440];
+function responsive(src, alt, w, h, eager, extraStyle=''){
+ const base=src.replace(/\.png$/,'');
+ const set=ext=>BLOG_WIDTHS.map(n=>`${base}-${n}.${ext} ${n}w`).join(', ');
+ const style=`display:block;width:100%;height:auto;border-radius:20px${extraStyle}`;
+ return `<picture><source type="image/avif" srcset="${set('avif')}" sizes="${BLOG_SIZES}"><source type="image/webp" srcset="${set('webp')}" sizes="${BLOG_SIZES}"><img src="${base}-960.webp" srcset="${set('webp')}" sizes="${BLOG_SIZES}" width="${w}" height="${h}" alt="${esc(alt)}" loading="${eager?'eager':'lazy'}" fetchpriority="${eager?'high':'low'}" decoding="async" style="${style}"></picture>`;
+}
 const json=s=>JSON.stringify(s).replaceAll("<","\\u003c");
 const template=inputs["blog/automatizar-seguimiento-comercial/index.html"];
 const originalGraph=JSON.parse(template.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])["@graph"];
@@ -27,13 +35,17 @@ for(const a of articles){
  let c=0;const articleBody=a.body.replace(/<h2>/g,()=>`<h2 id="seccion-${++c}">`);
  const related=a.related.map(slug=>articles.find(x=>x.slug===slug)).filter(Boolean);
  const dateText=a.slug==="automatizar-seguimiento-comercial"?'Publicado el <time datetime="2026-11-13">13 de noviembre de 2026</time> · Actualizado el <time datetime="2026-11-14">14 de noviembre de 2026</time>':'Publicado el <time datetime="2026-11-14">14 de noviembre de 2026</time>';
- const main=`<main id="contenido"><section class="section"><div class="wrap"><nav class="breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a> / <a href="/blog/">Blog</a></nav><p class="eyebrow">${esc(a.category)}</p><h1 style="font-size:clamp(32px,5.5vw,76px);overflow-wrap:anywhere">${esc(a.title)}</h1><p class="lede">${esc(a.summary)}</p></div></section><section class="section"><div class="wrap"><article class="narrow prose"><p class="muted">Por <a href="/nosotros/">Mood Agency</a> · ${dateText}</p><figure style="margin:24px 0"><img src="${a.image}" width="${a.image_width}" height="${a.image_height}" alt="${esc(a.image_alt)}" loading="eager" fetchpriority="high" decoding="async" style="display:block;width:100%;height:auto;border-radius:20px"><figcaption class="small">Ilustración editorial generada con IA para Mood Agency.</figcaption></figure><details class="service-card"><summary>En esta guía</summary><ul>${toc.map(t=>`<li><a href="#${t.id}">${esc(t.label)}</a></li>`).join("")}</ul></details>${articleBody}${a.sources.length?`<h2>Fuentes y documentación</h2><ul>${a.sources.map(([label,href])=>`<li><a href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(label)}</a></li>`).join("")}</ul>`:""}<p class="note">Los ejemplos y las plantillas son orientativos. Adapta los criterios a tu operación y verifica la información antes de usarla comercialmente.</p><aside><h2>Continúa con estas guías</h2><ul>${related.map(r=>`<li><a href="/blog/${r.slug}/">${esc(r.title)}</a></li>`).join("")}</ul></aside><div class="service-card"><h2>De la idea a tu operación</h2><p>Cuéntanos qué vende tu empresa, a quién atiende y qué quieres mejorar.</p><a href="/contacto/" class="btn" data-cta="article-b2b">Hablemos de tu proyecto</a></div></article></div></section></main>`;
+ const main=`<main id="contenido"><section class="section"><div class="wrap"><nav class="breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a> / <a href="/blog/">Blog</a></nav><p class="eyebrow">${esc(a.category)}</p><h1 style="font-size:clamp(32px,5.5vw,76px);overflow-wrap:anywhere">${esc(a.title)}</h1><p class="lede">${esc(a.summary)}</p></div></section><section class="section"><div class="wrap"><article class="narrow prose"><p class="muted">Por <a href="/nosotros/">Mood Agency</a> · ${dateText}</p><figure style="margin:24px 0">${responsive(a.image,a.image_alt,a.image_width,a.image_height,true)}<figcaption class="small">Ilustración editorial generada con IA para Mood Agency.</figcaption></figure><details class="service-card"><summary>En esta guía</summary><ul>${toc.map(t=>`<li><a href="#${t.id}">${esc(t.label)}</a></li>`).join("")}</ul></details>${articleBody}${a.sources.length?`<h2>Fuentes y documentación</h2><ul>${a.sources.map(([label,href])=>`<li><a href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(label)}</a></li>`).join("")}</ul>`:""}<p class="note">Los ejemplos y las plantillas son orientativos. Adapta los criterios a tu operación y verifica la información antes de usarla comercialmente.</p><aside><h2>Continúa con estas guías</h2><ul>${related.map(r=>`<li><a href="/blog/${r.slug}/">${esc(r.title)}</a></li>`).join("")}</ul></aside><div class="service-card"><h2>De la idea a tu operación</h2><p>Cuéntanos qué vende tu empresa, a quién atiende y qué quieres mejorar.</p><a href="/contacto/" class="btn" data-cta="article-b2b">Hablemos de tu proyecto</a></div></article></div></section></main>`;
  html=html.replace(/<main id="contenido">[\s\S]*?<\/main>/,main);
+ const heroBase=a.image.replace(/\.png$/,'');
+ const heroPreload=`<link rel="preload" as="image" href="${heroBase}-960.avif" imagesrcset="${BLOG_WIDTHS.map(n=>`${heroBase}-${n}.avif ${n}w`).join(', ')}" imagesizes="${BLOG_SIZES}" type="image/avif" fetchpriority="high">`;
+ html=html.replace(/<link\b[^>]*\bas="image"[^>]*>/g,'');
+ html=html.replace(/(<link\b[^>]*\brel="preload"[^>]*\bas="font"[^>]*>|<link\b[^>]*\bas="font"[^>]*\brel="preload"[^>]*>)/,heroPreload+'$1');
  outputs["blog/"+a.slug+"/index.html"]=html;
 }
 let blog=inputs["blog/index.html"];
 for(const a of articles)blog=blog.replace(new RegExp('<a class="card service-card" href="/blog/'+a.slug+'/">[\\s\\S]*?</a>','g'),"");
-const cards=articles.map(a=>`<a class="card service-card" href="/blog/${a.slug}/"><img src="${a.image}" alt="${esc(a.image_alt)}" width="${a.image_width}" height="${a.image_height}" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:20px;margin-bottom:18px"><p class="eyebrow">${esc(a.category)}</p><h3>${esc(a.title)}</h3><p>${esc(a.summary)}</p><span>Leer guía →</span></a>`).join("");
+const cards=articles.map(a=>`<a class="card service-card" href="/blog/${a.slug}/">${responsive(a.image,a.image_alt,a.image_width,a.image_height,false,';margin-bottom:18px')}<p class="eyebrow">${esc(a.category)}</p><h3>${esc(a.title)}</h3><p>${esc(a.summary)}</p><span>Leer guía →</span></a>`).join("");
 blog=blog.replace('<div class="grid">','<div class="grid">'+cards);
 outputs["blog/index.html"]=blog;
 let sitemap=inputs["sitemap.xml"];

@@ -1,0 +1,135 @@
+[
+  {
+    "slug": "marketing-estrategico",
+    "title": "Marketing estratégico con IA",
+    "desc": "Conectamos estrategia de marketing, IA y análisis de datos para definir dónde y cómo crecer. Investigamos audiencias, oferta y competencia con apoyo de IA y validación del equipo. Convertimos los hallazgos en prioridades, mensajes y un plan de acción medible.",
+    "metaTitle": "Estrategia de marketing con IA para empresas",
+    "metaDesc": "Diseña tu estrategia de marketing con IA y datos. Mood Agency conecta investigación, posicionamiento, contenidos y decisiones comerciales.",
+    "deliver": [
+      "Investigación asistida por IA de audiencias, canales y competencia",
+      "Propuesta de valor y mensajes revisados por estrategas",
+      "Plan de contenidos y adquisición apoyado en datos",
+      "Hoja de ruta con indicadores, responsables y experimentos"
+    ],
+    "applications": [
+      "Analizamos información de mercado y feedback con IA para identificar patrones que el equipo contrasta con las fuentes.",
+      "Exploramos propuestas de mensajes y contenidos con IA, alineadas con la identidad de marca y sujetas a revisión.",
+      "Conectamos los datos disponibles en un tablero para priorizar pruebas y evaluar qué acciones generan oportunidades."
+    ],
+    "measurement": "Medimos el avance del plan, la respuesta a los mensajes y las oportunidades por canal según los datos disponibles."
+  },
+  {
+    "slug": "desarrollo-web",
+    "title": "Diseño y desarrollo web con IA",
+    "desc": "Integramos IA, diseño y tecnología para crear sitios web orientados a los objetivos de tu negocio. Aplicamos IA al trabajo de arquitectura, contenido y desarrollo con revisión profesional. Conectamos la web con analítica, CRM y funcionalidades inteligentes según el alcance acordado.",
+    "metaTitle": "Diseño y desarrollo web con IA para empresas",
+    "metaDesc": "Crea una web con IA aplicada al diseño, contenido y desarrollo. Mood Agency conecta experiencia de usuario, SEO, analítica e integraciones.",
+    "deliver": [
+      "Arquitectura y prototipos apoyados por IA y diseño profesional",
+      "Desarrollo asistido por IA con revisión de código y pruebas",
+      "SEO técnico, medición y conexión con sistemas compatibles",
+      "Evaluación e implementación de funciones de IA según alcance"
+    ],
+    "applications": [
+      "Usamos IA para explorar estructuras de contenido, recorridos y prototipos; el equipo valida la experiencia y la accesibilidad.",
+      "Aceleramos tareas de desarrollo y documentación con IA, revisando el código y probando las funciones antes de publicar.",
+      "Cuando aporta valor al proyecto, integramos asistentes basados en contenido aprobado, búsqueda o captación conectada con el CRM."
+    ],
+    "measurement": "Medimos navegación, velocidad, contactos y conversión; las funciones de IA se evalúan también por la calidad de sus respuestas."
+  },
+  {
+    "slug": "performance-y-leads",
+    "title": "Performance y leads con IA",
+    "desc": "Combinamos publicidad, IA y tecnología comercial para captar y trabajar oportunidades de venta. Aplicamos IA al análisis de campañas y a la creación de variantes de mensajes bajo revisión. Conectamos anuncios, páginas de destino y CRM para evaluar la calidad del lead y orientar la optimización.",
+    "metaTitle": "Performance y generación de leads con IA",
+    "metaDesc": "Conecta publicidad, IA y CRM para generar oportunidades. Mood Agency trabaja campañas, mensajes, seguimiento y medición de calidad de leads.",
+    "deliver": [
+      "Plan de campañas y análisis del embudo con apoyo de IA",
+      "Variantes de anuncios y páginas de destino para pruebas",
+      "Medición de conversiones y conexión con CRM según viabilidad",
+      "Calificación asistida por IA y seguimiento según datos y alcance"
+    ],
+    "applications": [
+      "La IA ayuda a detectar patrones de desempeño y a proponer hipótesis que contrastamos con los datos de campaña.",
+      "Generamos y revisamos variantes creativas para probar mensajes, propuestas de valor y páginas de destino.",
+      "Diseñamos clasificación y resúmenes de consultas con IA para facilitar la priorización comercial; las reglas y el seguimiento se acuerdan con ventas."
+    ],
+    "measurement": "Evaluamos costo por oportunidad, calidad del lead y avance comercial cuando existe información suficiente en el CRM."
+  },
+  {
+    "slug": "ecommerce",
+    "title": "Ecommerce y ventas con IA",
+    "desc": "Integramos IA, ecommerce y automatización para mejorar el recorrido de compra y la relación con tus clientes. Analizamos comportamiento y fricciones con apoyo de IA. Diseñamos la tienda o membresía y priorizamos contenido, segmentación y seguimiento según los datos y las integraciones disponibles.",
+    "metaTitle": "Ecommerce y membresías con IA",
+    "metaDesc": "Desarrolla tu ecommerce con IA, analítica y automatización. Mood Agency conecta compra, catálogo, seguimiento y retención con objetivos medibles.",
+    "deliver": [
+      "Tienda o membresía con pagos y sistemas compatibles",
+      "Análisis de compra y catálogo asistido por IA",
+      "Segmentación y flujos de seguimiento según datos disponibles",
+      "Plan de conversión y retención con indicadores definidos"
+    ],
+    "applications": [
+      "Apoyamos la organización y redacción del catálogo con IA; el negocio valida precios, características y condiciones.",
+      "Analizamos patrones de compra y recurrencia para proponer segmentos y acciones de retención.",
+      "Integramos seguimiento de carritos, comunicaciones y funciones de recomendación cuando la plataforma y los datos lo permiten."
+    ],
+    "measurement": "Medimos conversión, valor de compra y recurrencia; en membresías, también cancelaciones y permanencia cuando los datos están disponibles."
+  },
+  {
+    "slug": "automatizacion",
+    "title": "Automatización e IA para marketing",
+    "desc": "Conectamos herramientas, automatización e IA para reducir tareas repetitivas de marketing y ventas. Combinamos reglas de negocio con IA para clasificar, resumir y preparar información. Diseñamos flujos trazables entre formularios, CRM y canales compatibles, con responsables y revisión en los puntos acordados.",
+    "metaTitle": "Automatización con IA para marketing y ventas",
+    "metaDesc": "Conecta formularios, CRM y comunicación con automatización e IA. Mood Agency diseña flujos para clasificar consultas y facilitar el seguimiento.",
+    "deliver": [
+      "Mapa de procesos y selección de tareas para IA",
+      "Flujos con reglas, clasificación y resúmenes asistidos por IA",
+      "Integraciones, pruebas y manejo de excepciones",
+      "Documentación, alertas y capacitación del equipo"
+    ],
+    "applications": [
+      "Distinguimos las tareas que necesitan reglas fijas de aquellas donde la IA aporta comprensión de texto o contexto.",
+      "Integramos IA para clasificar solicitudes, resumir conversaciones o preparar borradores dentro del flujo acordado.",
+      "Conectamos los resultados con herramientas compatibles y definimos alertas, aprobaciones y derivación a una persona."
+    ],
+    "measurement": "Comparamos tiempo de gestión, tareas manuales, errores y tiempos de respuesta con la situación inicial."
+  },
+  {
+    "slug": "inteligencia-artificial",
+    "title": "Consultoría e implementación de IA",
+    "desc": "Integramos IA en los procesos, herramientas y capacidades de tu equipo para resolver necesidades concretas del negocio. Priorizamos casos de uso, desarrollamos pilotos y conectamos soluciones con tu operación. La capacitación y la evaluación de calidad permiten llevar la IA al trabajo diario con criterio.",
+    "metaTitle": "Consultoría e implementación de IA en marketing",
+    "metaDesc": "Lleva la IA a tu operación con Mood Agency: diagnóstico, pilotos, integración de herramientas, capacitación y evaluación de calidad.",
+    "deliver": [
+      "Diagnóstico y priorización de oportunidades de IA",
+      "Pilotos, asistentes e integraciones según el proceso",
+      "Criterios de calidad y revisión de resultados",
+      "Capacitación práctica y documentación para el equipo"
+    ],
+    "applications": [
+      "Seleccionamos tareas a partir de su valor, viabilidad y datos disponibles, con una referencia inicial para comparar.",
+      "Diseñamos asistentes y flujos basados en la información aprobada del negocio y los probamos con ejemplos reales.",
+      "Acompañamos al equipo para usar, revisar y mejorar las soluciones, con responsables y criterios de aceptación definidos."
+    ],
+    "measurement": "Evaluamos calidad, tiempo de ejecución, costos de uso y adopción antes de ampliar el alcance."
+  },
+  {
+    "slug": "posicionamiento-geo",
+    "title": "SEO y posicionamiento GEO con IA",
+    "desc": "Integramos SEO, IA y tecnología de medición para mejorar cómo se encuentra y comprende tu empresa en buscadores y respuestas de IA. Usamos IA para explorar preguntas de compra y apoyar el análisis de contenido. Contrastamos los hallazgos con fuentes y conocimiento experto para priorizar mejoras técnicas y editoriales.",
+    "metaTitle": "SEO y posicionamiento GEO con IA en México",
+    "metaDesc": "Conecta SEO, contenido experto e IA con Mood Agency. Investigamos preguntas, revisamos fuentes y medimos menciones, citas y consultas comerciales.",
+    "deliver": [
+      "Diagnóstico SEO y muestra documentada de respuestas de IA",
+      "Investigación de preguntas de compra asistida por IA",
+      "Mejoras técnicas y contenido con validación experta",
+      "Seguimiento de menciones, citas y oportunidades observables"
+    ],
+    "applications": [
+      "La IA apoya la exploración de temas y preguntas; contrastamos las prioridades con búsquedas, información comercial y fuentes disponibles.",
+      "Revisamos estructura y contenido con herramientas técnicas e IA, validando cada afirmación antes de publicarla.",
+      "Documentamos preguntas, respuestas, fechas y fuentes para observar menciones y citas y orientar el siguiente ciclo de mejoras."
+    ],
+    "measurement": "Separamos indexación, menciones, citas, visitas y consultas; la aparición en una respuesta de IA no se garantiza."
+  }
+]

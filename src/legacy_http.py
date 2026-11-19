@@ -3,8 +3,11 @@
 Search Console still reports product URLs from an old storefront (any .html path
 containing -mo24- or -mo54-, and paths that start with /online-mo) plus city
 landings captured by the Internet Archive in 2019. Those city pages are not part
-of the current site. CDMX is the exception: the homepage is the current
-"Agencia de marketing e IA en CDMX" page, so /cdmx/ redirects there.
+of the current site. CDMX is the exception: the Spanish homepage is the current
+"Agencia de marketing e IA en CDMX" page, so /cdmx/ and /es/cdmx/ redirect
+there. /en/cdmx/ does not exist; it redirects to the English homepage /en/
+so the new English edition stays in English. /en/contact/ is a real page and
+must not redirect.
 
 Vercel redirect statusCode accepts only 301, 302, 303, 307 and 308. HTTP 410 is
 configured with routes, which can be combined with redirects, headers and
@@ -70,9 +73,11 @@ GONE_RULES = [
 # have a real equivalent, and near-misses of the 410 patterns.
 MUST_NOT_BE_GONE = [
     '/',
+    '/en/',
     '/contacto/',
     '/contact/',
     '/es/contact/',
+    '/en/contact/',
     '/cdmx/',
     '/es/cdmx/',
     '/en/cdmx/',
@@ -94,16 +99,15 @@ MUST_NOT_BE_GONE = [
 REQUIRED_REDIRECTS = [
     {'source': '/contact/', 'destination': '/contacto/', 'statusCode': 301},
     {'source': '/es/contact/', 'destination': '/contacto/', 'statusCode': 301},
-    {'source': '/en/contact/', 'destination': '/contacto/', 'statusCode': 301},
     {'source': '/es/portfolio/yogurt-boom/', 'destination': '/casos/yogurt-boom/', 'statusCode': 301},
-    {'source': '/en/portfolio/yogurt-boom/', 'destination': '/casos/yogurt-boom/', 'statusCode': 301},
+    {'source': '/en/portfolio/yogurt-boom/', 'destination': '/en/case-studies/yogurt-boom/', 'statusCode': 301},
     {'source': '/portfolio/yogurt-boom/', 'destination': '/casos/yogurt-boom/', 'statusCode': 301},
     {'source': '/es/portfolio/cachalo-y-gana/', 'destination': '/casos/cachalo-y-gana/', 'statusCode': 301},
-    {'source': '/en/portfolio/cachalo-y-gana/', 'destination': '/casos/cachalo-y-gana/', 'statusCode': 301},
+    {'source': '/en/portfolio/cachalo-y-gana/', 'destination': '/en/case-studies/cachalo-y-gana/', 'statusCode': 301},
     {'source': '/portfolio/cachalo-y-gana/', 'destination': '/casos/cachalo-y-gana/', 'statusCode': 301},
     {'source': '/cdmx/', 'destination': '/', 'statusCode': 301},
     {'source': '/es/cdmx/', 'destination': '/', 'statusCode': 301},
-    {'source': '/en/cdmx/', 'destination': '/', 'statusCode': 301},
+    {'source': '/en/cdmx/', 'destination': '/en/', 'statusCode': 301},
 ]
 
 
@@ -116,8 +120,9 @@ def gone_routes():
 
 def cdmx_redirects():
     return [
-        {'source': f'{prefix}/cdmx/', 'destination': '/', 'statusCode': 301}
-        for prefix in ('', '/es', '/en')
+        {'source': '/cdmx/', 'destination': '/', 'statusCode': 301},
+        {'source': '/es/cdmx/', 'destination': '/', 'statusCode': 301},
+        {'source': '/en/cdmx/', 'destination': '/en/', 'statusCode': 301},
     ]
 
 

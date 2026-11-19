@@ -1,0 +1,57 @@
+'use strict';
+const {readFileSync}=require('node:fs');
+const vm=require('node:vm');
+const assert=require('node:assert/strict');
+const source=readFileSync(__dirname+'/../assets/site.js','utf8').split('// Subtle motion is optional:')[1];
+assert.ok(source,'motion enhancement is present');
+function scenario({reduced=false,saveData=false,compact=true}={}){
+  const listeners={},docListeners={},observed=new Set(),calls=[];
+  const preference={matches:reduced,addEventListener:(name,fn)=>listeners[name]=fn};
+  const element=(top)=>({classList:{values:new Set(),add(name){this.values.add(name)},remove(name){this.values.delete(name)},contains(name){return this.values.has(name)}},getBoundingClientRect:()=>({top,width:300,height:160}),closest:()=>null,contains(other){return this===other},animate(frames,options){const a={cancel(){a.cancelled=true;a.oncancel?.()}};calls.push({el:this,frames,options,animation:a});return a}});
+  const initial=element(100),below=element(900),focused=element(1200);
+  const document={hidden:false,activeElement:null,querySelector:()=>null,querySelectorAll:()=>[initial,below,focused],addEventListener:(n,f)=>docListeners[n]=f};
+  let callback,disconnected=false;
+  class Observer{constructor(fn){callback=fn} observe(el){observed.add(el)}unobserve(el){observed.delete(el)}disconnect(){observed.clear();disconnected=true}}
+  const window={innerHeight:740,matchMedia:q=>q.includes('reduce')?preference:{matches:compact},IntersectionObserver:Observer,addEventListener(){}};
+  vm.runInNewContext('// Subtle motion is optional:'+source,{window,document,navigator:{connection:{saveData}},Element:{prototype:{animate(){}}},IntersectionObserver:Observer,Map,Set});
+  return{calls,observed,initial,below,focused,document,preference,listeners,docListeners,get disconnected(){return disconnected},enter:el=>callback([{target:el,isIntersecting:true}])};
+}
+const normal=scenario();
+assert.equal(normal.observed.has(normal.initial),false,'initial viewport stays still');
+assert.equal(normal.observed.size,2);
+normal.enter(normal.below);
+assert.equal(normal.calls[0].options.duration,1000,'mobile duration');
+assert.equal(normal.calls[0].frames[0].transform,'translateY(12px)');
+assert.equal(normal.observed.has(normal.below),false,'each element is observed once');
+normal.document.activeElement=normal.focused;
+normal.enter(normal.focused);
+assert.equal(normal.calls.length,1,'focused content stays still');
+assert.equal(normal.disconnected,true,'observer stops after its last target');
+normal.preference.matches=true;
+normal.listeners.change();
+assert.equal(normal.calls[0].animation.cancelled,true,'preference change cancels running animations');
+assert.equal(scenario({reduced:true}).observed.size,0,'reduced motion skips enhancement');
+assert.equal(scenario({saveData:true}).observed.size,2,'local animation needs no extra downloads in save-data mode');
+const desktop=scenario({compact:false});
+desktop.enter(desktop.below);
+assert.equal(desktop.calls[0].options.duration,800);
+desktop.document.hidden=true;
+desktop.docListeners.visibilitychange();
+assert.equal(desktop.calls[0].animation.cancelled,true,'background tabs stop animating');
+console.log('Motion checks passed: mobile, desktop, initial viewport, keyboard focus, one-shot observer, reduced motion, save-data, background tabs.');
+
+const prepared=scenario();
+assert.equal(prepared.initial.classList.contains('motion-pending'),false);
+assert.equal(prepared.below.classList.contains('motion-pending'),true,'offscreen content is prepared before entry');
+prepared.docListeners.focusin({target:prepared.below});
+assert.equal(prepared.below.classList.contains('motion-pending'),false,'keyboard focus reveals pending content immediately');
+assert.equal(prepared.observed.has(prepared.below),false);
+prepared.preference.matches=true;
+prepared.listeners.change();
+assert.equal(prepared.focused.classList.contains('motion-pending'),false,'reduced motion restores all pending content');
+assert.equal(prepared.observed.size,0);
+const entering=scenario();
+entering.enter(entering.below);
+assert.equal(entering.below.classList.contains('motion-pending'),false,'completed animation is not left hidden');
+assert.equal(entering.calls[0].frames[0].opacity,0,'animation begins at the same opacity as the prepared element');
+console.log('Passed: continuous entry, pending-element keyboard access, reduced-motion cleanup, visible content at animation end.');

@@ -1,33 +1,33 @@
 # Mood Agency
 
-> Agencia de marketing y tecnología en Ciudad de México. Operada por Iron Mussa Corp.
+> Agencia de marketing con IA y tecnología integradas en todos sus servicios, en Ciudad de México. Operada por Iron Mussa Corp.
 
 Contacto: info@mood-agency.com | +52 55 2315 3249
 Dirección: Avenida Río San Joaquín 498, CDMX, México.
 
 ## Páginas
-- [Agencia de marketing e IA en CDMX](https://mood-agency.com/): Impulsa tu negocio con Mood Agency: estrategia de marketing, desarrollo web, ecommerce, automatización e IA aplicada desde Ciudad de México.
-- [Servicios de marketing, web e IA](https://mood-agency.com/servicios/): Explora los servicios de Mood Agency: posicionamiento GEO, estrategia, desarrollo web, generación de leads, ecommerce, automatización e IA.
-- [Estrategia de marketing para empresas](https://mood-agency.com/servicios/marketing-estrategico/): Define audiencias, propuesta de valor, canales e indicadores con Mood Agency. Convertimos tus objetivos comerciales en un plan de marketing ejecutable.
-- [Diseño y desarrollo web para empresas](https://mood-agency.com/servicios/desarrollo-web/): Crea una web clara, adaptable y fácil de gestionar. Mood Agency integra diseño, desarrollo, SEO técnico y medición según las necesidades de tu negocio.
-- [Performance y generación de leads](https://mood-agency.com/servicios/performance-y-leads/): Conecta campañas, páginas de destino y medición con Mood Agency. Evalúa la calidad de tus leads y mejora el recorrido del clic a la oportunidad comercial.
-- [Ecommerce y plataformas de membresía](https://mood-agency.com/servicios/ecommerce/): Desarrolla tu tienda o plataforma de membresía con Mood Agency. Integramos experiencia de compra, pagos y medición según el alcance de tu proyecto.
-- [Automatización de marketing y procesos](https://mood-agency.com/servicios/automatizacion/): Automatiza captación, seguimiento y comunicación con Mood Agency. Diseñamos flujos e integraciones con reglas, pruebas y responsables definidos.
-- [Consultoría de IA aplicada al marketing](https://mood-agency.com/servicios/inteligencia-artificial/): Incorpora IA a tu equipo con Mood Agency: casos de uso, pilotos, capacitación y supervisión humana para procesos de marketing con criterios de calidad.
-- [Posicionamiento GEO para empresas en México](https://mood-agency.com/servicios/posicionamiento-geo/): Mejora la visibilidad de tu empresa en buscadores y respuestas de IA. Mood Agency conecta SEO, contenido B2B y medición GEO en México.
+- [Agencia de marketing, IA y tecnología en CDMX](https://mood-agency.com/): IA y tecnología integradas en todos los servicios de Mood Agency: estrategia, web, campañas, ecommerce, automatización y SEO/GEO.
+- [Servicios de marketing con IA y tecnología](https://mood-agency.com/servicios/): Descubre los servicios de Mood Agency: estrategia, web, leads, ecommerce, automatización y SEO/GEO con IA, tecnología y criterio profesional.
+- [Estrategia de marketing con IA para empresas](https://mood-agency.com/servicios/marketing-estrategico/): Diseña tu estrategia de marketing con IA y datos. Mood Agency conecta investigación, posicionamiento, contenidos y decisiones comerciales.
+- [Diseño y desarrollo web con IA para empresas](https://mood-agency.com/servicios/desarrollo-web/): Crea una web con IA aplicada al diseño, contenido y desarrollo. Mood Agency conecta experiencia de usuario, SEO, analítica e integraciones.
+- [Performance y generación de leads con IA](https://mood-agency.com/servicios/performance-y-leads/): Conecta publicidad, IA y CRM para generar oportunidades. Mood Agency trabaja campañas, mensajes, seguimiento y medición de calidad de leads.
+- [Ecommerce y membresías con IA](https://mood-agency.com/servicios/ecommerce/): Desarrolla tu ecommerce con IA, analítica y automatización. Mood Agency conecta compra, catálogo, seguimiento y retención con objetivos medibles.
+- [Automatización con IA para marketing y ventas](https://mood-agency.com/servicios/automatizacion/): Conecta formularios, CRM y comunicación con automatización e IA. Mood Agency diseña flujos para clasificar consultas y facilitar el seguimiento.
+- [Consultoría e implementación de IA en marketing](https://mood-agency.com/servicios/inteligencia-artificial/): Lleva la IA a tu operación con Mood Agency: diagnóstico, pilotos, integración de herramientas, capacitación y evaluación de calidad.
+- [SEO y posicionamiento GEO con IA en México](https://mood-agency.com/servicios/posicionamiento-geo/): Conecta SEO, contenido experto e IA con Mood Agency. Investigamos preguntas, revisamos fuentes y medimos menciones, citas y consultas comerciales.
 - [Casos y proyectos de marketing y tecnología](https://mood-agency.com/casos/): Conoce 11 proyectos de Mood Agency: desarrollo web, ecommerce, plataformas digitales y marketing. Explora el contexto, los retos y las soluciones.
 - [Runa: desarrollo y optimización web](https://mood-agency.com/casos/runahr/): Conoce el proyecto de Mood Agency para Runa: renovación de su sitio WordPress, experiencia de navegación, localización y gestión de contenidos.
 - [Wide Angle: web de postproducción](https://mood-agency.com/casos/wide-angle/): Explora el proyecto web de Mood Agency para Wide Angle: presentación de servicios de postproducción, portafolio audiovisual y experiencia de navegación.
 - [Cachalo y Gana: plataforma digital](https://mood-agency.com/casos/cachalo-y-gana/): Conoce la plataforma digital de Cachalo y Gana desarrollada por Mood Agency para conectar un programa de concursos con la participación de su audiencia.
 - [Xcape: plataforma web de viajes](https://mood-agency.com/casos/xcape/): Descubre el proyecto de Mood Agency para Xcape: una plataforma digital para presentar viajes de aventura y facilitar el recorrido hacia la reserva.
-- [Mia Astral: ecommerce y membresías](https://mood-agency.com/casos/mia-astral/): Conoce el trabajo de Mood Agency en el ecosistema digital de Mia Astral: plataforma de membresía, contenidos, productos y experiencia de compra.
+- [Mia Astral: 13 años de evolución digital](https://mood-agency.com/casos/mia-astral/): 13 años de Mood Agency junto a Mia Astral: comunidad, web, membresía, agenda, automatización e IA. Conoce la evolución y sus resultados.
 - [PFS Realty: plataforma inmobiliaria](https://mood-agency.com/casos/pfs-realty/): Explora la plataforma inmobiliaria de PFS Realty: búsqueda de propiedades, integración de datos y experiencia web desarrolladas por Mood Agency.
 - [Erika de la Vega: contenido y web](https://mood-agency.com/casos/erika-de-la-vega/): Conoce el proyecto de Mood Agency para Erika de la Vega: presencia digital, contenidos, marca personal y una web conectada con su audiencia.
 - [Ismael Cala: plataforma y ecommerce](https://mood-agency.com/casos/ismael-cala/): Descubre el proyecto digital de Mood Agency para Ismael Cala: plataforma de contenidos, comercio electrónico y experiencia para su comunidad.
 - [Foto Ahora: plataforma de información](https://mood-agency.com/casos/foto-ahora/): Conoce el proyecto Foto Ahora de Mood Agency: una solución digital para organizar información ciudadana y abordar retos de verificación de contenidos.
 - [Nawis: aplicación móvil y branding](https://mood-agency.com/casos/nawis/): Explora el proyecto de Mood Agency para Nawis: desarrollo de aplicación móvil e identidad de marca para conectar sus personajes con el entorno digital.
 - [Yogurt Boom: marca y estrategia digital](https://mood-agency.com/casos/yogurt-boom/): Conoce el proyecto de Mood Agency para Yogurt Boom: identidad, posicionamiento y presencia digital para una marca de helados de yogur.
-- [Mood Agency y Liliana Ferro](https://mood-agency.com/nosotros/): Conoce a Mood Agency, agencia de marketing y tecnología dirigida por Liliana Ferro en Ciudad de México. Estrategia, experiencia digital y ejecución.
+- [Mood Agency: marketing, IA y tecnología](https://mood-agency.com/nosotros/): Conoce Mood Agency, dirigida por Liliana Ferro en CDMX. Integramos IA, tecnología y criterio profesional en todos nuestros servicios de marketing.
 - [Contacto: hablemos de tu proyecto](https://mood-agency.com/contacto/): Cuéntanos tu proyecto de marketing, web, automatización o IA. Contacta a Mood Agency en CDMX por formulario, WhatsApp o info@mood-agency.com.
 - [Aviso de privacidad](https://mood-agency.com/privacidad/): Responsable, finalidades, cookies y ejercicio de derechos sobre datos personales en Mood Agency e Iron Mussa Corp.
 - [Términos de uso](https://mood-agency.com/terminos/): Condiciones informativas de uso de mood-agency.com y contacto con Iron Mussa Corp.
@@ -44,33 +44,47 @@ Los casos describen proyectos de Mood Agency; no garantizan resultados futuros. 
 
 ## Servicios
 
-### Marketing estratégico
-Para empresas que necesitan convertir sus objetivos comerciales en un plan de marketing ejecutable. Analizamos audiencia, oferta y recorrido de compra para priorizar canales, mensajes y métricas. El resultado es una hoja de ruta con responsables y criterios de evaluación, conectada con la capacidad real de tu equipo.
-Entregables: Diagnóstico de marca, canales y competencia; Definición de audiencias y propuesta de valor; Plan de contenidos y adquisición; Hoja de ruta con indicadores y responsables
+### Marketing estratégico con IA
+Conectamos estrategia de marketing, IA y análisis de datos para definir dónde y cómo crecer. Investigamos audiencias, oferta y competencia con apoyo de IA y validación del equipo. Convertimos los hallazgos en prioridades, mensajes y un plan de acción medible.
+Entregables: Investigación asistida por IA de audiencias, canales y competencia; Propuesta de valor y mensajes revisados por estrategas; Plan de contenidos y adquisición apoyado en datos; Hoja de ruta con indicadores, responsables y experimentos
+IA y tecnología: Analizamos información de mercado y feedback con IA para identificar patrones que el equipo contrasta con las fuentes. Exploramos propuestas de mensajes y contenidos con IA, alineadas con la identidad de marca y sujetas a revisión. Conectamos los datos disponibles en un tablero para priorizar pruebas y evaluar qué acciones generan oportunidades.
+Medición: Medimos el avance del plan, la respuesta a los mensajes y las oportunidades por canal según los datos disponibles.
 
-### Diseño y desarrollo web
-Para marcas que necesitan una web clara, rápida y útil para sus clientes. Diseñamos la arquitectura de contenido y la experiencia de navegación, desarrollamos las páginas y preparamos la medición. El alcance puede incluir un sitio institucional, un catálogo o una plataforma, según las necesidades y los sistemas existentes.
-Entregables: Arquitectura de contenidos y diseño adaptable; Desarrollo e integración de funcionalidades acordadas; SEO técnico y estructura de medición; Pruebas de navegación y guía de gestión
+### Diseño y desarrollo web con IA
+Integramos IA, diseño y tecnología para crear sitios web orientados a los objetivos de tu negocio. Aplicamos IA al trabajo de arquitectura, contenido y desarrollo con revisión profesional. Conectamos la web con analítica, CRM y funcionalidades inteligentes según el alcance acordado.
+Entregables: Arquitectura y prototipos apoyados por IA y diseño profesional; Desarrollo asistido por IA con revisión de código y pruebas; SEO técnico, medición y conexión con sistemas compatibles; Evaluación e implementación de funciones de IA según alcance
+IA y tecnología: Usamos IA para explorar estructuras de contenido, recorridos y prototipos; el equipo valida la experiencia y la accesibilidad. Aceleramos tareas de desarrollo y documentación con IA, revisando el código y probando las funciones antes de publicar. Cuando aporta valor al proyecto, integramos asistentes basados en contenido aprobado, búsqueda o captación conectada con el CRM.
+Medición: Medimos navegación, velocidad, contactos y conversión; las funciones de IA se evalúan también por la calidad de sus respuestas.
 
-### Performance y generación de leads
-Para empresas que necesitan atraer oportunidades comerciales y entender qué campañas las producen. Conectamos la propuesta de valor, las páginas de destino y la medición para evaluar el recorrido desde el clic hasta el contacto. La optimización se apoya en calidad del lead y resultados comerciales, no únicamente en volumen.
-Entregables: Diagnóstico del embudo y plan de campañas; Propuesta de páginas de destino y mensajes; Plan de eventos y conversiones; Análisis de oportunidades y pruebas de mejora
+### Performance y leads con IA
+Combinamos publicidad, IA y tecnología comercial para captar y trabajar oportunidades de venta. Aplicamos IA al análisis de campañas y a la creación de variantes de mensajes bajo revisión. Conectamos anuncios, páginas de destino y CRM para evaluar la calidad del lead y orientar la optimización.
+Entregables: Plan de campañas y análisis del embudo con apoyo de IA; Variantes de anuncios y páginas de destino para pruebas; Medición de conversiones y conexión con CRM según viabilidad; Calificación asistida por IA y seguimiento según datos y alcance
+IA y tecnología: La IA ayuda a detectar patrones de desempeño y a proponer hipótesis que contrastamos con los datos de campaña. Generamos y revisamos variantes creativas para probar mensajes, propuestas de valor y páginas de destino. Diseñamos clasificación y resúmenes de consultas con IA para facilitar la priorización comercial; las reglas y el seguimiento se acuerdan con ventas.
+Medición: Evaluamos costo por oportunidad, calidad del lead y avance comercial cuando existe información suficiente en el CRM.
 
-### Ecommerce y ventas digitales
-Para negocios que quieren facilitar la compra y mejorar la relación con sus clientes. Revisamos catálogo, navegación, pago y seguimiento para identificar fricciones. Diseñamos e implementamos mejoras en la tienda o el modelo de suscripción, con una medición que permita evaluar ventas, recurrencia y experiencia de compra.
-Entregables: Diagnóstico del recorrido de compra; Implementación de tienda o membresía según alcance; Integración de pagos y herramientas compatibles; Plan de medición y mejora de conversión
+### Ecommerce y ventas con IA
+Integramos IA, ecommerce y automatización para mejorar el recorrido de compra y la relación con tus clientes. Analizamos comportamiento y fricciones con apoyo de IA. Diseñamos la tienda o membresía y priorizamos contenido, segmentación y seguimiento según los datos y las integraciones disponibles.
+Entregables: Tienda o membresía con pagos y sistemas compatibles; Análisis de compra y catálogo asistido por IA; Segmentación y flujos de seguimiento según datos disponibles; Plan de conversión y retención con indicadores definidos
+IA y tecnología: Apoyamos la organización y redacción del catálogo con IA; el negocio valida precios, características y condiciones. Analizamos patrones de compra y recurrencia para proponer segmentos y acciones de retención. Integramos seguimiento de carritos, comunicaciones y funciones de recomendación cuando la plataforma y los datos lo permiten.
+Medición: Medimos conversión, valor de compra y recurrencia; en membresías, también cancelaciones y permanencia cuando los datos están disponibles.
 
-### Automatización de marketing
-Para equipos que repiten tareas de captación, seguimiento o comunicación y necesitan ordenar su operación. Mapeamos el proceso, definimos reglas e integramos las herramientas disponibles. Priorizamos flujos trazables, con manejo de errores y responsables claros, para reducir trabajo manual sin perder control sobre la experiencia del cliente.
-Entregables: Mapa de proceso y oportunidades de automatización; Diseño de reglas, segmentos y excepciones; Integraciones y pruebas del flujo acordado; Documentación, alertas y entrega al equipo
+### Automatización e IA para marketing
+Conectamos herramientas, automatización e IA para reducir tareas repetitivas de marketing y ventas. Combinamos reglas de negocio con IA para clasificar, resumir y preparar información. Diseñamos flujos trazables entre formularios, CRM y canales compatibles, con responsables y revisión en los puntos acordados.
+Entregables: Mapa de procesos y selección de tareas para IA; Flujos con reglas, clasificación y resúmenes asistidos por IA; Integraciones, pruebas y manejo de excepciones; Documentación, alertas y capacitación del equipo
+IA y tecnología: Distinguimos las tareas que necesitan reglas fijas de aquellas donde la IA aporta comprensión de texto o contexto. Integramos IA para clasificar solicitudes, resumir conversaciones o preparar borradores dentro del flujo acordado. Conectamos los resultados con herramientas compatibles y definimos alertas, aprobaciones y derivación a una persona.
+Medición: Comparamos tiempo de gestión, tareas manuales, errores y tiempos de respuesta con la situación inicial.
 
-### Inteligencia artificial aplicada
-Para equipos de marketing que necesitan incorporar IA a tareas concretas con criterios de calidad. Identificamos casos de uso, diseñamos un piloto y definimos cómo revisar sus resultados. El trabajo combina procesos, herramientas y capacitación, con supervisión humana y controles sobre la información que se utiliza.
-Entregables: Priorización de casos de uso y evaluación de riesgos; Diseño de piloto y criterios de aceptación; Guías de uso y revisión humana; Capacitación y documentación del proceso
+### Consultoría e implementación de IA
+Integramos IA en los procesos, herramientas y capacidades de tu equipo para resolver necesidades concretas del negocio. Priorizamos casos de uso, desarrollamos pilotos y conectamos soluciones con tu operación. La capacitación y la evaluación de calidad permiten llevar la IA al trabajo diario con criterio.
+Entregables: Diagnóstico y priorización de oportunidades de IA; Pilotos, asistentes e integraciones según el proceso; Criterios de calidad y revisión de resultados; Capacitación práctica y documentación para el equipo
+IA y tecnología: Seleccionamos tareas a partir de su valor, viabilidad y datos disponibles, con una referencia inicial para comparar. Diseñamos asistentes y flujos basados en la información aprobada del negocio y los probamos con ejemplos reales. Acompañamos al equipo para usar, revisar y mejorar las soluciones, con responsables y criterios de aceptación definidos.
+Medición: Evaluamos calidad, tiempo de ejecución, costos de uso y adopción antes de ampliar el alcance.
 
-### Posicionamiento GEO
-Para empresas B2B que quieren ser encontradas y comprendidas cuando un comprador investiga en Google o en herramientas de IA. Conectamos SEO técnico, contenido experto y medición de menciones y citas para mejorar la información disponible sobre tu negocio y facilitar el siguiente paso comercial.
-Entregables: Diagnóstico de visibilidad y línea base; Mapa de preguntas e intención del comprador; Plan de contenido y mejoras técnicas priorizadas; Seguimiento de menciones, citas y consultas comerciales
+### SEO y posicionamiento GEO con IA
+Integramos SEO, IA y tecnología de medición para mejorar cómo se encuentra y comprende tu empresa en buscadores y respuestas de IA. Usamos IA para explorar preguntas de compra y apoyar el análisis de contenido. Contrastamos los hallazgos con fuentes y conocimiento experto para priorizar mejoras técnicas y editoriales.
+Entregables: Diagnóstico SEO y muestra documentada de respuestas de IA; Investigación de preguntas de compra asistida por IA; Mejoras técnicas y contenido con validación experta; Seguimiento de menciones, citas y oportunidades observables
+IA y tecnología: La IA apoya la exploración de temas y preguntas; contrastamos las prioridades con búsquedas, información comercial y fuentes disponibles. Revisamos estructura y contenido con herramientas técnicas e IA, validando cada afirmación antes de publicarla. Documentamos preguntas, respuestas, fechas y fuentes para observar menciones y citas y orientar el siguiente ciclo de mejoras.
+Medición: Separamos indexación, menciones, citas, visitas y consultas; la aparición en una respuesta de IA no se garantiza.
 
 ## Casos
 
@@ -154,3 +168,7 @@ Data de compra: Procesamos datos de compra (género, edad, ticket medio) para de
 - [Landing que entrevista: de visita a conversación con IA](https://mood-agency.com/blog/landing-conversacional-con-ia/): Qué es una landing que entrevista al visitante, en qué se diferencia de un formulario y de un chatbot, y cómo saber si le sirve a tu empresa.
 - [Cómo demostrar el retorno de marketing a dirección](https://mood-agency.com/blog/como-demostrar-retorno-de-marketing/): Qué números llevarle a tu director, cómo conectarlos con ventas y un reporte de una página que puedes armar este mes.
 - [Cómo elegir una agencia de generación de leads B2B](https://mood-agency.com/blog/como-elegir-agencia-de-leads-b2b/): Diez preguntas para hacerle a una agencia antes de firmar, qué respuesta esperar en cada una y las señales de alerta.
+
+
+## Caso Mat Depot
+[Mat Depot: rebranding, web, SEO y GEO](https://mood-agency.com/casos/matdepot/): Rebranding Factory Mono, brandbook de 30 secciones, web B2B, 35 fichas, contenido, SEO/GEO y CRM. Corte: noviembre de 2026. Las métricas son señales iniciales de visibilidad, no ventas confirmadas.

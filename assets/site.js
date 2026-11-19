@@ -38,6 +38,7 @@
   if(industry){industry.addEventListener('change',filter);service.addEventListener('change',filter);filter();}
   const formTarget=document.getElementById('contact-form');
   if(formTarget){
+    const MOOD_FORM_CSS='html,body{background:#08080a!important;color:#f2f0ea!important}.hs-form,.hs-form fieldset{color:#f2f0ea!important;max-width:none!important}.hs-form label,.hs-form legend,.hs-form .hs-richtext,.hs-form .hs-richtext p,.hs-form .hs-form-field>label span{color:#f2f0ea!important}.hs-form .hs-field-desc,.hs-form legend.hs-field-desc{color:rgba(242,240,234,.76)!important}.hs-form .hs-input:not([type=checkbox]):not([type=radio]):not([type=submit]){background:#16161f!important;color:#f2f0ea!important;border:1px solid rgba(242,240,234,.38)!important;border-radius:8px!important;box-shadow:none!important}.hs-form .hs-input::placeholder{color:rgba(242,240,234,.62)!important;opacity:1!important}.hs-form .hs-input:focus{border-color:#2f44ff!important;outline:2px solid rgba(47,68,255,.55)!important;outline-offset:1px}.hs-form select.hs-input option{background:#16161f;color:#f2f0ea}.hs-form .hs-form-required,.hs-form label span.hs-form-required{color:#ff6b81!important}.hs-form .hs-error-msgs label,.hs-form .hs-error-msg,.hs-form .hs_error_rollup label{color:#ff8a9b!important}.hs-form .hs-input.invalid.error{border-color:#ff6b81!important}.hs-form input[type=checkbox],.hs-form input[type=radio]{accent-color:#2f44ff}.hs-form a{color:#9aa6ff!important}.submitted-message,.submitted-message p{color:#f2f0ea!important}.hubspot-link__container,.hubspot-link__container *{color:rgba(242,240,234,.6)!important}.hubspot-link__container svg path,.hubspot-link__container svg{fill:rgba(242,240,234,.6)!important}iframe[src*="embedded-viral-link"]{filter:invert(1) hue-rotate(180deg)}';
     const formId='91241afc-076e-44f7-b580-4447590d7e94',leadId=crypto.randomUUID();
     let submitted=false;
     const script=document.createElement('script');
@@ -46,6 +47,7 @@
       portalId:'50738398',formId,region:'na1',target:'#contact-form',
       onFormReady:(form)=>{
         const el=form && (form.nodeType?form:form[0]); if(!el)return;
+        const doc=el.ownerDocument;if(doc&&doc!==document&&!doc.getElementById('mood-dark-form')){const st=doc.createElement('style');st.id='mood-dark-form';st.textContent=MOOD_FORM_CSS;(doc.head||doc.documentElement).append(st);}
         const values={lead_id:leadId,originpage:location.pathname,utm_source:'',utm_medium:'',utm_campaign:'',utm_content:'',utm_term:'',gclid:''};
         if(consent.analytics){try{const attr=JSON.parse(safeRead(sessionStorage,'mood-attribution')||'{}');for(const key of ['utm_source','utm_medium','utm_campaign','utm_content','utm_term',...(consent.ads?['gclid']:[])])if(typeof attr[key]==='string')values[key]=attr[key];}catch{}}
         for(const [key,value] of Object.entries(values)){const input=el.querySelector('[name="'+key+'"]');if(input){input.value=value;input.dispatchEvent(new Event('input',{bubbles:true}));input.dispatchEvent(new Event('change',{bubbles:true}));}}
@@ -60,5 +62,99 @@
     });
     formTarget.append(script);
   }
+
+  // Keep the floating contact action out of the opening screen and away from other CTAs.
+  const mobileCta=document.querySelector('.mobile-cta');
+  const opening=document.querySelector('main > .hero, main > section');
+  if(mobileCta){
+    const mobileViewport=window.matchMedia('(max-width:800px)');
+    const contactActions=[...document.querySelectorAll('main a.btn[href="/contacto/"], .footer a.btn[href="/contacto/"]')];
+    const header=document.querySelector('header');
+    const updateMobileCta=()=>{
+      const headerBottom=header?header.getBoundingClientRect().bottom:0;
+      const visibleAction=contactActions.some(action=>{
+        const rect=action.getBoundingClientRect();
+        return rect.width>0 && rect.height>0 && rect.bottom>headerBottom && rect.top<window.innerHeight;
+      });
+      const openingPassed=opening ? opening.getBoundingClientRect().bottom<=0 : window.scrollY>window.innerHeight;
+      const blocked=(banner && !banner.hidden) || (nav && nav.classList.contains('open')) || document.querySelector('dialog[open]');
+      mobileCta.hidden=!mobileViewport.matches || !openingPassed || visibleAction || !!blocked || !!formTarget;
+    };
+    updateMobileCta();
+    mobileCta.classList.add('cta-managed');
+    if('IntersectionObserver' in window){
+      const observer=new IntersectionObserver(updateMobileCta,{threshold:[0,1]});
+      if(opening)observer.observe(opening);
+      contactActions.forEach(action=>observer.observe(action));
+    }
+    let ctaFrame=0;
+    const scheduleCta=()=>{if(!ctaFrame)ctaFrame=requestAnimationFrame(()=>{ctaFrame=0;updateMobileCta()})};
+    window.addEventListener('scroll',scheduleCta,{passive:true});
+    window.addEventListener('resize',scheduleCta,{passive:true});
+    window.addEventListener('pageshow',scheduleCta);
+    if(window.visualViewport)window.visualViewport.addEventListener('resize',scheduleCta,{passive:true});
+    const stateObserver=new MutationObserver(scheduleCta);
+    if(banner)stateObserver.observe(banner,{attributes:true,attributeFilter:['hidden','class']});
+    if(nav)stateObserver.observe(nav,{attributes:true,attributeFilter:['class']});
+    document.querySelectorAll('dialog').forEach(dialog=>stateObserver.observe(dialog,{attributes:true,attributeFilter:['open']}));
+  }
+
   if(location.pathname==='/gracias/'&&safeRead(sessionStorage,'mood-form-submitted')!=='1'){document.getElementById('thanks-title').textContent='Gracias por visitar Mood';document.getElementById('thanks-copy').textContent='Si todavía no has enviado tu proyecto, puedes hacerlo desde nuestra página de contacto.';}
+})();
+
+// Subtle motion is optional: content remains usable without JavaScript.
+(() => {
+  'use strict';
+  const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
+  if(reduced.matches || !('IntersectionObserver' in window) || !Element.prototype.animate)return;
+  const compact=window.matchMedia('(max-width:800px)');
+  const opening=document.querySelector('main > .hero, main > section');
+  const selector='main h2, main .card, main .service-card, main .case-image, main .proof > div, main .stat, main .md-result, main .md-feature, main .md-card';
+  const candidates=[...document.querySelectorAll(selector)];
+  const active=new Map(),pending=new Set();
+  const observer=new IntersectionObserver(entries=>{
+    for(const entry of entries){
+      if(!entry.isIntersecting)continue;
+      const el=entry.target;
+      observer.unobserve(el);
+      pending.delete(el);
+      el.classList.remove('motion-pending');
+      if(reduced.matches || document.hidden || el.contains(document.activeElement))continue;
+      // Prepare offscreen, then reveal once. Never dim or reposition already-visible content.
+      const animation=el.animate([
+        {opacity:0,transform:'translateY(12px)'},
+        {opacity:1,transform:'translateY(0)'}
+      ],{duration:compact.matches?1000:800,easing:'cubic-bezier(.25,.1,.25,1)'});
+      active.set(el,animation);
+      const clear=()=>active.delete(el);
+      animation.onfinish=clear;
+      animation.oncancel=clear;
+    }
+    if(!pending.size)observer.disconnect();
+  },{threshold:0,rootMargin:'0px 0px 40px 0px'});
+  for(const el of candidates){
+    if(opening?.contains(el) || el.closest('.prose, details, dialog, form') || candidates.some(parent=>parent!==el&&parent.contains(el)))continue;
+    const rect=el.getBoundingClientRect();
+    if(!rect.width || !rect.height || rect.top<window.innerHeight)continue;
+    pending.add(el);
+    observer.observe(el);
+    el.classList.add('motion-pending');
+  }
+  const cancelActive=()=>{for(const animation of active.values())animation.cancel();active.clear()};
+  const showAll=()=>{
+    observer.disconnect();
+    for(const el of pending)el.classList.remove('motion-pending');
+    pending.clear();
+    cancelActive();
+  };
+  reduced.addEventListener('change',()=>{if(reduced.matches)showAll()});
+  document.addEventListener('visibilitychange',()=>{if(document.hidden)cancelActive()});
+  document.addEventListener('focusin',event=>{
+    for(const el of pending)if(el.contains(event.target)){
+      el.classList.remove('motion-pending');observer.unobserve(el);pending.delete(el);
+    }
+    for(const [el,animation] of active)if(el.contains(event.target))animation.cancel();
+    if(!pending.size)observer.disconnect();
+  });
+  window.addEventListener('pagehide',showAll);
 })();

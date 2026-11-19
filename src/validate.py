@@ -19,7 +19,7 @@ class Page(HTMLParser):
     def handle_data(self,s):
         if self.inld:self.ld.append(json.loads(s))
         if self.title:self.titletext+=s
-errors=[];titles=set();files=[f for f in ROOT.glob('**/*.html') if f.name!='410.html']
+errors=[];titles=set();files=[f for f in ROOT.glob('**/*.html') if f.name!='410.html' and 'src' not in f.relative_to(ROOT).parts]
 for f in files:
     text=f.read_text(encoding='utf-8');p=Page();p.feed(text)
     if p.h1!=1:errors.append(f'{f}: H1 {p.h1}')
@@ -29,6 +29,7 @@ for f in files:
     if not p.ld:errors.append(f'{f}: schema missing')
     if '{{' in text or '__bundler' in text:errors.append(f'{f}: unresolved template')
     for a in p.images:
+        if not a.get('src'):continue
         if not all(k in a for k in ['alt','width','height']):errors.append(f'{f}: image attrs')
     for href in p.links:
         if href.startswith('/') and not href.startswith('//'):
@@ -39,7 +40,14 @@ config=json.loads((ROOT/'vercel.json').read_text())
 assert not config.get('rewrites'), 'Universal fallback reintroduced'
 assert (ROOT/'404.html').exists()
 for r in config['redirects']:
-    if not (ROOT/r['destination'].strip('/')/'index.html').exists():errors.append('Bad redirect '+str(r))
+    dest=r['destination'].split('?',1)[0]
+    target=ROOT/dest.lstrip('/')
+    if dest.endswith('.html'):
+        ok=target.is_file()
+    else:
+        page=ROOT/'index.html' if dest in ('','/') else target/'index.html'
+        ok=page.is_file()
+    if not ok:errors.append('Bad redirect '+str(r))
 
 gone_doc=(ROOT/'410.html').read_text(encoding='utf-8')
 if gone_doc!=GONE_HTML:errors.append('410.html drifted from src/legacy_http.py')
@@ -52,6 +60,9 @@ redirects={(r['source'], r['destination'], r['statusCode']) for r in config['red
 for r in REQUIRED_REDIRECTS:
     if (r['source'], r['destination'], r['statusCode']) not in redirects:
         errors.append('Missing redirect '+r['source']+' -> '+r['destination'])
+by_source={r['source']: r['destination'] for r in config['redirects']}
+if '/en/' in by_source:errors.append('/en/ is a real page and must not redirect')
+if '/en/contact/' in by_source:errors.append('/en/contact/ is a real page and must not redirect')
 
 robots=(ROOT/'robots.txt').read_text(encoding='utf-8')
 disallows=[line.split(':',1)[1].strip() for line in robots.splitlines() if line.lower().startswith('disallow')]

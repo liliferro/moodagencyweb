@@ -78,11 +78,6 @@
       "statusCode": 301
     },
     {
-      "source": "/en/services/",
-      "destination": "/servicios/",
-      "statusCode": 301
-    },
-    {
       "source": "/portfolio/",
       "destination": "/casos/",
       "statusCode": 301
@@ -94,7 +89,7 @@
     },
     {
       "source": "/en/portfolio/",
-      "destination": "/casos/",
+      "destination": "/en/case-studies/",
       "statusCode": 301
     },
     {
@@ -104,11 +99,6 @@
     },
     {
       "source": "/es/contact/",
-      "destination": "/contacto/",
-      "statusCode": 301
-    },
-    {
-      "source": "/en/contact/",
       "destination": "/contacto/",
       "statusCode": 301
     },
@@ -123,17 +113,7 @@
       "statusCode": 301
     },
     {
-      "source": "/en/about/",
-      "destination": "/nosotros/",
-      "statusCode": 301
-    },
-    {
       "source": "/es/",
-      "destination": "/",
-      "statusCode": 301
-    },
-    {
-      "source": "/en/",
       "destination": "/",
       "statusCode": 301
     },
@@ -149,7 +129,7 @@
     },
     {
       "source": "/en/portfolio/runahr/",
-      "destination": "/casos/runahr/",
+      "destination": "/en/case-studies/runahr/",
       "statusCode": 301
     },
     {
@@ -164,7 +144,7 @@
     },
     {
       "source": "/en/portfolio/wide-angle/",
-      "destination": "/casos/wide-angle/",
+      "destination": "/en/case-studies/wide-angle/",
       "statusCode": 301
     },
     {
@@ -179,7 +159,7 @@
     },
     {
       "source": "/en/portfolio/cachalo-y-gana/",
-      "destination": "/casos/cachalo-y-gana/",
+      "destination": "/en/case-studies/cachalo-y-gana/",
       "statusCode": 301
     },
     {
@@ -194,7 +174,7 @@
     },
     {
       "source": "/en/portfolio/xcape/",
-      "destination": "/casos/xcape/",
+      "destination": "/en/case-studies/xcape/",
       "statusCode": 301
     },
     {
@@ -209,7 +189,7 @@
     },
     {
       "source": "/en/portfolio/mia-astral/",
-      "destination": "/casos/mia-astral/",
+      "destination": "/en/case-studies/mia-astral/",
       "statusCode": 301
     },
     {
@@ -224,7 +204,7 @@
     },
     {
       "source": "/en/portfolio/pfs-realty/",
-      "destination": "/casos/pfs-realty/",
+      "destination": "/en/case-studies/pfs-realty/",
       "statusCode": 301
     },
     {
@@ -239,7 +219,7 @@
     },
     {
       "source": "/en/portfolio/erika-de-la-vega/",
-      "destination": "/casos/erika-de-la-vega/",
+      "destination": "/en/case-studies/erika-de-la-vega/",
       "statusCode": 301
     },
     {
@@ -254,7 +234,7 @@
     },
     {
       "source": "/en/portfolio/ismael-cala/",
-      "destination": "/casos/ismael-cala/",
+      "destination": "/en/case-studies/ismael-cala/",
       "statusCode": 301
     },
     {
@@ -269,7 +249,7 @@
     },
     {
       "source": "/en/portfolio/foto-ahora/",
-      "destination": "/casos/foto-ahora/",
+      "destination": "/en/case-studies/foto-ahora/",
       "statusCode": 301
     },
     {
@@ -284,7 +264,7 @@
     },
     {
       "source": "/en/portfolio/nawis/",
-      "destination": "/casos/nawis/",
+      "destination": "/en/case-studies/nawis/",
       "statusCode": 301
     },
     {
@@ -299,7 +279,7 @@
     },
     {
       "source": "/en/portfolio/yogurt-boom/",
-      "destination": "/casos/yogurt-boom/",
+      "destination": "/en/case-studies/yogurt-boom/",
       "statusCode": 301
     },
     {
@@ -314,7 +294,7 @@
     },
     {
       "source": "/en/blog/seo-for-beginners/",
-      "destination": "/blog/seo-tecnico-web-indexable/",
+      "destination": "/en/blog/technical-seo-indexability/",
       "statusCode": 301
     },
     {
@@ -329,7 +309,7 @@
     },
     {
       "source": "/en/blog/ai-transforming-marketing/",
-      "destination": "/blog/ia-marketing-supervision-humana/",
+      "destination": "/en/blog/ai-marketing-human-oversight/",
       "statusCode": 301
     },
     {
@@ -344,7 +324,7 @@
     },
     {
       "source": "/en/blog/content-marketing-strategies/",
-      "destination": "/blog/contenido-util-para-personas-y-buscadores/",
+      "destination": "/en/blog/helpful-content-for-search-and-ai/",
       "statusCode": 301
     },
     {
@@ -359,7 +339,7 @@
     },
     {
       "source": "/en/blog/web-design-trends-2025/",
-      "destination": "/blog/web-que-convierte-sin-friccion/",
+      "destination": "/en/blog/make-your-website-easier-to-contact/",
       "statusCode": 301
     },
     {
@@ -374,7 +354,457 @@
     },
     {
       "source": "/en/blog/local-seo/",
+      "destination": "/en/blog/technical-seo-indexability/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/404.html",
+      "destination": "/404.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/automatizar-seguimiento-comercial/",
+      "destination": "/en/blog/ai-quote-follow-up/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/automatizar-seguimiento-comercial/",
+      "destination": "/blog/automatizar-seguimiento-comercial/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/como-aparecer-en-chatgpt/",
+      "destination": "/en/blog/get-your-business-found-in-chatgpt/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/como-aparecer-en-chatgpt/",
+      "destination": "/blog/como-aparecer-en-chatgpt/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/como-calificar-leads-b2b/",
+      "destination": "/en/blog/qualify-b2b-leads/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/como-calificar-leads-b2b/",
+      "destination": "/blog/como-calificar-leads-b2b/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/como-demostrar-retorno-de-marketing/",
+      "destination": "/en/blog/show-marketing-roi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/como-demostrar-retorno-de-marketing/",
+      "destination": "/blog/como-demostrar-retorno-de-marketing/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/como-elegir-agencia-de-leads-b2b/",
+      "destination": "/en/blog/choose-b2b-lead-generation-agency/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/como-elegir-agencia-de-leads-b2b/",
+      "destination": "/blog/como-elegir-agencia-de-leads-b2b/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/como-encontrar-empresas-que-necesitan-tu-producto/",
+      "destination": "/en/blog/find-business-customers-in-mexico/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/como-encontrar-empresas-que-necesitan-tu-producto/",
+      "destination": "/blog/como-encontrar-empresas-que-necesitan-tu-producto/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/contenido-util-para-personas-y-buscadores/",
+      "destination": "/en/blog/helpful-content-for-search-and-ai/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/contenido-util-para-personas-y-buscadores/",
+      "destination": "/blog/contenido-util-para-personas-y-buscadores/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/correos-en-frio-con-ia/",
+      "destination": "/en/blog/write-cold-emails-with-ai/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/correos-en-frio-con-ia/",
+      "destination": "/blog/correos-en-frio-con-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/crm-para-empresa-industrial/",
+      "destination": "/en/blog/crm-for-industrial-sales/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/crm-para-empresa-industrial/",
+      "destination": "/blog/crm-para-empresa-industrial/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/ia-marketing-supervision-humana/",
+      "destination": "/en/blog/ai-marketing-human-oversight/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/ia-marketing-supervision-humana/",
+      "destination": "/blog/ia-marketing-supervision-humana/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/ia-para-vendedores-industriales/",
+      "destination": "/en/blog/ai-for-industrial-sales-teams/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/ia-para-vendedores-industriales/",
+      "destination": "/blog/ia-para-vendedores-industriales/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/landing-conversacional-con-ia/",
+      "destination": "/en/blog/ai-conversational-landing-pages/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/landing-conversacional-con-ia/",
+      "destination": "/blog/landing-conversacional-con-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/leads-b2b-con-poco-presupuesto/",
+      "destination": "/en/blog/b2b-leads-on-a-small-budget/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/leads-b2b-con-poco-presupuesto/",
+      "destination": "/blog/leads-b2b-con-poco-presupuesto/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/medir-leads-sin-confundir-clics-con-clientes/",
+      "destination": "/en/blog/measure-leads-and-opportunities/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/medir-leads-sin-confundir-clics-con-clientes/",
+      "destination": "/blog/medir-leads-sin-confundir-clics-con-clientes/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/por-que-tu-sitio-web-no-genera-cotizaciones/",
+      "destination": "/en/blog/why-your-website-isnt-generating-quotes/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/por-que-tu-sitio-web-no-genera-cotizaciones/",
+      "destination": "/blog/por-que-tu-sitio-web-no-genera-cotizaciones/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/prompts-para-prospectar-clientes-b2b/",
+      "destination": "/en/blog/b2b-prospecting-ai-prompts/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/prompts-para-prospectar-clientes-b2b/",
+      "destination": "/blog/prompts-para-prospectar-clientes-b2b/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/seo-tecnico-web-indexable/",
+      "destination": "/en/blog/technical-seo-indexability/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/seo-tecnico-web-indexable/",
       "destination": "/blog/seo-tecnico-web-indexable/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/web-que-convierte-sin-friccion/",
+      "destination": "/en/blog/make-your-website-easier-to-contact/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/web-que-convierte-sin-friccion/",
+      "destination": "/blog/web-que-convierte-sin-friccion/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/casos/cachalo-y-gana/",
+      "destination": "/en/case-studies/cachalo-y-gana/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/casos/cachalo-y-gana/",
+      "destination": "/casos/cachalo-y-gana/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/casos/erika-de-la-vega/",
+      "destination": "/en/case-studies/erika-de-la-vega/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/casos/erika-de-la-vega/",
+      "destination": "/casos/erika-de-la-vega/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/casos/foto-ahora/",
+      "destination": "/en/case-studies/foto-ahora/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/casos/foto-ahora/",
+      "destination": "/casos/foto-ahora/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/casos/",
+      "destination": "/en/case-studies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/casos/",
+      "destination": "/casos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/casos/ismael-cala/",
+      "destination": "/en/case-studies/ismael-cala/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/casos/ismael-cala/",
+      "destination": "/casos/ismael-cala/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/casos/matdepot/",
+      "destination": "/en/case-studies/matdepot/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/casos/matdepot/",
+      "destination": "/casos/matdepot/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/casos/mia-astral/",
+      "destination": "/en/case-studies/mia-astral/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/casos/mia-astral/",
+      "destination": "/casos/mia-astral/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/casos/nawis/",
+      "destination": "/en/case-studies/nawis/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/casos/nawis/",
+      "destination": "/casos/nawis/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/casos/pfs-realty/",
+      "destination": "/en/case-studies/pfs-realty/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/casos/pfs-realty/",
+      "destination": "/casos/pfs-realty/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/casos/runahr/",
+      "destination": "/en/case-studies/runahr/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/casos/runahr/",
+      "destination": "/casos/runahr/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/casos/wide-angle/",
+      "destination": "/en/case-studies/wide-angle/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/casos/wide-angle/",
+      "destination": "/casos/wide-angle/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/casos/xcape/",
+      "destination": "/en/case-studies/xcape/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/casos/xcape/",
+      "destination": "/casos/xcape/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/casos/yogurt-boom/",
+      "destination": "/en/case-studies/yogurt-boom/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/casos/yogurt-boom/",
+      "destination": "/casos/yogurt-boom/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/contacto/",
+      "destination": "/en/contact/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/contacto/",
+      "destination": "/contacto/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/gracias/",
+      "destination": "/en/thank-you/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/gracias/",
+      "destination": "/gracias/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/nosotros/",
+      "destination": "/en/about/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/nosotros/",
+      "destination": "/nosotros/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/privacidad/",
+      "destination": "/en/privacy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/privacidad/",
+      "destination": "/privacidad/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/servicios/automatizacion/",
+      "destination": "/en/services/marketing-automation/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/servicios/automatizacion/",
+      "destination": "/servicios/automatizacion/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/servicios/desarrollo-web/",
+      "destination": "/en/services/web-design-development/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/servicios/desarrollo-web/",
+      "destination": "/servicios/desarrollo-web/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/servicios/ecommerce/",
+      "destination": "/en/services/ecommerce/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/servicios/ecommerce/",
+      "destination": "/servicios/ecommerce/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/servicios/",
+      "destination": "/en/services/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/servicios/",
+      "destination": "/servicios/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/servicios/inteligencia-artificial/",
+      "destination": "/en/services/ai-consulting/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/servicios/inteligencia-artificial/",
+      "destination": "/servicios/inteligencia-artificial/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/servicios/marketing-estrategico/",
+      "destination": "/en/services/marketing-strategy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/servicios/marketing-estrategico/",
+      "destination": "/servicios/marketing-estrategico/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/servicios/performance-y-leads/",
+      "destination": "/en/services/performance-lead-generation/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/servicios/performance-y-leads/",
+      "destination": "/servicios/performance-y-leads/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/servicios/posicionamiento-geo/",
+      "destination": "/en/services/seo-geo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/servicios/posicionamiento-geo/",
+      "destination": "/servicios/posicionamiento-geo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/terminos/",
+      "destination": "/en/terms/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/terminos/",
+      "destination": "/terminos/",
       "statusCode": 301
     },
     {
@@ -389,7 +819,7 @@
     },
     {
       "source": "/en/cdmx/",
-      "destination": "/",
+      "destination": "/en/",
       "statusCode": 301
     }
   ],

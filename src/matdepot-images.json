@@ -1,0 +1,412 @@
+{
+  "antes-inicio": [
+    {
+      "file": "antes-inicio-640.webp",
+      "w": 640,
+      "h": 422
+    },
+    {
+      "file": "antes-inicio-1400.webp",
+      "w": 1090,
+      "h": 718
+    }
+  ],
+  "antes-catalogo": [
+    {
+      "file": "antes-catalogo-640.webp",
+      "w": 640,
+      "h": 361
+    },
+    {
+      "file": "antes-catalogo-1400.webp",
+      "w": 1146,
+      "h": 646
+    }
+  ],
+  "antes-ficha": [
+    {
+      "file": "antes-ficha-640.webp",
+      "w": 640,
+      "h": 333
+    },
+    {
+      "file": "antes-ficha-1400.webp",
+      "w": 1226,
+      "h": 637
+    }
+  ],
+  "despues-inicio": [
+    {
+      "file": "despues-inicio-640.webp",
+      "w": 640,
+      "h": 400
+    },
+    {
+      "file": "despues-inicio-1400.webp",
+      "w": 1400,
+      "h": 875
+    }
+  ],
+  "despues-catalogo": [
+    {
+      "file": "catalogo-audit-640.webp",
+      "w": 640,
+      "h": 360
+    },
+    {
+      "file": "catalogo-audit-1265.webp",
+      "w": 1265,
+      "h": 712
+    }
+  ],
+  "despues-ficha": [
+    {
+      "file": "despues-ficha-640.webp",
+      "w": 640,
+      "h": 630
+    },
+    {
+      "file": "despues-ficha-1400.webp",
+      "w": 1400,
+      "h": 1377
+    }
+  ],
+  "comparador": [
+    {
+      "file": "comparador-640.webp",
+      "w": 640,
+      "h": 629
+    },
+    {
+      "file": "comparador-1400.webp",
+      "w": 725,
+      "h": 712
+    }
+  ],
+  "marca-en-producto": [
+    {
+      "file": "marca-en-producto-640.webp",
+      "w": 640,
+      "h": 853
+    },
+    {
+      "file": "marca-en-producto-1400.webp",
+      "w": 960,
+      "h": 1280
+    }
+  ],
+  "brandbook": [
+    {
+      "file": "brandbook-640.webp",
+      "w": 640,
+      "h": 872
+    },
+    {
+      "file": "brandbook-1400.webp",
+      "w": 1261,
+      "h": 1719
+    }
+  ],
+  "logo": [
+    {
+      "file": "logo-640.webp",
+      "w": 640,
+      "h": 872
+    },
+    {
+      "file": "logo-1400.webp",
+      "w": 1261,
+      "h": 1719
+    }
+  ],
+  "versiones-logo": [
+    {
+      "file": "versiones-logo-640.webp",
+      "w": 640,
+      "h": 872
+    },
+    {
+      "file": "versiones-logo-1400.webp",
+      "w": 1261,
+      "h": 1719
+    }
+  ],
+  "paleta": [
+    {
+      "file": "paleta-640.webp",
+      "w": 640,
+      "h": 872
+    },
+    {
+      "file": "paleta-1400.webp",
+      "w": 1261,
+      "h": 1719
+    }
+  ],
+  "tipografia": [
+    {
+      "file": "tipografia-640.webp",
+      "w": 640,
+      "h": 872
+    },
+    {
+      "file": "tipografia-1400.webp",
+      "w": 1261,
+      "h": 1719
+    }
+  ],
+  "aplicacion-web": [
+    {
+      "file": "aplicacion-web-640.webp",
+      "w": 640,
+      "h": 872
+    },
+    {
+      "file": "aplicacion-web-1400.webp",
+      "w": 1261,
+      "h": 1719
+    }
+  ],
+  "aplicacion-redes": [
+    {
+      "file": "aplicacion-redes-640.webp",
+      "w": 640,
+      "h": 546
+    },
+    {
+      "file": "aplicacion-redes-1400.webp",
+      "w": 1261,
+      "h": 1076
+    }
+  ],
+  "aplicacion-catalogo": [
+    {
+      "file": "aplicacion-catalogo-640.webp",
+      "w": 640,
+      "h": 872
+    },
+    {
+      "file": "aplicacion-catalogo-1400.webp",
+      "w": 1261,
+      "h": 1719
+    }
+  ],
+  "aplicacion-impresos": [
+    {
+      "file": "aplicacion-impresos-640.webp",
+      "w": 640,
+      "h": 872
+    },
+    {
+      "file": "aplicacion-impresos-1400.webp",
+      "w": 1261,
+      "h": 1719
+    }
+  ],
+  "carrusel-01": [
+    {
+      "file": "carrusel-01-640.webp",
+      "w": 640,
+      "h": 800
+    },
+    {
+      "file": "carrusel-01-1400.webp",
+      "w": 1024,
+      "h": 1280
+    }
+  ],
+  "carrusel-02": [
+    {
+      "file": "carrusel-02-640.webp",
+      "w": 640,
+      "h": 800
+    },
+    {
+      "file": "carrusel-02-1400.webp",
+      "w": 1024,
+      "h": 1280
+    }
+  ],
+  "carrusel-03": [
+    {
+      "file": "carrusel-03-640.webp",
+      "w": 640,
+      "h": 800
+    },
+    {
+      "file": "carrusel-03-1400.webp",
+      "w": 1024,
+      "h": 1280
+    }
+  ],
+  "carrusel-04": [
+    {
+      "file": "carrusel-04-640.webp",
+      "w": 640,
+      "h": 800
+    },
+    {
+      "file": "carrusel-04-1400.webp",
+      "w": 1024,
+      "h": 1280
+    }
+  ],
+  "carrusel-05": [
+    {
+      "file": "carrusel-05-640.webp",
+      "w": 640,
+      "h": 800
+    },
+    {
+      "file": "carrusel-05-1400.webp",
+      "w": 1024,
+      "h": 1280
+    }
+  ],
+  "carrusel-06": [
+    {
+      "file": "carrusel-06-640.webp",
+      "w": 640,
+      "h": 800
+    },
+    {
+      "file": "carrusel-06-1400.webp",
+      "w": 1024,
+      "h": 1280
+    }
+  ],
+  "carrusel-07": [
+    {
+      "file": "carrusel-07-640.webp",
+      "w": 640,
+      "h": 800
+    },
+    {
+      "file": "carrusel-07-1400.webp",
+      "w": 1024,
+      "h": 1280
+    }
+  ],
+  "carrusel-08": [
+    {
+      "file": "carrusel-08-640.webp",
+      "w": 640,
+      "h": 800
+    },
+    {
+      "file": "carrusel-08-1400.webp",
+      "w": 1024,
+      "h": 1280
+    }
+  ],
+  "video-01": [
+    {
+      "file": "video-01-640.webp",
+      "w": 576,
+      "h": 1024
+    },
+    {
+      "file": "video-01-1400.webp",
+      "w": 576,
+      "h": 1024
+    }
+  ],
+  "video-02": [
+    {
+      "file": "video-02-640.webp",
+      "w": 576,
+      "h": 1024
+    },
+    {
+      "file": "video-02-1400.webp",
+      "w": 576,
+      "h": 1024
+    }
+  ],
+  "video-03": [
+    {
+      "file": "video-03-640.webp",
+      "w": 576,
+      "h": 1024
+    },
+    {
+      "file": "video-03-1400.webp",
+      "w": 576,
+      "h": 1024
+    }
+  ],
+  "video-04": [
+    {
+      "file": "video-04-640.webp",
+      "w": 576,
+      "h": 1024
+    },
+    {
+      "file": "video-04-1400.webp",
+      "w": 576,
+      "h": 1024
+    }
+  ],
+  "producto-01": [
+    {
+      "file": "producto-01-640.webp",
+      "w": 640,
+      "h": 480
+    },
+    {
+      "file": "producto-01-1400.webp",
+      "w": 1400,
+      "h": 1050
+    }
+  ],
+  "producto-02": [
+    {
+      "file": "producto-02-640.webp",
+      "w": 640,
+      "h": 640
+    },
+    {
+      "file": "producto-02-1400.webp",
+      "w": 1254,
+      "h": 1254
+    }
+  ],
+  "producto-03": [
+    {
+      "file": "producto-03-640.webp",
+      "w": 640,
+      "h": 553
+    },
+    {
+      "file": "producto-03-1400.webp",
+      "w": 1349,
+      "h": 1166
+    }
+  ],
+  "producto-04": [
+    {
+      "file": "producto-04-640.webp",
+      "w": 640,
+      "h": 360
+    },
+    {
+      "file": "producto-04-1400.webp",
+      "w": 1400,
+      "h": 788
+    }
+  ],
+  "logo-antes": [
+    {
+      "file": "logo-antes-hd.png",
+      "w": 1632,
+      "h": 964
+    }
+  ],
+  "logo-despues": [
+    {
+      "file": "logo-despues-hd.png",
+      "w": 1859,
+      "h": 846
+    }
+  ]
+}

@@ -1,48 +1,48 @@
 [
   {
     "path": "/",
-    "title": "Agencia de marketing e IA en CDMX",
-    "description": "Impulsa tu negocio con Mood Agency: estrategia de marketing, desarrollo web, ecommerce, automatización e IA aplicada desde Ciudad de México."
+    "title": "Agencia de marketing, IA y tecnología en CDMX",
+    "description": "IA y tecnología integradas en todos los servicios de Mood Agency: estrategia, web, campañas, ecommerce, automatización y SEO/GEO."
   },
   {
     "path": "/servicios/",
-    "title": "Servicios de marketing, web e IA",
-    "description": "Explora los servicios de Mood Agency: posicionamiento GEO, estrategia, desarrollo web, generación de leads, ecommerce, automatización e IA."
+    "title": "Servicios de marketing con IA y tecnología",
+    "description": "Descubre los servicios de Mood Agency: estrategia, web, leads, ecommerce, automatización y SEO/GEO con IA, tecnología y criterio profesional."
   },
   {
     "path": "/servicios/marketing-estrategico/",
-    "title": "Estrategia de marketing para empresas",
-    "description": "Define audiencias, propuesta de valor, canales e indicadores con Mood Agency. Convertimos tus objetivos comerciales en un plan de marketing ejecutable."
+    "title": "Estrategia de marketing con IA para empresas",
+    "description": "Diseña tu estrategia de marketing con IA y datos. Mood Agency conecta investigación, posicionamiento, contenidos y decisiones comerciales."
   },
   {
     "path": "/servicios/desarrollo-web/",
-    "title": "Diseño y desarrollo web para empresas",
-    "description": "Crea una web clara, adaptable y fácil de gestionar. Mood Agency integra diseño, desarrollo, SEO técnico y medición según las necesidades de tu negocio."
+    "title": "Diseño y desarrollo web con IA para empresas",
+    "description": "Crea una web con IA aplicada al diseño, contenido y desarrollo. Mood Agency conecta experiencia de usuario, SEO, analítica e integraciones."
   },
   {
     "path": "/servicios/performance-y-leads/",
-    "title": "Performance y generación de leads",
-    "description": "Conecta campañas, páginas de destino y medición con Mood Agency. Evalúa la calidad de tus leads y mejora el recorrido del clic a la oportunidad comercial."
+    "title": "Performance y generación de leads con IA",
+    "description": "Conecta publicidad, IA y CRM para generar oportunidades. Mood Agency trabaja campañas, mensajes, seguimiento y medición de calidad de leads."
   },
   {
     "path": "/servicios/ecommerce/",
-    "title": "Ecommerce y plataformas de membresía",
-    "description": "Desarrolla tu tienda o plataforma de membresía con Mood Agency. Integramos experiencia de compra, pagos y medición según el alcance de tu proyecto."
+    "title": "Ecommerce y membresías con IA",
+    "description": "Desarrolla tu ecommerce con IA, analítica y automatización. Mood Agency conecta compra, catálogo, seguimiento y retención con objetivos medibles."
   },
   {
     "path": "/servicios/automatizacion/",
-    "title": "Automatización de marketing y procesos",
-    "description": "Automatiza captación, seguimiento y comunicación con Mood Agency. Diseñamos flujos e integraciones con reglas, pruebas y responsables definidos."
+    "title": "Automatización con IA para marketing y ventas",
+    "description": "Conecta formularios, CRM y comunicación con automatización e IA. Mood Agency diseña flujos para clasificar consultas y facilitar el seguimiento."
   },
   {
     "path": "/servicios/inteligencia-artificial/",
-    "title": "Consultoría de IA aplicada al marketing",
-    "description": "Incorpora IA a tu equipo con Mood Agency: casos de uso, pilotos, capacitación y supervisión humana para procesos de marketing con criterios de calidad."
+    "title": "Consultoría e implementación de IA en marketing",
+    "description": "Lleva la IA a tu operación con Mood Agency: diagnóstico, pilotos, integración de herramientas, capacitación y evaluación de calidad."
   },
   {
     "path": "/servicios/posicionamiento-geo/",
-    "title": "Posicionamiento GEO para empresas en México",
-    "description": "Mejora la visibilidad de tu empresa en buscadores y respuestas de IA. Mood Agency conecta SEO, contenido B2B y medición GEO en México."
+    "title": "SEO y posicionamiento GEO con IA en México",
+    "description": "Conecta SEO, contenido experto e IA con Mood Agency. Investigamos preguntas, revisamos fuentes y medimos menciones, citas y consultas comerciales."
   },
   {
     "path": "/casos/",
@@ -106,8 +106,8 @@
   },
   {
     "path": "/nosotros/",
-    "title": "Mood Agency y Liliana Ferro",
-    "description": "Conoce a Mood Agency, agencia de marketing y tecnología dirigida por Liliana Ferro en Ciudad de México. Estrategia, experiencia digital y ejecución."
+    "title": "Mood Agency: marketing, IA y tecnología",
+    "description": "Conoce Mood Agency, dirigida por Liliana Ferro en CDMX. Integramos IA, tecnología y criterio profesional en todos nuestros servicios de marketing."
   },
   {
     "path": "/contacto/",
@@ -218,5 +218,10 @@
     "path": "/blog/como-elegir-agencia-de-leads-b2b/",
     "title": "Cómo elegir una agencia de leads B2B: 10 preguntas",
     "description": "Diez preguntas para hacerle a una agencia antes de firmar, qué respuesta esperar en cada una y las señales de alerta."
+  },
+  {
+    "path": "/casos/matdepot/",
+    "title": "Mat Depot: rebranding, web, SEO y GEO",
+    "description": "De catálogo genérico a marca técnica: el caso Mat Depot de Mood Agency. Rebranding, brandbook, web B2B, SEO, GEO, contenido y CRM, con antes y después."
   }
 ]

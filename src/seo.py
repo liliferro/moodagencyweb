@@ -27,12 +27,17 @@ META = {
  '/blog/contenido-util-para-personas-y-buscadores/': ('Contenido útil para SEO y respuestas con IA', 'Crea contenido que responda preguntas reales con evidencia, contexto y fuentes. Guía editorial para personas, buscadores y experiencias con IA.'),
  '/blog/web-que-convierte-sin-friccion/': ('Cómo mejorar el contacto desde tu web', 'Revisa propuesta de valor, navegación, pruebas y formularios para facilitar el contacto. Aprende a detectar fricciones antes de añadir más efectos.'),
 }
+# Keep service metadata aligned with the IA offer.
+AI_SERVICES=json.loads((ROOT/'src/service-ai.json').read_text(encoding='utf-8'))
+META.update({'/servicios/'+s['slug']+'/':(s['metaTitle'],s['metaDesc']) for s in AI_SERVICES})
+META.update({"/":["Agencia de marketing, IA y tecnología en CDMX","IA y tecnología integradas en todos los servicios de Mood Agency: estrategia, web, campañas, ecommerce, automatización y SEO/GEO."],"/servicios/":["Servicios de marketing con IA y tecnología","Descubre los servicios de Mood Agency: estrategia, web, leads, ecommerce, automatización y SEO/GEO con IA, tecnología y criterio profesional."],"/nosotros/":["Mood Agency: marketing, IA y tecnología","Conoce Mood Agency, dirigida por Liliana Ferro en CDMX. Integramos IA, tecnología y criterio profesional en todos nuestros servicios de marketing."]})
+
 CASES = {
  'runahr': ('Runa: desarrollo y optimización web', 'Conoce el proyecto de Mood Agency para Runa: renovación de su sitio WordPress, experiencia de navegación, localización y gestión de contenidos.'),
  'wide-angle': ('Wide Angle: web de postproducción', 'Explora el proyecto web de Mood Agency para Wide Angle: presentación de servicios de postproducción, portafolio audiovisual y experiencia de navegación.'),
  'cachalo-y-gana': ('Cachalo y Gana: plataforma digital', 'Conoce la plataforma digital de Cachalo y Gana desarrollada por Mood Agency para conectar un programa de concursos con la participación de su audiencia.'),
  'xcape': ('Xcape: plataforma web de viajes', 'Descubre el proyecto de Mood Agency para Xcape: una plataforma digital para presentar viajes de aventura y facilitar el recorrido hacia la reserva.'),
- 'mia-astral': ('Mia Astral: ecommerce y membresías', 'Conoce el trabajo de Mood Agency en el ecosistema digital de Mia Astral: plataforma de membresía, contenidos, productos y experiencia de compra.'),
+ 'mia-astral': ('Mia Astral: 13 años de evolución digital', '13 años de Mood Agency junto a Mia Astral: comunidad, web, membresía, agenda, automatización e IA. Conoce la evolución y sus resultados.'),
  'pfs-realty': ('PFS Realty: plataforma inmobiliaria', 'Explora la plataforma inmobiliaria de PFS Realty: búsqueda de propiedades, integración de datos y experiencia web desarrolladas por Mood Agency.'),
  'erika-de-la-vega': ('Erika de la Vega: contenido y web', 'Conoce el proyecto de Mood Agency para Erika de la Vega: presencia digital, contenidos, marca personal y una web conectada con su audiencia.'),
  'ismael-cala': ('Ismael Cala: plataforma y ecommerce', 'Descubre el proyecto digital de Mood Agency para Ismael Cala: plataforma de contenidos, comercio electrónico y experiencia para su comunidad.'),

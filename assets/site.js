@@ -4,24 +4,34 @@
   const GA = 'G-M7458TKM89', GTM = 'GTM-KFVRVZ9', KEY = 'mood-consent-v1';
   const safeRead = (s,k) => {try{return s.getItem(k)}catch{return null}};
   const safeWrite = (s,k,v) => {try{s.setItem(k,v)}catch{}};
+  const safeRemove = (s,k) => {try{s.removeItem(k)}catch{}};
+  const noGaParam = new URLSearchParams(location.search).get('no_ga');
+  if(noGaParam==='1')safeWrite(localStorage,'mood_no_ga','1');
+  else if(noGaParam==='0')safeRemove(localStorage,'mood_no_ga');
+  const referrer=(document.referrer||'').toLowerCase();
+  const productionHost=location.hostname==='mood-agency.com'||location.hostname==='www.mood-agency.com';
+  // Property 564313984: do not initialize GA4 off the public host, from Vercel, or in a browser opted out with ?no_ga=1.
+  const allowGa=productionHost&&!referrer.includes('vercel.com')&&!referrer.includes('vercel.app')&&noGaParam!=='1'&&safeRead(localStorage,'mood_no_ga')!=='1';
   let consent={analytics:false,ads:false}, loaded=false, validConsent=false;
   try {const c=JSON.parse(safeRead(localStorage,KEY));if(c && Date.now()-c.saved<180*86400000){consent={analytics:c.analytics===true,ads:c.ads===true};validConsent=true;}}catch{}
   const status=()=>({analytics_storage:consent.analytics?'granted':'denied',ad_storage:consent.ads?'granted':'denied',ad_user_data:consent.ads?'granted':'denied',ad_personalization:consent.ads?'granted':'denied'});
-  window.dataLayer=window.dataLayer||[];
-  window.gtag=function(){window.dataLayer.push(arguments)};
-  window.gtag('consent','default',status());
+  if(allowGa){
+    window.dataLayer=window.dataLayer||[];
+    window.gtag=function(){window.dataLayer.push(arguments)};
+    window.gtag('consent','default',status());
+  }
   window.clarity=window.clarity||function(){(window.clarity.q=window.clarity.q||[]).push(arguments)};
   function clarityConsent(){window.clarity('consentv2',{analytics_Storage:consent.analytics?'granted':'denied',ad_Storage:consent.ads?'granted':'denied'});}
   clarityConsent();
   // Avoid query strings containing form values or arbitrary personal data in analytics.
-  window.gtag('set',{page_location:location.origin+location.pathname,page_referrer:document.referrer.split('?')[0].split('#')[0]});
-  function loadTags(){if(loaded||(!consent.analytics&&!consent.ads))return;loaded=true;window.gtag('js',new Date());window.dataLayer.push({'gtm.start':Date.now(),event:'gtm.js'});const s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtm.js?id='+GTM;document.head.append(s);if(document.body.dataset.case)track('case_view',{case_slug:document.body.dataset.case});}
-  function track(event,params={}){if(!consent.analytics)return;window.gtag('event',event,{send_to:GA,...params});}
+  if(allowGa)window.gtag('set',{page_location:location.origin+location.pathname,page_referrer:document.referrer.split('?')[0].split('#')[0]});
+  function loadTags(){if(!allowGa||loaded||(!consent.analytics&&!consent.ads))return;loaded=true;window.gtag('js',new Date());window.dataLayer.push({'gtm.start':Date.now(),event:'gtm.js'});const s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtm.js?id='+GTM;document.head.append(s);if(document.body.dataset.case)track('case_view',{case_slug:document.body.dataset.case});}
+  function track(event,params={}){if(!allowGa||!consent.analytics)return;window.gtag('event',event,{send_to:GA,...params});}
   function capture(){if(!consent.analytics)return;const q=new URLSearchParams(location.search), saved={};for(const k of ['utm_source','utm_medium','utm_campaign','utm_content','utm_term',...(consent.ads?['gclid','fbclid','msclkid']:[])]){const v=q.get(k);if(v && v.length<=200 && !/@|%40/i.test(v))saved[k]=v;}if(Object.keys(saved).length)safeWrite(sessionStorage,'mood-attribution',JSON.stringify(saved));}
   function clearTracking(adsOnly=false){try{sessionStorage.removeItem('mood-attribution')}catch{};for(const part of document.cookie.split(';')){const name=part.split('=')[0].trim();if((adsOnly?/^(_gcl|_fbp|_fbc)/:/^(_ga|_gid|_gat|_gcl|_fbp|_fbc|_clck|_clsk|hubspotutk|__hstc|__hssc|__hssrc)/).test(name)){for(const domain of ['',location.hostname,'.'+location.hostname,'.mood-agency.com'])document.cookie=name+'=;Max-Age=0;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/'+(domain?';domain='+domain:'');}}}
   const banner=document.getElementById('consent-banner');
   function showConsent(){banner.hidden=false;document.getElementById('consent-analytics').checked=consent.analytics;document.getElementById('consent-ads').checked=consent.ads;document.getElementById('consent-title').focus();}
-  function saveConsent(a,b){const had=loaded;consent={analytics:a,ads:b};safeWrite(localStorage,KEY,JSON.stringify({...consent,saved:Date.now()}));window.gtag('consent','update',status());clarityConsent();banner.hidden=true;if(!a)clearTracking();else if(!b)clearTracking(true);capture();loadTags();if(had)location.reload();}
+  function saveConsent(a,b){const had=loaded;consent={analytics:a,ads:b};safeWrite(localStorage,KEY,JSON.stringify({...consent,saved:Date.now()}));if(allowGa)window.gtag('consent','update',status());clarityConsent();banner.hidden=true;if(!a)clearTracking();else if(!b)clearTracking(true);capture();loadTags();if(had)location.reload();}
   document.querySelectorAll('[data-consent-open]').forEach(b=>b.addEventListener('click',showConsent));
   document.getElementById('consent-reject').addEventListener('click',()=>saveConsent(false,false));
   document.getElementById('consent-accept').addEventListener('click',()=>saveConsent(true,true));

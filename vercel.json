@@ -850,7 +850,7 @@
       ]
     },
     {
-      "source": "/assets/(.*)\\.(?:css|js)",
+      "source": "/assets/(.*).css",
       "headers": [
         {
           "key": "Cache-Control",
@@ -859,7 +859,7 @@
       ]
     },
     {
-      "source": "/assets/(.*)\\.woff2",
+      "source": "/assets/(.*).js",
       "headers": [
         {
           "key": "Cache-Control",
@@ -868,7 +868,79 @@
       ]
     },
     {
-      "source": "/assets/(.*)\\.(?:avif|webp|png|jpe?g|gif|svg|ico)",
+      "source": "/assets/(.*).woff2",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*).avif",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000, stale-while-revalidate=604800"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*).webp",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000, stale-while-revalidate=604800"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*).png",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000, stale-while-revalidate=604800"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*).jpg",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000, stale-while-revalidate=604800"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*).jpeg",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000, stale-while-revalidate=604800"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*).gif",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000, stale-while-revalidate=604800"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*).svg",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000, stale-while-revalidate=604800"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*).ico",
       "headers": [
         {
           "key": "Cache-Control",

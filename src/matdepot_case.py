@@ -32,7 +32,7 @@ def publish(root):
  def img(match):
   key,alt,kind=match.groups(); variants=images[key];small,large=variants[0],variants[-1]
   prefix='/assets/casos/matdepot/'
-  html=f'<img src="{prefix+large["file"] if kind=="eager" else prefix+small["file"]}" srcset="'+', '.join(prefix+v['file']+' '+str(v['w'])+'w' for v in variants)+f'" sizes="(max-width:700px) calc(100vw - 40px), {"1200px" if kind=="eager" else "600px"}" width="{large["w"]}" height="{large["h"]}" alt="{escape(alt,quote=True)}" loading="{"eager" if kind=="eager" else "lazy"}" decoding="async"'+(' fetchpriority="high"' if kind=='eager' else '')+'>'
+  html=f'<img src="{prefix+large["file"] if kind=="eager" else prefix+small["file"]}" srcset="'+', '.join(prefix+v['file']+' '+str(v['w'])+'w' for v in variants)+f'" sizes="(max-width:700px) calc(100vw - 40px), {"1200px" if kind=="eager" else "600px"}" width="{large["w"]}" height="{large["h"]}" alt="{escape(alt,quote=True)}" loading="{"eager" if kind=="eager" else "lazy"}" decoding="async"'+(' fetchpriority="high"' if kind=='eager' else ' fetchpriority="low"')+'>'
   if kind=='zoom': html=f'<a class="md-zoom" href="{prefix+large["file"]}" target="_blank" rel="noopener" data-full="{prefix+large["file"]}" aria-label="Ampliar: {escape(alt,quote=True)}">'+html+'</a>'
   return html
  body=(root/'src/matdepot-body.html').read_text(encoding='utf-8')

@@ -85,7 +85,7 @@ for es,en in ROUTES.items():
    if tag.get('property')=='og:url':tag['content']=localize_url(tag['content'])
   if tag.get('href'):tag['href']=localize_url(tag['href'])
   if tag.get('action'):tag['action']=localize_url(tag['action'])
-  if tag.get('src','').startswith('/assets/site.js'):tag['src']='/assets/site-en.js?v=20261119-noga'
+  if tag.get('src','').startswith('/assets/site.js'):tag['src']='/assets/site-en.js?v=20261119-perf'
   if tag.get('src','').startswith('/assets/matdepot-case.js'):tag['src']='/assets/matdepot-case-en.js?v=20261117-i18n'
  for tag in english.select('script[type="application/ld+json"]'):
   tag.string=json.dumps(schema(json.loads(tag.string)),ensure_ascii=False,separators=(',',':'))

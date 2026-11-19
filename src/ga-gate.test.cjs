@@ -55,6 +55,7 @@ function load(file,{hostname,search='',referrer='',pathname='/',storage,consent,
   const window={addEventListener(){}};
   const document={
     referrer,
+    readyState:'complete',
     cookie:'',
     body:{dataset:caseSlug?{case:caseSlug}:{}},
     documentElement:{scrollHeight:4000},
@@ -74,6 +75,8 @@ function load(file,{hostname,search='',referrer='',pathname='/',storage,consent,
     },
     innerHeight:800,scrollY:0,
     URLSearchParams,Date,JSON,Set,Object,Array,String,RegExp,Math,
+    requestIdleCallback(fn){fn();},
+    setTimeout(fn){fn();},
   };
   vm.runInNewContext(source,context,{filename:file});
   const gaScripts=()=>scripts.filter(src=>/googletagmanager|google-analytics|gtag/.test(src));

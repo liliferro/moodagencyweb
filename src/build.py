@@ -5,6 +5,7 @@ import json, re
 from PIL import Image, ImageDraw, ImageFont
 from seo import enrich, finish
 from geo import SERVICE as GEO_SERVICE, render as render_geo
+from legacy_http import GONE_HTML, cdmx_redirects, gone_routes
 
 ROOT=Path(__file__).resolve().parent.parent
 DATA=json.loads((ROOT/'src/content.json').read_text(encoding='utf-8'))
@@ -153,10 +154,14 @@ for c in CASES:
 # Only redirect replaced articles with a relevant equivalent; removed unrelated articles return 404.
 for old,new in [('seo-for-beginners','seo-tecnico-web-indexable'),('ai-transforming-marketing','ia-marketing-supervision-humana'),('content-marketing-strategies','contenido-util-para-personas-y-buscadores'),('web-design-trends-2025','web-que-convierte-sin-friccion'),('local-seo','seo-tecnico-web-indexable')]:
     for prefix in ['', '/es','/en']:redirects.append({'source':prefix+'/blog/'+old,'destination':'/blog/'+new+'/','statusCode':301})
+# The homepage is the current CDMX landing. Archive city pages without an
+# equivalent are returned as 410 by routes, not redirected.
+redirects.extend(cdmx_redirects())
 csp="default-src 'self'; script-src 'self' 'unsafe-inline' https://*.clarity.ms https://connect.facebook.net https://js.hsforms.net https://js.hs-scripts.com https://js.hs-analytics.net https://js.hs-banner.com https://js.hscollectedforms.net https://js.hsadspixel.net https://js.usemessages.com https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://track.hubspot.com https://forms.hsforms.com https://*.clarity.ms https://c.bing.com https://www.facebook.com https://*.google-analytics.com https://*.googletagmanager.com https://www.google.com; font-src 'self'; connect-src 'self' https://forms.hsforms.com https://forms-na1.hsforms.com https://hubspot-forms-static-embed.s3.amazonaws.com https://track.hubspot.com https://*.hubapi.com https://*.clarity.ms https://www.facebook.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://www.google.com; frame-src https://app.hubspot.com https://forms.hsforms.com https://forms-na1.hsforms.com https://www.hubspot.com https://www.googletagmanager.com; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'self' https://forms.hsforms.com; upgrade-insecure-requests"
 for redirect in redirects:redirect['source']=redirect['source'].rstrip('/')+'/'
-config={'version':2,'framework':None,'buildCommand':None,'outputDirectory':'.','trailingSlash':True,'redirects':redirects,'headers':[{'source':'/(.*)','headers':[{'key':'X-Content-Type-Options','value':'nosniff'},{'key':'X-Frame-Options','value':'SAMEORIGIN'},{'key':'Referrer-Policy','value':'strict-origin-when-cross-origin'},{'key':'Permissions-Policy','value':'camera=(), microphone=(), geolocation=()'},{'key':'Content-Security-Policy','value':csp}]},{'source':'/assets/(.*)','headers':[{'key':'Cache-Control','value':'public, max-age=3600, must-revalidate'}]},{'source':'/src/(.*)','headers':[{'key':'X-Robots-Tag','value':'noindex'}]},{'source':'/docs/(.*)','headers':[{'key':'X-Robots-Tag','value':'noindex'}]}]}
-write('vercel.json',json.dumps(config,indent=2,ensure_ascii=False));write('src/page-manifest.json',json.dumps(pages,indent=2,ensure_ascii=False))
+config={'version':2,'framework':None,'buildCommand':None,'outputDirectory':'.','trailingSlash':True,'routes':gone_routes(),'redirects':redirects,'headers':[{'source':'/(.*)','headers':[{'key':'X-Content-Type-Options','value':'nosniff'},{'key':'X-Frame-Options','value':'SAMEORIGIN'},{'key':'Referrer-Policy','value':'strict-origin-when-cross-origin'},{'key':'Permissions-Policy','value':'camera=(), microphone=(), geolocation=()'},{'key':'Content-Security-Policy','value':csp}]},{'source':'/assets/(.*)','headers':[{'key':'Cache-Control','value':'public, max-age=3600, must-revalidate'}]},{'source':'/src/(.*)','headers':[{'key':'X-Robots-Tag','value':'noindex'}]},{'source':'/docs/(.*)','headers':[{'key':'X-Robots-Tag','value':'noindex'}]},{'source':'/410.html','headers':[{'key':'X-Robots-Tag','value':'noindex'}]}]}
+write('410.html',GONE_HTML)
+write('vercel.json',json.dumps(config,indent=2,ensure_ascii=False)+'\n');write('src/page-manifest.json',json.dumps(pages,indent=2,ensure_ascii=False))
 print(json.dumps({'indexable_pages':len(pages),'responsive_images':len(image_meta),'redirects':len(redirects),'home_bytes':(ROOT/'index.html').stat().st_size}))
 
 finish(pages)

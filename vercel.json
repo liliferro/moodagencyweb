@@ -4,6 +4,68 @@
   "buildCommand": null,
   "outputDirectory": ".",
   "trailingSlash": true,
+  "routes": [
+    {
+      "src": "^/.*-mo24-.*\\.html/?$",
+      "status": 410,
+      "dest": "/410.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "X-Robots-Tag": "noindex",
+        "Cache-Control": "public, max-age=3600"
+      }
+    },
+    {
+      "src": "^/.*-mo54-.*\\.html/?$",
+      "status": 410,
+      "dest": "/410.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "X-Robots-Tag": "noindex",
+        "Cache-Control": "public, max-age=3600"
+      }
+    },
+    {
+      "src": "^/online-mo.*$",
+      "status": 410,
+      "dest": "/410.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "X-Robots-Tag": "noindex",
+        "Cache-Control": "public, max-age=3600"
+      }
+    },
+    {
+      "src": "^/rio-de-janeiro(?:/.*)?$",
+      "status": 410,
+      "dest": "/410.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "X-Robots-Tag": "noindex",
+        "Cache-Control": "public, max-age=3600"
+      }
+    },
+    {
+      "src": "^/caracas(?:/.*)?$",
+      "status": 410,
+      "dest": "/410.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "X-Robots-Tag": "noindex",
+        "Cache-Control": "public, max-age=3600"
+      }
+    },
+    {
+      "src": "^/maracaibo(?:/.*)?$",
+      "status": 410,
+      "dest": "/410.html",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "X-Robots-Tag": "noindex",
+        "Cache-Control": "public, max-age=3600"
+      }
+    }
+  ],
   "redirects": [
     {
       "source": "/services/",
@@ -744,6 +806,21 @@
       "source": "/es/terminos/",
       "destination": "/terminos/",
       "statusCode": 301
+    },
+    {
+      "source": "/cdmx/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/cdmx/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/cdmx/",
+      "destination": "/en/",
+      "statusCode": 301
     }
   ],
   "headers": [
@@ -792,6 +869,15 @@
     },
     {
       "source": "/docs/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/410.html",
       "headers": [
         {
           "key": "X-Robots-Tag",

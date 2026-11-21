@@ -348,4 +348,4 @@ Data de compra: Procesamos datos de compra (género, edad, ticket medio) para de
 
 
 ## Caso PHASA
-[PHASA: medición, contenido, IA y CRM industrial](https://mood-agency.com/casos/phasa/): Proyecto industrial en curso. Auditoría digital, arquitectura y contenido preparados para hule.com.mx, capacitación en IA y Blueprint comercial con HubSpot. Corte: 20 de noviembre de 2026. Las cifras cuentan entregables, no ventas ni crecimiento medido.
+[PHASA: SEO, GEO e IA para marketing y ventas](https://mood-agency.com/casos/phasa/): Proyecto industrial en curso que conecta posicionamiento SEO/GEO, capacitación de marketing con IA y seguimiento comercial en HubSpot con Breeze. Mood realizó diagnóstico, preparó arquitectura y contenidos y entrenó a marketing y comercial; la propuesta de automatización se implementa por etapas. Actualizado: 20 de noviembre de 2026.

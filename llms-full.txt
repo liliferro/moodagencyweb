@@ -1,174 +1,351 @@
 # Mood Agency
 
+
+
 > Agencia de marketing con IA y tecnología integradas en todos sus servicios, en Ciudad de México. Operada por Iron Mussa Corp.
 
+
+
 Contacto: info@mood-agency.com | +52 55 2315 3249
+
 Dirección: Avenida Río San Joaquín 498, CDMX, México.
 
+
+
 ## Páginas
+
 - [Agencia de marketing, IA y tecnología en CDMX](https://mood-agency.com/): IA y tecnología integradas en todos los servicios de Mood Agency: estrategia, web, campañas, ecommerce, automatización y SEO/GEO.
+
 - [Servicios de marketing con IA y tecnología](https://mood-agency.com/servicios/): Descubre los servicios de Mood Agency: estrategia, web, leads, ecommerce, automatización y SEO/GEO con IA, tecnología y criterio profesional.
+
 - [Estrategia de marketing con IA para empresas](https://mood-agency.com/servicios/marketing-estrategico/): Diseña tu estrategia de marketing con IA y datos. Mood Agency conecta investigación, posicionamiento, contenidos y decisiones comerciales.
+
 - [Diseño y desarrollo web con IA para empresas](https://mood-agency.com/servicios/desarrollo-web/): Crea una web con IA aplicada al diseño, contenido y desarrollo. Mood Agency conecta experiencia de usuario, SEO, analítica e integraciones.
+
 - [Performance y generación de leads con IA](https://mood-agency.com/servicios/performance-y-leads/): Conecta publicidad, IA y CRM para generar oportunidades. Mood Agency trabaja campañas, mensajes, seguimiento y medición de calidad de leads.
+
 - [Ecommerce y membresías con IA](https://mood-agency.com/servicios/ecommerce/): Desarrolla tu ecommerce con IA, analítica y automatización. Mood Agency conecta compra, catálogo, seguimiento y retención con objetivos medibles.
+
 - [Automatización con IA para marketing y ventas](https://mood-agency.com/servicios/automatizacion/): Conecta formularios, CRM y comunicación con automatización e IA. Mood Agency diseña flujos para clasificar consultas y facilitar el seguimiento.
+
 - [Consultoría e implementación de IA en marketing](https://mood-agency.com/servicios/inteligencia-artificial/): Lleva la IA a tu operación con Mood Agency: diagnóstico, pilotos, integración de herramientas, capacitación y evaluación de calidad.
+
 - [SEO y posicionamiento GEO con IA en México](https://mood-agency.com/servicios/posicionamiento-geo/): Conecta SEO, contenido experto e IA con Mood Agency. Investigamos preguntas, revisamos fuentes y medimos menciones, citas y consultas comerciales.
+
 - [Casos y proyectos de marketing y tecnología](https://mood-agency.com/casos/): Conoce 11 proyectos de Mood Agency: desarrollo web, ecommerce, plataformas digitales y marketing. Explora el contexto, los retos y las soluciones.
+
 - [Runa: desarrollo y optimización web](https://mood-agency.com/casos/runahr/): Conoce el proyecto de Mood Agency para Runa: renovación de su sitio WordPress, experiencia de navegación, localización y gestión de contenidos.
+
 - [Wide Angle: web de postproducción](https://mood-agency.com/casos/wide-angle/): Explora el proyecto web de Mood Agency para Wide Angle: presentación de servicios de postproducción, portafolio audiovisual y experiencia de navegación.
+
 - [Cachalo y Gana: plataforma digital](https://mood-agency.com/casos/cachalo-y-gana/): Conoce la plataforma digital de Cachalo y Gana desarrollada por Mood Agency para conectar un programa de concursos con la participación de su audiencia.
+
 - [Xcape: plataforma web de viajes](https://mood-agency.com/casos/xcape/): Descubre el proyecto de Mood Agency para Xcape: una plataforma digital para presentar viajes de aventura y facilitar el recorrido hacia la reserva.
+
 - [Mia Astral: 13 años de evolución digital](https://mood-agency.com/casos/mia-astral/): 13 años de Mood Agency junto a Mia Astral: comunidad, web, membresía, agenda, automatización e IA. Conoce la evolución y sus resultados.
+
 - [PFS Realty: plataforma inmobiliaria](https://mood-agency.com/casos/pfs-realty/): Explora la plataforma inmobiliaria de PFS Realty: búsqueda de propiedades, integración de datos y experiencia web desarrolladas por Mood Agency.
+
 - [Erika de la Vega: contenido y web](https://mood-agency.com/casos/erika-de-la-vega/): Conoce el proyecto de Mood Agency para Erika de la Vega: presencia digital, contenidos, marca personal y una web conectada con su audiencia.
+
 - [Ismael Cala: plataforma y ecommerce](https://mood-agency.com/casos/ismael-cala/): Descubre el proyecto digital de Mood Agency para Ismael Cala: plataforma de contenidos, comercio electrónico y experiencia para su comunidad.
+
 - [Foto Ahora: plataforma de información](https://mood-agency.com/casos/foto-ahora/): Conoce el proyecto Foto Ahora de Mood Agency: una solución digital para organizar información ciudadana y abordar retos de verificación de contenidos.
+
 - [Nawis: aplicación móvil y branding](https://mood-agency.com/casos/nawis/): Explora el proyecto de Mood Agency para Nawis: desarrollo de aplicación móvil e identidad de marca para conectar sus personajes con el entorno digital.
+
 - [Yogurt Boom: marca y estrategia digital](https://mood-agency.com/casos/yogurt-boom/): Conoce el proyecto de Mood Agency para Yogurt Boom: identidad, posicionamiento y presencia digital para una marca de helados de yogur.
+
 - [Mood Agency: marketing, IA y tecnología](https://mood-agency.com/nosotros/): Conoce Mood Agency, dirigida por Liliana Ferro en CDMX. Integramos IA, tecnología y criterio profesional en todos nuestros servicios de marketing.
+
 - [Contacto: hablemos de tu proyecto](https://mood-agency.com/contacto/): Cuéntanos tu proyecto de marketing, web, automatización o IA. Contacta a Mood Agency en CDMX por formulario, WhatsApp o info@mood-agency.com.
+
 - [Aviso de privacidad](https://mood-agency.com/privacidad/): Responsable, finalidades, cookies y ejercicio de derechos sobre datos personales en Mood Agency e Iron Mussa Corp.
+
 - [Términos de uso](https://mood-agency.com/terminos/): Condiciones informativas de uso de mood-agency.com y contacto con Iron Mussa Corp.
+
 - [Blog de marketing, SEO e IA](https://mood-agency.com/blog/): Encuentra guías de Mood Agency sobre SEO, medición de leads, automatización, IA y conversión, con fuentes y criterios prácticos para tu negocio.
+
 - [SEO técnico: cómo revisar la indexabilidad](https://mood-agency.com/blog/seo-tecnico-web-indexable/): Revisa URLs, enlaces, contenido y respuestas del servidor para detectar barreras de rastreo e indexación. Guía práctica de SEO técnico de Mood Agency.
+
 - [Cómo medir leads y oportunidades comerciales](https://mood-agency.com/blog/medir-leads-sin-confundir-clics-con-clientes/): Distingue clics, contactos y oportunidades con un embudo medible. Aprende qué eventos comprobar y cómo conectar la medición con el seguimiento comercial.
+
 - [Cómo automatizar el seguimiento comercial](https://mood-agency.com/blog/automatizar-seguimiento-comercial/): Define el primer flujo entre formulario y CRM: responsables, reglas, excepciones y pruebas. Una guía para automatizar el seguimiento con control.
+
 - [IA en marketing con supervisión humana](https://mood-agency.com/blog/ia-marketing-supervision-humana/): Diseña un piloto de IA para marketing: elige una tarea, protege la información y evalúa sus resultados con criterios claros y supervisión humana.
+
 - [Contenido útil para SEO y respuestas con IA](https://mood-agency.com/blog/contenido-util-para-personas-y-buscadores/): Crea contenido que responda preguntas reales con evidencia, contexto y fuentes. Guía editorial para personas, buscadores y experiencias con IA.
+
 - [Cómo mejorar el contacto desde tu web](https://mood-agency.com/blog/web-que-convierte-sin-friccion/): Revisa propuesta de valor, navegación, pruebas y formularios para facilitar el contacto. Aprende a detectar fricciones antes de añadir más efectos.
 
+
+
 ## Exactitud
+
 Los casos describen proyectos de Mood Agency; no garantizan resultados futuros. No se presentan métricas de clientes sin periodo y fuente verificables. No confundir con otras agencias de nombre similar.
+
+
 
 ## Servicios
 
+
+
 ### Marketing estratégico con IA
+
 Conectamos estrategia de marketing, IA y análisis de datos para definir dónde y cómo crecer. Investigamos audiencias, oferta y competencia con apoyo de IA y validación del equipo. Convertimos los hallazgos en prioridades, mensajes y un plan de acción medible.
+
 Entregables: Investigación asistida por IA de audiencias, canales y competencia; Propuesta de valor y mensajes revisados por estrategas; Plan de contenidos y adquisición apoyado en datos; Hoja de ruta con indicadores, responsables y experimentos
+
 IA y tecnología: Analizamos información de mercado y feedback con IA para identificar patrones que el equipo contrasta con las fuentes. Exploramos propuestas de mensajes y contenidos con IA, alineadas con la identidad de marca y sujetas a revisión. Conectamos los datos disponibles en un tablero para priorizar pruebas y evaluar qué acciones generan oportunidades.
+
 Medición: Medimos el avance del plan, la respuesta a los mensajes y las oportunidades por canal según los datos disponibles.
 
+
+
 ### Diseño y desarrollo web con IA
+
 Integramos IA, diseño y tecnología para crear sitios web orientados a los objetivos de tu negocio. Aplicamos IA al trabajo de arquitectura, contenido y desarrollo con revisión profesional. Conectamos la web con analítica, CRM y funcionalidades inteligentes según el alcance acordado.
+
 Entregables: Arquitectura y prototipos apoyados por IA y diseño profesional; Desarrollo asistido por IA con revisión de código y pruebas; SEO técnico, medición y conexión con sistemas compatibles; Evaluación e implementación de funciones de IA según alcance
+
 IA y tecnología: Usamos IA para explorar estructuras de contenido, recorridos y prototipos; el equipo valida la experiencia y la accesibilidad. Aceleramos tareas de desarrollo y documentación con IA, revisando el código y probando las funciones antes de publicar. Cuando aporta valor al proyecto, integramos asistentes basados en contenido aprobado, búsqueda o captación conectada con el CRM.
+
 Medición: Medimos navegación, velocidad, contactos y conversión; las funciones de IA se evalúan también por la calidad de sus respuestas.
 
+
+
 ### Performance y leads con IA
+
 Combinamos publicidad, IA y tecnología comercial para captar y trabajar oportunidades de venta. Aplicamos IA al análisis de campañas y a la creación de variantes de mensajes bajo revisión. Conectamos anuncios, páginas de destino y CRM para evaluar la calidad del lead y orientar la optimización.
+
 Entregables: Plan de campañas y análisis del embudo con apoyo de IA; Variantes de anuncios y páginas de destino para pruebas; Medición de conversiones y conexión con CRM según viabilidad; Calificación asistida por IA y seguimiento según datos y alcance
+
 IA y tecnología: La IA ayuda a detectar patrones de desempeño y a proponer hipótesis que contrastamos con los datos de campaña. Generamos y revisamos variantes creativas para probar mensajes, propuestas de valor y páginas de destino. Diseñamos clasificación y resúmenes de consultas con IA para facilitar la priorización comercial; las reglas y el seguimiento se acuerdan con ventas.
+
 Medición: Evaluamos costo por oportunidad, calidad del lead y avance comercial cuando existe información suficiente en el CRM.
 
+
+
 ### Ecommerce y ventas con IA
+
 Integramos IA, ecommerce y automatización para mejorar el recorrido de compra y la relación con tus clientes. Analizamos comportamiento y fricciones con apoyo de IA. Diseñamos la tienda o membresía y priorizamos contenido, segmentación y seguimiento según los datos y las integraciones disponibles.
+
 Entregables: Tienda o membresía con pagos y sistemas compatibles; Análisis de compra y catálogo asistido por IA; Segmentación y flujos de seguimiento según datos disponibles; Plan de conversión y retención con indicadores definidos
+
 IA y tecnología: Apoyamos la organización y redacción del catálogo con IA; el negocio valida precios, características y condiciones. Analizamos patrones de compra y recurrencia para proponer segmentos y acciones de retención. Integramos seguimiento de carritos, comunicaciones y funciones de recomendación cuando la plataforma y los datos lo permiten.
+
 Medición: Medimos conversión, valor de compra y recurrencia; en membresías, también cancelaciones y permanencia cuando los datos están disponibles.
 
+
+
 ### Automatización e IA para marketing
+
 Conectamos herramientas, automatización e IA para reducir tareas repetitivas de marketing y ventas. Combinamos reglas de negocio con IA para clasificar, resumir y preparar información. Diseñamos flujos trazables entre formularios, CRM y canales compatibles, con responsables y revisión en los puntos acordados.
+
 Entregables: Mapa de procesos y selección de tareas para IA; Flujos con reglas, clasificación y resúmenes asistidos por IA; Integraciones, pruebas y manejo de excepciones; Documentación, alertas y capacitación del equipo
+
 IA y tecnología: Distinguimos las tareas que necesitan reglas fijas de aquellas donde la IA aporta comprensión de texto o contexto. Integramos IA para clasificar solicitudes, resumir conversaciones o preparar borradores dentro del flujo acordado. Conectamos los resultados con herramientas compatibles y definimos alertas, aprobaciones y derivación a una persona.
+
 Medición: Comparamos tiempo de gestión, tareas manuales, errores y tiempos de respuesta con la situación inicial.
 
+
+
 ### Consultoría e implementación de IA
+
 Integramos IA en los procesos, herramientas y capacidades de tu equipo para resolver necesidades concretas del negocio. Priorizamos casos de uso, desarrollamos pilotos y conectamos soluciones con tu operación. La capacitación y la evaluación de calidad permiten llevar la IA al trabajo diario con criterio.
+
 Entregables: Diagnóstico y priorización de oportunidades de IA; Pilotos, asistentes e integraciones según el proceso; Criterios de calidad y revisión de resultados; Capacitación práctica y documentación para el equipo
+
 IA y tecnología: Seleccionamos tareas a partir de su valor, viabilidad y datos disponibles, con una referencia inicial para comparar. Diseñamos asistentes y flujos basados en la información aprobada del negocio y los probamos con ejemplos reales. Acompañamos al equipo para usar, revisar y mejorar las soluciones, con responsables y criterios de aceptación definidos.
+
 Medición: Evaluamos calidad, tiempo de ejecución, costos de uso y adopción antes de ampliar el alcance.
 
+
+
 ### SEO y posicionamiento GEO con IA
+
 Integramos SEO, IA y tecnología de medición para mejorar cómo se encuentra y comprende tu empresa en buscadores y respuestas de IA. Usamos IA para explorar preguntas de compra y apoyar el análisis de contenido. Contrastamos los hallazgos con fuentes y conocimiento experto para priorizar mejoras técnicas y editoriales.
+
 Entregables: Diagnóstico SEO y muestra documentada de respuestas de IA; Investigación de preguntas de compra asistida por IA; Mejoras técnicas y contenido con validación experta; Seguimiento de menciones, citas y oportunidades observables
+
 IA y tecnología: La IA apoya la exploración de temas y preguntas; contrastamos las prioridades con búsquedas, información comercial y fuentes disponibles. Revisamos estructura y contenido con herramientas técnicas e IA, validando cada afirmación antes de publicarla. Documentamos preguntas, respuestas, fechas y fuentes para observar menciones y citas y orientar el siguiente ciclo de mejoras.
+
 Medición: Separamos indexación, menciones, citas, visitas y consultas; la aparición en una respuesta de IA no se garantiza.
+
+
 
 ## Casos
 
+
+
 ### Runa
+
 Runa contaba con una instalación de WordPress rígida y difícil de administrar. La falta de optimización afectaba su posicionamiento en buscadores y la experiencia de usuario era lenta. Además, la expansión global requería una solución robusta de localización.
+
 WordPress desde cero: Rehicimos la instalación de WordPress desde cero, integrando Elementor Pro para otorgar control total sobre el diseño y facilitar futuras actualizaciones sin código.
+
 Localización: Implementamos un sistema de traducción y localización robusto, adaptando no solo el idioma sino también el contenido culturalmente relevante para cada región.
+
 Velocidad y SEO: Optimizamos la carga de recursos, implementamos caché avanzado y aseguramos la concurrencia, logrando puntuaciones altas en herramientas de SEO y velocidad.
 
+
+
 ### Wide Angle
+
 Wide Angle buscaba consolidar su presencia digital para reflejar su posición como líderes en postproducción. Necesitaban una plataforma que no solo mostrara su portafolio, sino que comunicara su valor como aliados estratégicos en el proceso creativo.
+
 WordPress como núcleo: Desarrollamos un sitio robusto utilizando WordPress como núcleo, permitiendo una administración sencilla y segura de todos los activos digitales.
+
 Estética premium: Utilizamos Elementor Pro para crear una experiencia visual única, adaptada a la estética premium que define a Wide Angle.
+
 Cloudflare + Analytics: Integramos Cloudflare y Google Analytics para asegurar velocidad, seguridad y un seguimiento detallado del comportamiento del usuario.
 
+
+
 ### Cachalo y Gana
+
 Cachalo y Gana fue un programa de concursos en vivo donde la audiencia participaba en tiempo real. El proyecto necesitaba un centro digital robusto que sirviera como puente entre el programa en vivo y los miles de usuarios que accedían simultáneamente para interactuar con la dinámica.
+
 Diseño inspirado en TikTok: Desarrollamos el sitio bajo WordPress con un diseño inspirado en TikTok, facilitando la navegación y logrando una conexión orgánica con la audiencia del juego.
+
 Infraestructura Cloudflare: Configuramos Cloudflare para garantizar la estabilidad absoluta del sitio y una entrega de contenido eficiente incluso en momentos de máxima concurrencia.
+
 Analítica en vivo: Integramos Google Analytics para obtener un seguimiento detallado del comportamiento de los usuarios en el sitio durante los eventos en vivo.
 
+
+
 ### Xcape
+
 Xcape necesitaba una plataforma que capturara la emoción de sus viajes de aventura y facilitara el proceso de reserva para una audiencia joven y dinámica. El objetivo era simplificar la logística compleja detrás de cada destino.
+
 Motor de reservas: Desarrollamos un motor de reservas a medida que gestiona cupos, fechas y servicios adicionales de forma automática.
+
 Narrativa visual: Diseñamos una interfaz que prioriza la narrativa visual, transportando al usuario al destino desde el primer clic.
+
 Reserva móvil: Aseguramos una experiencia de reserva fluida y rápida, optimizada específicamente para usuarios en movimiento.
 
+
+
 ### Mia Astral
+
 Mia Astral revolucionó la astrología moderna enfocándose en el crecimiento personal y el coaching. Sin embargo, su hogar digital era demasiado pequeño. Un simple blog no podía contener la visión: una plataforma integral para el empoderamiento, la educación y la comunidad.
+
 Modelo de membresía: Un modelo de suscripción que convirtió a lectores casuales en miembros comprometidos, creando un flujo de ingresos recurrente y predecible.
+
 Ecosistema unificado: Integramos webinars, venta de productos físicos y venta de entradas para eventos en un único panel unificado, proporcionando una experiencia de usuario sin fricciones en todos los puntos de contacto.
 
+
+
 ### PFS Realty
+
 Gestionar y presentar más de 60,000 propiedades del sur de la Florida, unificando datos de múltiples orígenes MLS, manteniendo una experiencia de usuario fluida y optimizada para SEO.
+
 Sincronización: Sincronización frecuente de propiedades para garantizar la disponibilidad y precisión de los datos mostrados al usuario final en tiempo real.
+
 CRM: Integración nativa con HubSpot y GoHighLevel, facilitando la gestión de leads, automatización y campañas para el equipo de marketing.
+
 Multilenguaje: Plataforma con soporte integral para localización y traducción, adaptándose a audiencias internacionales y mercados globales.
+
 Autonomía: Un entorno de trabajo optimizado que permite al equipo de marketing administrar proyectos y contenidos con total autonomía y facilidad.
 
+
+
 ### Erika De La Vega
+
 Erika De la Vega es una figura icónica en los medios latinoamericanos. Sin embargo, su innegable talento y carisma no se estaban traduciendo efectivamente al mundo digital. Necesitaba reflejar su marca personal en redes sociales para conectar auténticamente con una audiencia internacional.
+
 Personalidad y humor: Desarrollamos una estrategia centrada en sus valores más fuertes: personalidad y humor. Logramos que los usuarios la reconocieran como una mujer divertida y familiar con la que podían identificarse día a día.
+
 Contenido reactivo: Reaccionando a hechos relevantes de la farándula y actualidad con montajes divertidos que encajaban con su personalidad sarcástica.
+
 Insights cotidianos: Conectamos con la audiencia femenina a través de insights de la vida cotidiana (el caos del lunes, la dieta, la maternidad), generando una identificación inmediata y alto engagement.
 
+
+
 ### Ismael Cala
+
 Tras su exitosa trayectoria en CNN en Español, Ismael Cala se consolidó como referente en emprendimiento social y mindfulness. Necesitaba una plataforma que estuviera a la altura de su marca personal para escalar su negocio de educación y experiencias.
+
 E-commerce escalable: Desarrollamos un ecommerce escalable con landing pages de alta conversión e infraestructura robusta para manejar el alto tráfico de sus lanzamientos.
+
 Pauta y automatización: Implementamos campañas de publicidad en Google y Facebook Ads, junto con estrategias de email marketing automatizado y remarketing.
+
 CRM y soporte: Integramos un CRM para gestión de leads, un equipo de soporte vía chat y sistemas automatizados de recuperación de carritos.
 
+
+
 ### Foto Ahora
+
 En un entorno de alta movilización social y polarización política, la ciudadanía venezolana asumió el rol de informar. Sin embargo, la democratización de la información trajo consigo el caos informativo y la viralización de noticias falsas.
+
 Metadatos visibles: Desarrollamos una app móvil que incrusta metadatos visibles (fecha, hora, ubicación GPS) directamente en la fotografía al momento de la captura.
+
 Procedencia garantizada: Al garantizar la procedencia y temporalidad de la imagen, evitamos que fotos de otros contextos o fechas sean usadas para manipular la opinión pública.
+
 Compartir al instante: Publicación directa en Twitter y Facebook con un solo toque.
 
+
+
 ### Nawis App
+
 Nawis es la primera marca venezolana de Wood Toys diseñados para ser personalizados. Son lienzos en blanco tridimensionales listos para recibir color. Pequeños amigos intergalácticos que despiertan la creatividad de los terrícolas.
+
 App gamificada: Diseñamos una aplicación móvil gamificada que permite a los usuarios colorear y personalizar sus Nawis digitalmente tantas veces como quieran antes de pintar el real.
+
 Pruebas sin riesgo: Herramientas intuitivas (brocha, gotero, borrador) para probar colores y diseños sin riesgos, eliminando la ansiedad del lienzo en blanco.
+
 Galería social: Integración nativa con redes sociales para compartir los diseños digitales, creando un efecto viral y una galería de inspiración comunitaria.
 
+
+
 ### Yogurt Boom
+
 Para cubrir de su dulce sabor a más territorios, Yogurt Boom necesitaba consolidarse como la primera alternativa para el público. Destacar ante los competidores que surgieron posteriormente y mantener la esencia de la marca mientras se cruzaban fronteras fue el desafío principal.
+
 Contenido segmentado: Implementamos estrategias de contenido y promociones diseñadas específicamente para diferentes segmentos, creando vínculos emocionales y un alto engagement.
+
 Activaciones: Concursos y activaciones en punto de venta que integran la experiencia digital con la física, fortaleciendo la comunidad de Boomakers.
+
 Data de compra: Procesamos datos de compra (género, edad, ticket medio) para determinar los mejores momentos de consumo y dirigir la comunicación de forma certera.
 
+
+
 ## Guías prácticas B2B publicadas el 14 de noviembre de 2026
+
 - [Cómo encontrar empresas que necesitan tu producto en México](https://mood-agency.com/blog/como-encontrar-empresas-que-necesitan-tu-producto/): Método en 4 pasos para armar una lista de clientes potenciales en México con el directorio DENUE del INEGI y la ayuda de la IA.
+
 - [Por qué tu sitio web no genera cotizaciones](https://mood-agency.com/blog/por-que-tu-sitio-web-no-genera-cotizaciones/): Las 5 razones por las que un sitio industrial no recibe solicitudes de cotización y qué cambiar en cada una, empezando hoy.
+
 - [20 prompts para prospectar clientes B2B con IA](https://mood-agency.com/blog/prompts-para-prospectar-clientes-b2b/): Prompts listos para copiar: definir a tu cliente ideal, investigar empresas, escribir el primer mensaje y preparar la llamada.
+
 - [Cómo aparecer cuando le preguntan a ChatGPT por tu producto](https://mood-agency.com/blog/como-aparecer-en-chatgpt/): Acciones para que la información de tu empresa sea accesible y verificable en ChatGPT Search, con controles de rastreo y medición sin garantías.
+
 - [Seguimiento de cotizaciones con IA: secuencia de 7 contactos](https://mood-agency.com/blog/automatizar-seguimiento-comercial/): Qué decir y cuándo después de enviar una cotización. Siete contactos con un motivo distinto cada uno, listos para adaptar.
+
 - [Cómo generar leads B2B con poco presupuesto](https://mood-agency.com/blog/leads-b2b-con-poco-presupuesto/): Cinco acciones para generar oportunidades B2B con recursos limitados: cotizaciones abiertas, referidos, prospección, sitio web y contenido.
+
 - [Cómo escribir correos en frío con IA que no parezcan de IA](https://mood-agency.com/blog/correos-en-frio-con-ia/): La estructura de cuatro líneas para un primer correo B2B, cómo pedírselo a la IA y los errores que delatan un mensaje automático.
+
 - [Cómo calificar leads B2B con IA](https://mood-agency.com/blog/como-calificar-leads-b2b/): Cuatro criterios para saber si un lead vale la pena, una tabla de puntos lista para usar y cómo la IA ayuda a aplicarla.
+
 - [IA para vendedores industriales: 10 usos que ahorran tiempo](https://mood-agency.com/blog/ia-para-vendedores-industriales/): Diez tareas en las que la IA puede ayudar a vendedores industriales: preparar reuniones, redactar borradores, resumir notas y organizar el seguimiento.
+
 - [Qué CRM le conviene a una empresa industrial](https://mood-agency.com/blog/crm-para-empresa-industrial/): Cómo elegir un CRM para ventas industriales, las cinco cosas que sí debe hacer y cómo lograr que los vendedores lo llenen.
+
 - [Landing que entrevista: de visita a conversación con IA](https://mood-agency.com/blog/landing-conversacional-con-ia/): Qué es una landing que entrevista al visitante, en qué se diferencia de un formulario y de un chatbot, y cómo saber si le sirve a tu empresa.
+
 - [Cómo demostrar el retorno de marketing a dirección](https://mood-agency.com/blog/como-demostrar-retorno-de-marketing/): Qué números llevarle a tu director, cómo conectarlos con ventas y un reporte de una página que puedes armar este mes.
+
 - [Cómo elegir una agencia de generación de leads B2B](https://mood-agency.com/blog/como-elegir-agencia-de-leads-b2b/): Diez preguntas para hacerle a una agencia antes de firmar, qué respuesta esperar en cada una y las señales de alerta.
 
 
+
+
+
 ## Caso Mat Depot
+
 [Mat Depot: rebranding, web, SEO y GEO](https://mood-agency.com/casos/matdepot/): Rebranding Factory Mono, brandbook de 30 secciones, web B2B, 35 fichas, contenido, SEO/GEO y CRM. Corte: noviembre de 2026. Las métricas son señales iniciales de visibilidad, no ventas confirmadas.
+
+
+## Caso PHASA
+[PHASA: medición, contenido, IA y CRM industrial](https://mood-agency.com/casos/phasa/): Proyecto industrial en curso. Auditoría digital, arquitectura y contenido preparados para hule.com.mx, capacitación en IA y Blueprint comercial con HubSpot. Corte: 20 de noviembre de 2026. Las cifras cuentan entregables, no ventas ni crecimiento medido.

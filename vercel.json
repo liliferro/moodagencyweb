@@ -821,6 +821,16 @@
       "source": "/en/cdmx/",
       "destination": "/en/",
       "statusCode": 301
+    },
+    {
+      "source": "/en/casos/phasa/",
+      "destination": "/en/case-studies/phasa/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/casos/phasa/",
+      "destination": "/casos/phasa/",
+      "statusCode": 301
     }
   ],
   "headers": [

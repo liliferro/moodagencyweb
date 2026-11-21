@@ -11,6 +11,8 @@ from bs4 import BeautifulSoup,Comment,Doctype
 BASE='https://mood-agency.com'
 ROUTES=json.loads((ROOT/'src/i18n-routes.json').read_text(encoding='utf-8'))
 EN=json.loads((ROOT/'src/en.json').read_text(encoding='utf-8'))
+if (ROOT/'src/phasa-en.json').exists():
+ EN.update(json.loads((ROOT/'src/phasa-en.json').read_text(encoding='utf-8')))
 META=['description','og:title','og:description','og:image:alt','twitter:title','twitter:description','twitter:image:alt']
 SCHEMA=['name','description','text','headline','caption','articleSection','keywords','serviceType','alternativeHeadline','addressLocality']
 missing=set()
@@ -74,6 +76,9 @@ pending={}
 for es,en in ROUTES.items():
  p=filepath(es);source=p.read_text(encoding='utf-8');s=clean(BeautifulSoup(source,'html.parser'))
  english=copy.deepcopy(s)
+ # Keep machine values stable when translating case-filter option labels.
+ for option in english.select('#filter-industry option, #filter-service option'):
+  if not option.has_attr('value'):option['value']=option.get_text(strip=True)
  for n in list(english.find_all(string=True)):
   if not isinstance(n,(Comment,Doctype)) and n.parent.name not in ['script','style']:n.replace_with(translate(str(n)))
  for tag in english.find_all(True):
@@ -85,7 +90,7 @@ for es,en in ROUTES.items():
    if tag.get('property')=='og:url':tag['content']=localize_url(tag['content'])
   if tag.get('href'):tag['href']=localize_url(tag['href'])
   if tag.get('action'):tag['action']=localize_url(tag['action'])
-  if tag.get('src','').startswith('/assets/site.js'):tag['src']='/assets/site-en.js?v=20261119-noga'
+  if tag.get('src','').startswith('/assets/site.js'):tag['src']='/assets/site-en.js?v=20261117-i18n'
   if tag.get('src','').startswith('/assets/matdepot-case.js'):tag['src']='/assets/matdepot-case-en.js?v=20261117-i18n'
  for tag in english.select('script[type="application/ld+json"]'):
   tag.string=json.dumps(schema(json.loads(tag.string)),ensure_ascii=False,separators=(',',':'))
@@ -94,7 +99,7 @@ for es,en in ROUTES.items():
   fallback=english.select_one('.form-shell .note')
   fallback.clear();fallback.append('If the form does not load, email ')
   a=english.new_tag('a',href='mailto:info@mood-agency.com');a.string='info@mood-agency.com';fallback.append(a);fallback.append('.')
- if es=='/casos/matdepot/':
+ if es in ['/casos/matdepot/','/casos/phasa/']:
   for term in english.find_all('dt'):
    if term.get_text(strip=True)=='Reach':term.string='Scope'
  pending[p]=str(decorate(s,es,en,'es'))

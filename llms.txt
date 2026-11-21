@@ -1,62 +1,127 @@
 # Mood Agency
 
+
+
 > Agencia de marketing con IA y tecnología integradas en todos sus servicios, en Ciudad de México. Operada por Iron Mussa Corp.
 
+
+
 Contacto: info@mood-agency.com | +52 55 2315 3249
+
 Dirección: Avenida Río San Joaquín 498, CDMX, México.
 
+
+
 ## Páginas
+
 - [Agencia de marketing, IA y tecnología en CDMX](https://mood-agency.com/): IA y tecnología integradas en todos los servicios de Mood Agency: estrategia, web, campañas, ecommerce, automatización y SEO/GEO.
+
 - [Servicios de marketing con IA y tecnología](https://mood-agency.com/servicios/): Descubre los servicios de Mood Agency: estrategia, web, leads, ecommerce, automatización y SEO/GEO con IA, tecnología y criterio profesional.
+
 - [Estrategia de marketing con IA para empresas](https://mood-agency.com/servicios/marketing-estrategico/): Diseña tu estrategia de marketing con IA y datos. Mood Agency conecta investigación, posicionamiento, contenidos y decisiones comerciales.
+
 - [Diseño y desarrollo web con IA para empresas](https://mood-agency.com/servicios/desarrollo-web/): Crea una web con IA aplicada al diseño, contenido y desarrollo. Mood Agency conecta experiencia de usuario, SEO, analítica e integraciones.
+
 - [Performance y generación de leads con IA](https://mood-agency.com/servicios/performance-y-leads/): Conecta publicidad, IA y CRM para generar oportunidades. Mood Agency trabaja campañas, mensajes, seguimiento y medición de calidad de leads.
+
 - [Ecommerce y membresías con IA](https://mood-agency.com/servicios/ecommerce/): Desarrolla tu ecommerce con IA, analítica y automatización. Mood Agency conecta compra, catálogo, seguimiento y retención con objetivos medibles.
+
 - [Automatización con IA para marketing y ventas](https://mood-agency.com/servicios/automatizacion/): Conecta formularios, CRM y comunicación con automatización e IA. Mood Agency diseña flujos para clasificar consultas y facilitar el seguimiento.
+
 - [Consultoría e implementación de IA en marketing](https://mood-agency.com/servicios/inteligencia-artificial/): Lleva la IA a tu operación con Mood Agency: diagnóstico, pilotos, integración de herramientas, capacitación y evaluación de calidad.
+
 - [SEO y posicionamiento GEO con IA en México](https://mood-agency.com/servicios/posicionamiento-geo/): Conecta SEO, contenido experto e IA con Mood Agency. Investigamos preguntas, revisamos fuentes y medimos menciones, citas y consultas comerciales.
+
 - [Casos y proyectos de marketing y tecnología](https://mood-agency.com/casos/): Conoce 11 proyectos de Mood Agency: desarrollo web, ecommerce, plataformas digitales y marketing. Explora el contexto, los retos y las soluciones.
+
 - [Runa: desarrollo y optimización web](https://mood-agency.com/casos/runahr/): Conoce el proyecto de Mood Agency para Runa: renovación de su sitio WordPress, experiencia de navegación, localización y gestión de contenidos.
+
 - [Wide Angle: web de postproducción](https://mood-agency.com/casos/wide-angle/): Explora el proyecto web de Mood Agency para Wide Angle: presentación de servicios de postproducción, portafolio audiovisual y experiencia de navegación.
+
 - [Cachalo y Gana: plataforma digital](https://mood-agency.com/casos/cachalo-y-gana/): Conoce la plataforma digital de Cachalo y Gana desarrollada por Mood Agency para conectar un programa de concursos con la participación de su audiencia.
+
 - [Xcape: plataforma web de viajes](https://mood-agency.com/casos/xcape/): Descubre el proyecto de Mood Agency para Xcape: una plataforma digital para presentar viajes de aventura y facilitar el recorrido hacia la reserva.
+
 - [Mia Astral: 13 años de evolución digital](https://mood-agency.com/casos/mia-astral/): 13 años de Mood Agency junto a Mia Astral: comunidad, web, membresía, agenda, automatización e IA. Conoce la evolución y sus resultados.
+
 - [PFS Realty: plataforma inmobiliaria](https://mood-agency.com/casos/pfs-realty/): Explora la plataforma inmobiliaria de PFS Realty: búsqueda de propiedades, integración de datos y experiencia web desarrolladas por Mood Agency.
+
 - [Erika de la Vega: contenido y web](https://mood-agency.com/casos/erika-de-la-vega/): Conoce el proyecto de Mood Agency para Erika de la Vega: presencia digital, contenidos, marca personal y una web conectada con su audiencia.
+
 - [Ismael Cala: plataforma y ecommerce](https://mood-agency.com/casos/ismael-cala/): Descubre el proyecto digital de Mood Agency para Ismael Cala: plataforma de contenidos, comercio electrónico y experiencia para su comunidad.
+
 - [Foto Ahora: plataforma de información](https://mood-agency.com/casos/foto-ahora/): Conoce el proyecto Foto Ahora de Mood Agency: una solución digital para organizar información ciudadana y abordar retos de verificación de contenidos.
+
 - [Nawis: aplicación móvil y branding](https://mood-agency.com/casos/nawis/): Explora el proyecto de Mood Agency para Nawis: desarrollo de aplicación móvil e identidad de marca para conectar sus personajes con el entorno digital.
+
 - [Yogurt Boom: marca y estrategia digital](https://mood-agency.com/casos/yogurt-boom/): Conoce el proyecto de Mood Agency para Yogurt Boom: identidad, posicionamiento y presencia digital para una marca de helados de yogur.
+
 - [Mood Agency: marketing, IA y tecnología](https://mood-agency.com/nosotros/): Conoce Mood Agency, dirigida por Liliana Ferro en CDMX. Integramos IA, tecnología y criterio profesional en todos nuestros servicios de marketing.
+
 - [Contacto: hablemos de tu proyecto](https://mood-agency.com/contacto/): Cuéntanos tu proyecto de marketing, web, automatización o IA. Contacta a Mood Agency en CDMX por formulario, WhatsApp o info@mood-agency.com.
+
 - [Aviso de privacidad](https://mood-agency.com/privacidad/): Responsable, finalidades, cookies y ejercicio de derechos sobre datos personales en Mood Agency e Iron Mussa Corp.
+
 - [Términos de uso](https://mood-agency.com/terminos/): Condiciones informativas de uso de mood-agency.com y contacto con Iron Mussa Corp.
+
 - [Blog de marketing, SEO e IA](https://mood-agency.com/blog/): Encuentra guías de Mood Agency sobre SEO, medición de leads, automatización, IA y conversión, con fuentes y criterios prácticos para tu negocio.
+
 - [SEO técnico: cómo revisar la indexabilidad](https://mood-agency.com/blog/seo-tecnico-web-indexable/): Revisa URLs, enlaces, contenido y respuestas del servidor para detectar barreras de rastreo e indexación. Guía práctica de SEO técnico de Mood Agency.
+
 - [Cómo medir leads y oportunidades comerciales](https://mood-agency.com/blog/medir-leads-sin-confundir-clics-con-clientes/): Distingue clics, contactos y oportunidades con un embudo medible. Aprende qué eventos comprobar y cómo conectar la medición con el seguimiento comercial.
+
 - [Cómo automatizar el seguimiento comercial](https://mood-agency.com/blog/automatizar-seguimiento-comercial/): Define el primer flujo entre formulario y CRM: responsables, reglas, excepciones y pruebas. Una guía para automatizar el seguimiento con control.
+
 - [IA en marketing con supervisión humana](https://mood-agency.com/blog/ia-marketing-supervision-humana/): Diseña un piloto de IA para marketing: elige una tarea, protege la información y evalúa sus resultados con criterios claros y supervisión humana.
+
 - [Contenido útil para SEO y respuestas con IA](https://mood-agency.com/blog/contenido-util-para-personas-y-buscadores/): Crea contenido que responda preguntas reales con evidencia, contexto y fuentes. Guía editorial para personas, buscadores y experiencias con IA.
+
 - [Cómo mejorar el contacto desde tu web](https://mood-agency.com/blog/web-que-convierte-sin-friccion/): Revisa propuesta de valor, navegación, pruebas y formularios para facilitar el contacto. Aprende a detectar fricciones antes de añadir más efectos.
 
+
+
 ## Exactitud
+
 Los casos describen proyectos de Mood Agency; no garantizan resultados futuros. No se presentan métricas de clientes sin periodo y fuente verificables. No confundir con otras agencias de nombre similar.
 
+
+
 ## Guías prácticas B2B publicadas el 14 de noviembre de 2026
+
 - [Cómo encontrar empresas que necesitan tu producto en México](https://mood-agency.com/blog/como-encontrar-empresas-que-necesitan-tu-producto/): Método en 4 pasos para armar una lista de clientes potenciales en México con el directorio DENUE del INEGI y la ayuda de la IA.
+
 - [Por qué tu sitio web no genera cotizaciones](https://mood-agency.com/blog/por-que-tu-sitio-web-no-genera-cotizaciones/): Las 5 razones por las que un sitio industrial no recibe solicitudes de cotización y qué cambiar en cada una, empezando hoy.
+
 - [20 prompts para prospectar clientes B2B con IA](https://mood-agency.com/blog/prompts-para-prospectar-clientes-b2b/): Prompts listos para copiar: definir a tu cliente ideal, investigar empresas, escribir el primer mensaje y preparar la llamada.
+
 - [Cómo aparecer cuando le preguntan a ChatGPT por tu producto](https://mood-agency.com/blog/como-aparecer-en-chatgpt/): Acciones para que la información de tu empresa sea accesible y verificable en ChatGPT Search, con controles de rastreo y medición sin garantías.
+
 - [Seguimiento de cotizaciones con IA: secuencia de 7 contactos](https://mood-agency.com/blog/automatizar-seguimiento-comercial/): Qué decir y cuándo después de enviar una cotización. Siete contactos con un motivo distinto cada uno, listos para adaptar.
+
 - [Cómo generar leads B2B con poco presupuesto](https://mood-agency.com/blog/leads-b2b-con-poco-presupuesto/): Cinco acciones para generar oportunidades B2B con recursos limitados: cotizaciones abiertas, referidos, prospección, sitio web y contenido.
+
 - [Cómo escribir correos en frío con IA que no parezcan de IA](https://mood-agency.com/blog/correos-en-frio-con-ia/): La estructura de cuatro líneas para un primer correo B2B, cómo pedírselo a la IA y los errores que delatan un mensaje automático.
+
 - [Cómo calificar leads B2B con IA](https://mood-agency.com/blog/como-calificar-leads-b2b/): Cuatro criterios para saber si un lead vale la pena, una tabla de puntos lista para usar y cómo la IA ayuda a aplicarla.
+
 - [IA para vendedores industriales: 10 usos que ahorran tiempo](https://mood-agency.com/blog/ia-para-vendedores-industriales/): Diez tareas en las que la IA puede ayudar a vendedores industriales: preparar reuniones, redactar borradores, resumir notas y organizar el seguimiento.
+
 - [Qué CRM le conviene a una empresa industrial](https://mood-agency.com/blog/crm-para-empresa-industrial/): Cómo elegir un CRM para ventas industriales, las cinco cosas que sí debe hacer y cómo lograr que los vendedores lo llenen.
+
 - [Landing que entrevista: de visita a conversación con IA](https://mood-agency.com/blog/landing-conversacional-con-ia/): Qué es una landing que entrevista al visitante, en qué se diferencia de un formulario y de un chatbot, y cómo saber si le sirve a tu empresa.
+
 - [Cómo demostrar el retorno de marketing a dirección](https://mood-agency.com/blog/como-demostrar-retorno-de-marketing/): Qué números llevarle a tu director, cómo conectarlos con ventas y un reporte de una página que puedes armar este mes.
+
 - [Cómo elegir una agencia de generación de leads B2B](https://mood-agency.com/blog/como-elegir-agencia-de-leads-b2b/): Diez preguntas para hacerle a una agencia antes de firmar, qué respuesta esperar en cada una y las señales de alerta.
 
 
+
+
+
 ## Caso Mat Depot
+
 [Mat Depot: rebranding, web, SEO y GEO](https://mood-agency.com/casos/matdepot/): Rebranding Factory Mono, brandbook de 30 secciones, web B2B, 35 fichas, contenido, SEO/GEO y CRM. Corte: noviembre de 2026. Las métricas son señales iniciales de visibilidad, no ventas confirmadas.
+
+
+## Caso PHASA
+[PHASA: medición, contenido, IA y CRM industrial](https://mood-agency.com/casos/phasa/): Proyecto industrial en curso. Auditoría digital, arquitectura y contenido preparados para hule.com.mx, capacitación en IA y Blueprint comercial con HubSpot. Corte: 20 de noviembre de 2026. Las cifras cuentan entregables, no ventas ni crecimiento medido.

@@ -5,6 +5,8 @@ ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'.tools'))
 from bs4 import BeautifulSoup,Comment,Doctype
 R=json.loads((ROOT/'src/i18n-routes.json').read_text(encoding='utf-8'))
 EN=json.loads((ROOT/'src/en.json').read_text(encoding='utf-8'))
+if (ROOT/'src/phasa-en.json').exists():
+ EN.update(json.loads((ROOT/'src/phasa-en.json').read_text(encoding='utf-8')))
 errors=[];links=0;schemas=0
 base=json.loads((ROOT/'.baseline-tree.json').read_text()) if (ROOT/'.baseline-tree.json').exists() else {'tree':[]}
 known={x['path'] for x in base['tree']}

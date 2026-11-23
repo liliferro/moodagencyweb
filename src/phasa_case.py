@@ -30,6 +30,32 @@ def build_body():
     return build_story(t, p, heading, section, cards, bullets)
 
 
+
+def order_featured_cases(root):
+    """Keep home and portfolio aligned with the approved case priority."""
+    priority = ['/casos/matdepot/', '/casos/phasa/', '/casos/mia-astral/']
+    listing = root / 'casos/index.html'
+    portfolio = BeautifulSoup(listing.read_text(encoding='utf-8'), 'html.parser')
+    cards = portfolio.select('a[data-case-card]')
+    by_url = {card['href']: card for card in cards}
+    featured = [by_url[url] for url in priority]
+    ordered = featured + [card for card in cards if card['href'] not in priority]
+    container = cards[0].parent
+    for card in cards:
+        card.extract()
+    for card in ordered:
+        container.append(card)
+    listing.write_text(str(portfolio), encoding='utf-8')
+    home = root / 'index.html'
+    page = BeautifulSoup(home.read_text(encoding='utf-8'), 'html.parser')
+    existing = page.select('a[data-case-card]')
+    container = existing[0].parent
+    for card in existing:
+        card.decompose()
+    for card in featured:
+        container.append(BeautifulSoup(str(card), 'html.parser').a)
+    home.write_text(str(page), encoding='utf-8')
+
 def publish(root=ROOT):
     root=Path(root)
     body,title,desc=build_body()
@@ -52,10 +78,10 @@ def publish(root=ROOT):
     graph += [{'@type':'WebPage','@id':BASE+PATH+'#page','url':BASE+PATH,'name':title,'description':desc,'inLanguage':'es-MX','datePublished':DATE,'dateModified':DATE,'isPartOf':{'@id':BASE+'/#website'}}, {'@type':'CreativeWork','@id':BASE+PATH+'#case','url':BASE+PATH,'name':title,'description':desc,'inLanguage':'es-MX','author':{'@id':BASE+'/#organization'},'about':{'@type':'Organization','name':'PHASA','url':'https://www.phasa.mx/'},'datePublished':DATE,'dateModified':DATE}, {'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':i+1,'name':n,'item':BASE+p} for i,(n,p) in enumerate([('Inicio','/'),('Casos','/casos/'),('PHASA',PATH)])]}]
     template.select_one('script[type="application/ld+json"]').string=json.dumps({'@context':'https://schema.org','@graph':graph},ensure_ascii=False).replace('<','\\u003c')
     dest=root/'casos/phasa/index.html';dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(str(template),encoding='utf-8')
-    card='<a class="card ph-card" href="'+PATH+'" data-case-card data-industry="Industrial" data-service="Medición + IA + CRM"><img src="/assets/casos/phasa/project-cover.svg" width="1400" height="760" loading="lazy" decoding="async" alt="'+t('PHASA: medición, contenido, capacitación y CRM industrial','PHASA: analytics, content, training and industrial CRM')+'"><p class="tag">'+t('SEO/GEO · IA · HubSpot · Capacitación','SEO/GEO · AI · HubSpot · Training')+'</p><h3>'+t('PHASA ↗','PHASA ↗')+'</h3><p>'+t('SEO y GEO, capacitación de marketing con IA y seguimiento comercial con HubSpot y Breeze.','SEO and GEO, AI training for marketing and sales follow-up with HubSpot and Breeze.')+'</p></a>'
+    card='<a class="card ph-card" href="'+PATH+'" data-case-card data-industry="Industrial" data-service="Medición + IA + CRM"><img src="/assets/casos/phasa/project-cover.svg" width="1400" height="760" style="object-fit:contain!important;background:#101018" loading="lazy" decoding="async" alt="'+t('PHASA: medición, contenido, capacitación y CRM industrial','PHASA: analytics, content, training and industrial CRM')+'"><p class="tag">'+t('SEO/GEO · IA · HubSpot · Capacitación','SEO/GEO · AI · HubSpot · Training')+'</p><h3>'+t('PHASA ↗','PHASA ↗')+'</h3><p>'+t('SEO y GEO, capacitación de marketing con IA y seguimiento comercial con HubSpot y Breeze.','SEO and GEO, AI training for marketing and sales follow-up with HubSpot and Breeze.')+'</p></a>'
     listing=root/'casos/index.html';s=BeautifulSoup(listing.read_text(encoding='utf-8'),'html.parser')
     for existing in s.select('a[data-case-card][href="/casos/phasa/"]'):existing.decompose()
-    # Preserve the existing first three featured cases; add PHASA immediately after them.
+    # Insert PHASA before applying the approved home and portfolio order.
     items=s.select('a[data-case-card]');items[2].insert_after(BeautifulSoup(card,'html.parser').a)
     select=s.select_one('#filter-service')
     t('Medición + IA + CRM','Analytics + AI + CRM')
@@ -64,6 +90,7 @@ def publish(root=ROOT):
     text=str(s).replace('12 casos','13 casos').replace('12 proyectos','13 proyectos')
     listing.write_text(text,encoding='utf-8')
     home=root/'index.html';h=home.read_text(encoding='utf-8');h=h.replace('<strong>12</strong><span>casos publicados','<strong>13</strong><span>casos publicados').replace('Explorar los 12 casos','Explorar los 13 casos');home.write_text(h,encoding='utf-8')
+    order_featured_cases(root)
     t('Explorar los 13 casos','Explore all 13 case studies')
     t('13 casos','13 case studies')
     t('PHASA.','PHASA.')

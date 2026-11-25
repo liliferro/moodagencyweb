@@ -1,0 +1,5 @@
+/* Editorial emphasis: yellow on dark panels; dark text on a yellow marker on paper. */
+.md-case .case-highlight{color:#ffd166;font-weight:700}
+.md-case .md-paper .case-highlight{color:#3f2d00;background:#ffe29a;padding:.04em .12em;border-radius:.12em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.md-case .md-result>strong,.md-case .md-result b,.md-case .md-efficiency>div>strong{color:#ffd166}
+@media print{.md-case .case-highlight{color:#000!important;font-weight:700}.md-case .md-paper .case-highlight{background:none}}

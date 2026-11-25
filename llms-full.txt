@@ -344,8 +344,8 @@ Data de compra: Procesamos datos de compra (género, edad, ticket medio) para de
 
 ## Caso Mat Depot
 
-[Mat Depot: rebranding, web, SEO y GEO](https://mood-agency.com/casos/matdepot/): Rebranding Factory Mono, brandbook de 30 secciones, web B2B, 35 fichas, contenido, SEO/GEO y CRM. Corte: noviembre de 2026. Las métricas son señales iniciales de visibilidad, no ventas confirmadas.
+[Mat Depot: rebranding, web, SEO y GEO](https://mood-agency.com/casos/matdepot/): Proyecto culminado: rebranding Factory Mono con IA, brandbook de 30 secciones, nueva web B2B con 35 fichas, relanzamiento, buyer personas, funnel, contenido, plan de paid media, SEO/GEO y migración de Excel a CRM propio con automatización y seguimiento con IA. Métricas de visibilidad y tráfico de noviembre de 2026; no equivalen a ventas confirmadas. Actualizado: 25 de noviembre de 2026.
 
 
 ## Caso PHASA
-[PHASA: SEO, GEO e IA para marketing y ventas](https://mood-agency.com/casos/phasa/): Proyecto industrial en curso que conecta posicionamiento SEO/GEO, capacitación de marketing con IA y seguimiento comercial en HubSpot con Breeze. Mood realizó diagnóstico, preparó arquitectura y contenidos y entrenó a marketing y comercial; la propuesta de automatización se implementa por etapas. Actualizado: 20 de noviembre de 2026.
+[PHASA: SEO, GEO e IA para marketing y ventas](https://mood-agency.com/casos/phasa/): Proyecto industrial culminado: buyer personas, estrategia B2B, funnel, campañas, plan de medios y SEO/GEO con IA. Equipos de marketing y comercial capacitados; HubSpot con Breeze, ChatGPT y Claude para gestionar el pipeline, automatizaciones, reportes y seguimiento con IA. Actualizado: 25 de noviembre de 2026.

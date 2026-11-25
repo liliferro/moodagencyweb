@@ -8,6 +8,7 @@ from urllib.parse import urlsplit,urlunsplit
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'.tools'))
 from bs4 import BeautifulSoup,Comment,Doctype
+from case_highlights import apply_case_highlights, clear_case_highlights
 BASE='https://mood-agency.com'
 ROUTES=json.loads((ROOT/'src/i18n-routes.json').read_text(encoding='utf-8'))
 EN=json.loads((ROOT/'src/en.json').read_text(encoding='utf-8'))
@@ -51,6 +52,7 @@ def schema(o):
  return out
 def filepath(route):return ROOT/(route.strip('/') if route.endswith('.html') else route.strip('/')+'/index.html' if route!='/' else 'index.html')
 def clean(s):
+ clear_case_highlights(s)
  for n in s.select('.language-switch,link[hreflang],script[data-i18n],link[data-i18n]'):n.decompose()
  return s
 def decorate(s,es,en,lang):
@@ -71,6 +73,8 @@ def decorate(s,es,en,lang):
  s.head.append(s.new_tag('script',src='/assets/i18n.js?v=20261117',defer='',attrs={'data-i18n':''}))
  for tag in s.select('script[src]'):
   if tag['src'].startswith('/assets/legacy.js'):tag['src']='/assets/legacy.js?v=20261117-i18n'
+ if es in ['/casos/matdepot/','/casos/phasa/']:
+  apply_case_highlights(s,es.strip('/').split('/')[-1],lang)
  return s
 pending={}
 for es,en in ROUTES.items():

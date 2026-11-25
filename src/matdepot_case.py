@@ -7,8 +7,9 @@ import re,json
 BASE='https://mood-agency.com'
 PATH='/casos/matdepot/'
 TITLE='Mat Depot: rebranding, web, SEO y GEO'
-DESC='De catálogo genérico a marca técnica: el caso Mat Depot de Mood Agency. Rebranding, brandbook, web B2B, SEO, GEO, contenido y CRM, con antes y después.'
+DESC='Caso Mat Depot: rebranding, nueva web y relanzamiento con IA. Buyer personas, funnel, contenido, plan de paid media y migración de Excel a un CRM propio.'
 DATE='2026-11-16'
+UPDATED='2026-11-25'
 
 
 CASE_CARD_PATTERN=r'(?:<!-- MATDEPOT CARD -->)?<a\b[^>]*\bdata-case-card\b[^>]*>.*?</a>(?:<!-- /MATDEPOT CARD -->)?'
@@ -48,14 +49,14 @@ def publish(root):
   html=re.sub(r'<meta '+attr+'="'+re.escape(key)+'" content="[^"]*">',lambda m:f'<meta {attr}="{key}" content="{escape(value,quote=True)}">',html)
  graph=json.loads(re.search(r'<script type="application/ld\+json">(.*?)</script>',template,re.S)[1])['@graph']
  graph=[n for n in graph if n['@type'] in ['Organization','WebSite']]
- graph.extend([{'@type':'WebPage','@id':BASE+PATH+'#page','url':BASE+PATH,'name':TITLE,'description':DESC,'inLanguage':'es-MX','isPartOf':{'@id':BASE+'/#website'},'datePublished':DATE,'dateModified':DATE,'primaryImageOfPage':{'@type':'ImageObject','url':cover,'width':1400,'height':875}}, {'@type':'CreativeWork','@id':BASE+PATH+'#case','name':'Caso Mat Depot: transformación de marca y tecnología','description':DESC,'url':BASE+PATH,'inLanguage':'es-MX','image':cover,'author':{'@id':BASE+'/#organization'},'about':{'@type':'Organization','name':'Mat Depot, S.A. de C.V.','url':'https://www.matdepotmex.com/'},'datePublished':DATE,'dateModified':DATE}, {'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':i+1,'name':name,'item':BASE+p} for i,(name,p) in enumerate([('Inicio','/'),('Casos','/casos/'),('Mat Depot',PATH)])]}])
+ graph.extend([{'@type':'WebPage','@id':BASE+PATH+'#page','url':BASE+PATH,'name':TITLE,'description':DESC,'inLanguage':'es-MX','isPartOf':{'@id':BASE+'/#website'},'datePublished':DATE,'dateModified':UPDATED,'primaryImageOfPage':{'@type':'ImageObject','url':cover,'width':1400,'height':875}}, {'@type':'CreativeWork','@id':BASE+PATH+'#case','name':'Caso Mat Depot: transformación de marca y tecnología','description':DESC,'url':BASE+PATH,'inLanguage':'es-MX','image':cover,'author':{'@id':BASE+'/#organization'},'about':{'@type':'Organization','name':'Mat Depot, S.A. de C.V.','url':'https://www.matdepotmex.com/'},'datePublished':DATE,'dateModified':UPDATED}, {'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':i+1,'name':name,'item':BASE+p} for i,(name,p) in enumerate([('Inicio','/'),('Casos','/casos/'),('Mat Depot',PATH)])]}])
  html=re.sub(r'<script type="application/ld\+json">.*?</script>',lambda m:'<script type="application/ld+json">'+json.dumps({'@context':'https://schema.org','@graph':graph},ensure_ascii=False).replace('<','\\u003c')+'</script>',html,flags=re.S)
  html=html.replace('</head>','<link rel="stylesheet" href="/assets/matdepot-case.css?v=20261117-faq-contrast"><script defer src="/assets/matdepot-case.js?v=20261116-audit3"></script><meta name="author" content="Mood Agency"></head>')
  dest=root/'casos/matdepot/index.html';dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(html,encoding='utf-8')
  # Keep the current list and all other cases intact. Re-running replaces only this card.
  listing=root/'casos/index.html';text=listing.read_text(encoding='utf-8')
  text=re.sub(r'<!-- MATDEPOT CARD -->.*?<!-- /MATDEPOT CARD -->','',text,flags=re.S)
- card='<!-- MATDEPOT CARD --><a class="card md-card" href="/casos/matdepot/" data-case-card data-industry="Industrial" data-service="Branding + web + SEO/GEO"><img src="/assets/casos/matdepot/despues-inicio-640.webp" width="640" height="400" loading="lazy" decoding="async" alt="Mat Depot: rebranding y nueva web industrial"><p class="tag">Branding · Web B2B · SEO y GEO · CRM</p><h3>Mat Depot ↗</h3><p>De una presencia genérica a una marca técnica. Descubre la transformación de identidad, web y operación comercial, con antes y después.</p></a><!-- /MATDEPOT CARD -->'
+ card='<!-- MATDEPOT CARD --><a class="card md-card" href="/casos/matdepot/" data-case-card data-industry="Industrial" data-service="Branding + web + SEO/GEO"><img src="/assets/casos/matdepot/despues-inicio-640.webp" width="640" height="400" loading="lazy" decoding="async" alt="Mat Depot: rebranding y nueva web industrial"><p class="tag">Branding · Web B2B · SEO y GEO · CRM</p><h3>Mat Depot ↗</h3><p>Rebranding, nueva web y relanzamiento con IA. Estrategia de marketing, funnel de ventas y migración de Excel a un CRM propio.</p></a><!-- /MATDEPOT CARD -->'
  text=text.replace('<div class="grid">','<div class="grid">'+card,1)
  for ident,option in [('filter-industry','Industrial'),('filter-service','Branding + web + SEO/GEO')]:
   def add(m):return m[0] if '<option>'+option+'</option>' in m[0] else m[0].replace('</select>','<option>'+option+'</option></select>')
@@ -74,7 +75,7 @@ def publish(root):
   p=root/name
   if not p.exists():continue
   t=p.read_text(encoding='utf-8');t=re.sub(r'\n## Caso Mat ?Depot\n.*?(?=\n## |\Z)','',t,flags=re.S)
-  t+='\n## Caso Mat Depot\n'+f'[{TITLE}]({BASE+PATH}): Rebranding Factory Mono, brandbook de 30 secciones, web B2B, 35 fichas, contenido, SEO/GEO y CRM. Corte: noviembre de 2026. Las métricas son señales iniciales de visibilidad, no ventas confirmadas.\n';p.write_text(t,encoding='utf-8')
+  t+='\n## Caso Mat Depot\n'+f'[{TITLE}]({BASE+PATH}): Proyecto culminado: rebranding Factory Mono con IA, brandbook de 30 secciones, nueva web B2B con 35 fichas, relanzamiento, buyer personas, funnel, contenido, plan de paid media, SEO/GEO y migración de Excel a CRM propio con automatización y seguimiento con IA. Métricas de visibilidad y tráfico de noviembre de 2026; no equivalen a ventas confirmadas. Actualizado: 25 de noviembre de 2026.\n';p.write_text(t,encoding='utf-8')
  print(json.dumps({'case':PATH,'images':len(images),'html_bytes':len(html.encode()),'listing_count':text.count('data-case-card')}))
 
 if __name__=='__main__':publish(Path(__file__).resolve().parent.parent)

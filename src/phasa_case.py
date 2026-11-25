@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 BASE='https://mood-agency.com'
 PATH='/casos/phasa/'
 DATE='2026-11-20'
+UPDATED='2026-11-25'
 TRANSLATIONS={}
 def t(es,en):
     TRANSLATIONS[es]=en
@@ -90,10 +91,10 @@ def publish(root=ROOT):
         template.head.append(template.new_tag('link',rel='stylesheet',href=href))
     graph=json.loads(template.select_one('script[type="application/ld+json"]').string)['@graph']
     graph=[n for n in graph if n['@type'] in ['Organization','WebSite']]
-    graph += [{'@type':'WebPage','@id':BASE+PATH+'#page','url':BASE+PATH,'name':title,'description':desc,'inLanguage':'es-MX','datePublished':DATE,'dateModified':DATE,'isPartOf':{'@id':BASE+'/#website'}}, {'@type':'CreativeWork','@id':BASE+PATH+'#case','url':BASE+PATH,'name':title,'description':desc,'inLanguage':'es-MX','author':{'@id':BASE+'/#organization'},'about':{'@type':'Organization','name':'PHASA','url':'https://www.phasa.mx/'},'datePublished':DATE,'dateModified':DATE}, {'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':i+1,'name':n,'item':BASE+p} for i,(n,p) in enumerate([('Inicio','/'),('Casos','/casos/'),('PHASA',PATH)])]}]
+    graph += [{'@type':'WebPage','@id':BASE+PATH+'#page','url':BASE+PATH,'name':title,'description':desc,'inLanguage':'es-MX','datePublished':DATE,'dateModified':UPDATED,'isPartOf':{'@id':BASE+'/#website'}}, {'@type':'CreativeWork','@id':BASE+PATH+'#case','url':BASE+PATH,'name':title,'description':desc,'inLanguage':'es-MX','author':{'@id':BASE+'/#organization'},'about':{'@type':'Organization','name':'PHASA','url':'https://www.phasa.mx/'},'datePublished':DATE,'dateModified':UPDATED}, {'@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':i+1,'name':n,'item':BASE+p} for i,(n,p) in enumerate([('Inicio','/'),('Casos','/casos/'),('PHASA',PATH)])]}]
     template.select_one('script[type="application/ld+json"]').string=json.dumps({'@context':'https://schema.org','@graph':graph},ensure_ascii=False).replace('<','\\u003c')
     dest=root/'casos/phasa/index.html';dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(str(template),encoding='utf-8')
-    card='<a class="card ph-card" href="'+PATH+'" data-case-card data-industry="Industrial" data-service="Medición + IA + CRM"><img src="/assets/casos/phasa/project-cover.svg" width="1400" height="760" style="object-fit:contain!important;background:#101018" loading="lazy" decoding="async" alt="'+t('PHASA: medición, contenido, capacitación y CRM industrial','PHASA: analytics, content, training and industrial CRM')+'"><p class="tag">'+t('SEO/GEO · IA · HubSpot · Capacitación','SEO/GEO · AI · HubSpot · Training')+'</p><h3>'+t('PHASA ↗','PHASA ↗')+'</h3><p>'+t('SEO y GEO, capacitación de marketing con IA y seguimiento comercial con HubSpot y Breeze.','SEO and GEO, AI training for marketing and sales follow-up with HubSpot and Breeze.')+'</p></a>'
+    card='<a class="card ph-card" href="'+PATH+'" data-case-card data-industry="Industrial" data-service="Medición + IA + CRM"><img src="/assets/casos/phasa/project-cover.svg" width="1400" height="760" style="object-fit:contain!important;background:#101018" loading="lazy" decoding="async" alt="'+t('PHASA: medición, contenido, capacitación y CRM industrial','PHASA: analytics, content, training and industrial CRM')+'"><p class="tag">'+t('SEO/GEO · IA · HubSpot · Capacitación','SEO/GEO · AI · HubSpot · Training')+'</p><h3>'+t('PHASA ↗','PHASA ↗')+'</h3><p>'+t('Estrategia B2B y SEO/GEO con IA, equipos capacitados y gestión comercial en HubSpot con Breeze, automatizaciones y reportes.','AI-assisted B2B strategy and SEO/GEO, trained teams and sales management in HubSpot with Breeze, automation and reporting.')+'</p></a>'
     listing=root/'casos/index.html';s=BeautifulSoup(listing.read_text(encoding='utf-8'),'html.parser')
     for existing in s.select('a[data-case-card][href="/casos/phasa/"]'):existing.decompose()
     # Insert PHASA before applying the approved home and portfolio order.
@@ -122,7 +123,7 @@ def publish(root=ROOT):
     tree.write(root/'sitemap.xml',encoding='utf-8',xml_declaration=True)
     for name in ['llms.txt','llms-full.txt']:
         path=root/name;content=path.read_text(encoding='utf-8');content=re.sub(r'\n## Caso PHASA\n.*?(?=\n## |\Z)','',content,flags=re.S)
-        content+='\n## Caso PHASA\n['+title+']('+BASE+PATH+'): Proyecto industrial en curso que conecta posicionamiento SEO/GEO, capacitación de marketing con IA y seguimiento comercial en HubSpot con Breeze. Mood realizó diagnóstico, preparó arquitectura y contenidos y entrenó a marketing y comercial; la propuesta de automatización se implementa por etapas. Actualizado: 20 de noviembre de 2026.\n';path.write_text(content,encoding='utf-8')
+        content+='\n## Caso PHASA\n['+title+']('+BASE+PATH+'): Proyecto industrial culminado: buyer personas, estrategia B2B, funnel, campañas, plan de medios y SEO/GEO con IA. Equipos de marketing y comercial capacitados; HubSpot con Breeze, ChatGPT y Claude para gestionar el pipeline, automatizaciones, reportes y seguimiento con IA. Actualizado: 25 de noviembre de 2026.\n';path.write_text(content,encoding='utf-8')
     print(json.dumps({'case':PATH,'translation_entries':len(TRANSLATIONS),'case_cards':len(s.select('a[data-case-card]'))}))
 if __name__=='__main__':publish()
 

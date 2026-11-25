@@ -52,8 +52,23 @@ def order_featured_cases(root):
     container = existing[0].parent
     for card in existing:
         card.decompose()
+    descriptions = {
+        '/casos/matdepot/': ('Tapetes y pisos industriales', 'Industrial mats and flooring'),
+        '/casos/phasa/': ('Importadora de productos de hule en México', 'Importer of rubber products in Mexico'),
+        '/casos/mia-astral/': ('Astróloga y coach', 'Astrologer and coach'),
+    }
     for card in featured:
-        container.append(BeautifulSoup(str(card), 'html.parser').a)
+        home_card = BeautifulSoup(str(card), 'html.parser').a
+        for previous in home_card.select('.client-description'):
+            previous.decompose()
+        es, en = descriptions[card['href']]
+        TRANSLATIONS[es] = en
+        descriptor = page.new_tag('p')
+        descriptor['class'] = 'client-description'
+        descriptor['style'] = 'font-size:14px;line-height:1.5;margin:-8px 0 16px'
+        descriptor.string = es
+        home_card.h3.insert_after(descriptor)
+        container.append(home_card)
     home.write_text(str(page), encoding='utf-8')
 
 def publish(root=ROOT):
